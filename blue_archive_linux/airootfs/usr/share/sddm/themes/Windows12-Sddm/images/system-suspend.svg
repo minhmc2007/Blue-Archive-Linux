@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="70"
+   viewBox="0 0 18.520833 18.520834"
+   version="1.1"
+   id="svg1394"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="sleep.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1396"
+     pagecolor="#aaccd5"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="4.6823232"
+     inkscape:cx="38.976378"
+     inkscape:cy="39.403516"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1391" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;fill-opacity:0.15;stroke:none;stroke-width:1.16896;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="path1179"
+       cx="9.2226524"
+       cy="9.2976704"
+       r="8.6892128" />
+    <g
+       id="g1307"
+       transform="matrix(0.41383603,0,0,0.41383603,-200.25234,-259.12714)"
+       style="fill:#ffffff">
+      <path
+         style="color:#000000;fill:#ffffff;stroke-linejoin:round;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="m 506.17969,633.13672 c -8.53665,0 -15.49024,6.95163 -15.49024,15.48828 0,8.53665 6.95359,15.49023 15.49024,15.49023 8.53664,0 15.48828,-6.95358 15.48828,-15.49023 0,-8.53665 -6.95164,-15.48828 -15.48828,-15.48828 z m 0,3 c 6.91533,0 12.48828,5.57295 12.48828,12.48828 0,6.91533 -5.57295,12.49023 -12.48828,12.49023 -6.91533,0 -12.49024,-5.5749 -12.49024,-12.49023 0,-6.91533 5.57491,-12.48828 12.49024,-12.48828 z"
+         id="path856" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="rect978"
+         width="24.509304"
+         height="4.2302032"
+         x="493.52643"
+         y="652.77954" />
+    </g>
+  </g>
+</svg>

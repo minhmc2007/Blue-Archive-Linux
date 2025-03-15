@@ -1,10 +1,10 @@
 NAME="Blue Archive Linux"
-PRETTY_NAME="Arch Linux"
+PRETTY_NAME="Blue Archive Linux"
 ID=arch
-BUILD_ID=rolling
+BUILD_ID=beta
 VERSION_ID=20250302.0.316047
 ANSI_COLOR="38;2;23;147;209"
-HOME_URL="https://archlinux.org/"
+HOME_URL="https://github.com/minhmc2007/Blue-Archive-Linux"
 DOCUMENTATION_URL="https://wiki.archlinux.org/"
 SUPPORT_URL="https://bbs.archlinux.org/"
 BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
