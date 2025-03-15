@@ -45,5 +45,5 @@ This project is licensed under the [GPLv3 License](LICENSE) - see the [LICENSE](
 ## Contact
 
 For questions, bug reports, or suggestions:
-- **minhmc2007**: [your-email@example.com](mailto:quangminh21072010@gmail.com)
+- **minhmc2007**: [quangminh21072010@gmail.com](mailto:quangminh21072010@gmail.com)
 - **Project Repository**: [https://github.com/minhmc2007/blue-archive-linux](https://github.com/minhmc2007/blue-archive-linux)
