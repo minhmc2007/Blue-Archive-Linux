@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/BlueArchiveLinux.png" alt="Blue Archive Linux Logo" width="150"/>
+  <img src="/BlueArchiveLinux.png" alt="Blue Archive Linux Logo" width="300"/>
 </div>
 
 # Blue Archive Linux
@@ -32,7 +32,7 @@ Currently, there is no automated installer for Blue Archive Linux. This project 
 
 ## Contributing
 
-Contributions are welcome to Blue Archive Linux! To get started:
+Contributions are welcome to Blue Archive Linux!
 
 *Note*: All contributions are subject to review by **minhmc2007**. I reserve the right to accept, reject, or request changes to any submission to ensure they align with the project’s vision and quality standards.
 
