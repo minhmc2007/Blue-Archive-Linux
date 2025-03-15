@@ -2,6 +2,8 @@
   <img src="/BlueArchiveLinux.png" alt="Blue Archive Linux Logo" width="300"/>
 </div>
 
+![Status](https://img.shields.io/badge/Status-Beta-red)  
+
 # Blue Archive Linux
 
 *A lightweight, Blue Archive-themed Linux distribution for fans and enthusiasts.*
