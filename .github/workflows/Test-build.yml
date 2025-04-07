@@ -1,26 +1,25 @@
 name: Manual ISO Builder
 
 on:
-  workflow_dispatch:  # Manual trigger button
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   build-iso:
     runs-on: ubuntu-latest
-    name: Build Blue Archive Linux ISO
     steps:
-      - name: Checkout dummy repo (needed for Actions to run)
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Docker
+      - name: Build ISO in Docker (privileged)
         run: |
-          docker run --rm -v ${{ github.workspace }}:/build -w /build archlinux:base /bin/bash -c "
+          docker run --rm --privileged -v "${{ github.workspace }}":/build -w /build archlinux:base /bin/bash -c "
             pacman -Sy --noconfirm archiso git &&
             git clone https://github.com/minhmc2007/Blue-Archive-Linux &&
             cd Blue-Archive-Linux/blue_archive_linux &&
             bash build.sh
           "
 
-      - name: Copy out folder contents from Docker to host
+      - name: Copy ISO from build output
         run: |
           mkdir -p output
           cp -r Blue-Archive-Linux/blue_archive_linux/out/* output/ || echo 'No ISO output found'
