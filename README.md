@@ -6,44 +6,42 @@
 
 # Blue Archive Linux
 
-*A lightweight, Blue Archive-themed Linux distribution for fans and enthusiasts.*
+*A light, Blue Archive-themed Linux for fans.*
 
-## Overview
+## What’s This?
 
-Blue Archive Linux, created by **minhmc2007**, is a custom Linux distribution inspired by the vibrant world of *Blue Archive*. Built on Arch Linux, it delivers a rolling-release system with a unique, themed experience tailored for fans of the game, blending aesthetics with practical innovation.
+Blue Archive Linux, made by **minhmc2007**, is a fun Arch-based Linux with a *Blue Archive* vibe. It’s rolling-release and mixes cool looks with some handy stuff.
 
-## Features
+## Cool Features
 
-- **Custom SDDM Theme**: A *Blue Archive*-inspired login screen for a stylish boot experience.
-- **GNOME with Blue Archive Wallpaper**: GNOME desktop environment, with custom *Blue Archive* wallpapers in development.
-- **Sensei Default User**: Preconfigured user “Sensei” with password “sensei” for instant immersion.
-- **bluefetch**: A Neofetch replacement using `w3m` to render images in the terminal, built from scratch since Neofetch is discontinued.
-- **bluepm**: A custom, ultra-fast package manager exclusive to this distro—simply copies and recompiles binaries for speed.
+- **Blue Archive Login**: Custom SDDM theme for a dope start.
+- **GNOME + Wallpaper**: GNOME with *Blue Archive* wallpapers (still working on ‘em).
+- **Sensei User**: Default user “Sensei”, password “sensei”.
+- **bluefetch**: My own Neofetch with terminal pics using `w3m`.
+- **bluepm**: Super-fast package manager I built.
 
-## Installation
+## How to Install
 
-Currently, there is no automated installer for Blue Archive Linux. This project is a work in progress, and installation requires manually building it on an existing Arch Linux system. Check the repository files for configurations and scripts to apply the customizations yourself.
+No installer yet—it’s a WIP. Build it on Arch Linux with the repo files.
 
-## Technologies Used
+## Tech Stuff
 
-- **Linux Kernel**: The foundation of the distribution.
-- **Arch Linux**: Rolling-release base for cutting-edge software.
-- **GNOME**: Desktop environment with planned *Blue Archive* theming.
-- **SDDM**: Display manager with a custom *Blue Archive* theme.
-- **w3m**: Terminal image rendering for `bluefetch`.
+- **Linux Kernel**: The base.
+- **Arch Linux**: Always fresh updates.
+- **GNOME**: Desktop with *Blue Archive* plans.
+- **SDDM**: Fancy login screen.
+- **w3m**: For `bluefetch` pics.
 
-## Contributing
+## Wanna Help?
 
-Contributions are welcome to Blue Archive Linux!
-
-*Note*: All contributions are subject to review by **minhmc2007**. I reserve the right to accept, reject, or request changes to any submission to ensure they align with the project’s vision and quality standards.
+Feel free to pitch in! I (**minhmc2007**) check everything to keep it on track.
 
 ## License
 
-This project is licensed under the [GPLv3 License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+It’s under [GPLv3](LICENSE) - check the [LICENSE](LICENSE) file.
 
-## Contact
+## Hit Me Up
 
-For questions, bug reports, or suggestions:
-- **minhmc2007**: [quangminh21072010@gmail.com](mailto:quangminh21072010@gmail.com)
-- **Project Repository**: [https://github.com/minhmc2007/blue-archive-linux](https://github.com/minhmc2007/blue-archive-linux)
+Questions or ideas?  
+- **minhmc2007**: [quangminh21072010@gmail.com](mailto:quangminh21072010@gmail.com)  
+- **Repo**: [https://github.com/minhmc2007/blue-archive-linux](https://github.com/minhmc2007/blue-archive-linux)
