@@ -1,7 +1,12 @@
--gnome-backgrounds
+plasma-meta
 sddm
-gnome
-gnome-extra
+konsole
+dolphin
+ark           # archive manager
+kate          # text editor
+kcalc         # calculator
+plasma-wayland-session
+
 fish
 alsa-utils
 amd-ucode
@@ -132,3 +137,4 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+file
