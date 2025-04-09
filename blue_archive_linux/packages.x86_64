@@ -1,3 +1,4 @@
+-gnome-backgrounds
 sddm
 gnome
 gnome-extra
@@ -6,6 +7,7 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+
 b43-fwcutter
 base
 bcachefs-tools
