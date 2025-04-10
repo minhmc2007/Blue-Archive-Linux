@@ -5,7 +5,7 @@ dolphin
 ark           # archive manager
 kate          # text editor
 kcalc         # calculator
-plasma-wayland-session
+plasma-workspace
 
 fish
 alsa-utils
