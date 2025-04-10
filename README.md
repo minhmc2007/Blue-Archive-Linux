@@ -45,3 +45,5 @@ It’s under [GPLv3](LICENSE) - check the [LICENSE](LICENSE) file.
 Questions or ideas?  
 - **minhmc2007**: [quangminh21072010@gmail.com](mailto:quangminh21072010@gmail.com)  
 - **Repo**: [https://github.com/minhmc2007/blue-archive-linux](https://github.com/minhmc2007/blue-archive-linux)
+- **Github Discussion**
+[Here](https://github.com/minhmc2007/Blue-Archive-Linux/discussion)
