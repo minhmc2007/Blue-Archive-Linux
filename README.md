@@ -15,7 +15,7 @@ Blue Archive Linux, made by **minhmc2007**, is a fun Arch-based Linux with a *Bl
 ## Cool Features
 
 - **Blue Archive Login**: Custom SDDM theme for a dope start.
-- **GNOME + Wallpaper**: GNOME with *Blue Archive* wallpapers (still working on ‘em).
+- **KDE PLASMA  + Wallpaper**: PLASMA  with *Blue Archive* wallpapers (still working on ‘em).
 - **Sensei User**: Default user “Sensei”, password “sensei”.
 - **bluefetch**: My own Neofetch with terminal pics using `w3m`.
 - **bluepm**: Super-fast package manager I built.
@@ -28,7 +28,7 @@ No installer yet—it’s a WIP. Build it on Arch Linux with the repo files.
 
 - **Linux Kernel**: The base.
 - **Arch Linux**: Always fresh updates.
-- **GNOME**: Desktop with *Blue Archive* plans.
+- **PLASMA**: Desktop with *Blue Archive* plans.
 - **SDDM**: Fancy login screen.
 - **w3m**: For `bluefetch` pics.
 
@@ -45,3 +45,5 @@ It’s under [GPLv3](LICENSE) - check the [LICENSE](LICENSE) file.
 Questions or ideas?  
 - **minhmc2007**: [quangminh21072010@gmail.com](mailto:quangminh21072010@gmail.com)  
 - **Repo**: [https://github.com/minhmc2007/blue-archive-linux](https://github.com/minhmc2007/blue-archive-linux)
+- **Github Discussion**
+[Here](https://github.com/minhmc2007/Blue-Archive-Linux/discussion)
