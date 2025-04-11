@@ -1,0 +1,38 @@
+-- Config
+intro_path = "first/"
+loop_path = "loop/"
+intro_frames = 324     -- how many PNGs in first/
+loop_frames = 121       -- how many PNGs in loop/
+frame_rate = 60        -- 60 FPS
+
+-- Load images
+function load_images(path, count)
+  local imgs = {}
+  for i = 1, count do
+    local file = string.format("%s%04d.png", path, i)
+    imgs[i] = Image(file)
+  end
+  return imgs
+end
+
+intro_imgs = load_images(intro_path, intro_frames)
+loop_imgs = load_images(loop_path, loop_frames)
+
+-- Main render function
+function draw_func(time)
+  local intro_duration = intro_frames / frame_rate
+
+  if time < intro_duration then
+    local frame = math.floor(time * frame_rate) + 1
+    if frame <= #intro_imgs then
+      intro_imgs[frame]:Draw(0, 0, Window.GetWidth(), Window.GetHeight())
+    end
+  else
+    local loop_time = time - intro_duration
+    local frame = (math.floor(loop_time * frame_rate) % #loop_imgs) + 1
+    loop_imgs[frame]:Draw(0, 0, Window.GetWidth(), Window.GetHeight())
+  end
+end
+
+-- Register with Plymouth
+plymouth.set_draw_function(draw_func)
