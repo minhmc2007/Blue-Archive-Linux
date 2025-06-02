@@ -1,3 +1,8 @@
+wayland
+xorg-xwayland
+libva
+libvdpau
+
 virtualbox-guest-utils
 qemu-guest-agent
 open-vm-tools
