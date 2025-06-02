@@ -1,3 +1,11 @@
+virtualbox-guest-utils
+qemu-guest-agent
+open-vm-tools
+xf86-video-vesa
+xf86-video-qxl
+xf86-video-vmware
+mesa
+
 plymouth
 plasma-meta
 sddm
