@@ -24,34 +24,34 @@ jobs:
           mkdir -p output
           cp -r Blue-Archive-Linux/blue_archive_linux/out/* output/ || echo 'No ISO output found'
 
-#      - name: Upload ISO Artifact
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: BlueArchiveLinux
-#          path: output/
+      - name: Upload ISO Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlueArchiveLinux
+          path: output/
 #      - name: Get ISO filename
 #        id: get_iso
 #        run: |
 #          ISO_FILE=$(ls Blue-Archive-Linux/blue_archive_linux/out/*.iso | head -n 1)
 #          echo "iso_file=$ISO_FILE" >> $GITHUB_OUTPUT
 
-      - name: Create Release (if not exists)
-        id: create_release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: nightly-build-${{ github.run_id }}
-          name: Nightly Build ${{ github.run_id }}
-          body: "Nightly build from workflow run ${{ github.run_id }}"
-          draft: false
-          prerelease: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Create Release (if not exists)
+#        id: create_release
+#        uses: softprops/action-gh-release@v2
+#        with:
+#          tag_name: nightly-build-${{ github.run_id }}
+#          name: Nightly Build ${{ github.run_id }}
+#          body: "Nightly build from workflow run ${{ github.run_id }}"
+#          draft: false
+#          prerelease: true
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload ISO to Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: nightly-build-${{ github.run_id }}
-          name: Nightly Build ${{ github.run_id }}
-          files: ${{ steps.get_iso.outputs.iso_file }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Upload ISO to Release
+#        uses: softprops/action-gh-release@v2
+#        with:
+#          tag_name: nightly-build-${{ github.run_id }}
+#          name: Nightly Build ${{ github.run_id }}
+#          files: ${{ steps.get_iso.outputs.iso_file }}
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
