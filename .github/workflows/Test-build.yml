@@ -7,7 +7,7 @@ jobs:
   build-iso:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # <--- Add this line to grant write permission for releases
+      contents: write # Grant write permission for releases
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -35,37 +35,23 @@ jobs:
       - name: Get ISO filename
         id: get_iso
         run: |
-          # This assumes there will be at least one .iso file in the output directory
-          # You might want more robust error handling if an ISO isn't guaranteed
           ISO_FILE=$(ls output/*.iso | head -n 1)
           if [ -z "$ISO_FILE" ]; then
             echo "No ISO file found in output/ directory. Skipping release upload."
-            echo "iso_file=" >> $GITHUB_OUTPUT # Ensure the output variable is empty
-            exit 0 # Exit successfully if no ISO is found
+            echo "iso_file=" >> $GITHUB_OUTPUT
+            exit 0
           fi
           echo "iso_file=$ISO_FILE" >> $GITHUB_OUTPUT
 
-      - name: Create Release (if not exists)
-        id: create_release
-        # Only proceed if an ISO file was found
+      - name: Create or Update Release and Upload ISO
         if: steps.get_iso.outputs.iso_file != ''
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: nightly-build-${{ github.run_id }}
-          name: Nightly Build ${{ github.run_id }}
-          body: "Nightly build from workflow run ${{ github.run_id }}"
+          tag_name: nightly-build-${{ github.run_id }}-${{ github.run_attempt }}
+          name: Nightly Build ${{ github.run_id }} (Attempt ${{ github.run_attempt }})
+          body: "Nightly build from workflow run ${{ github.run_id }}, attempt ${{ github.run_attempt }}"
           draft: false
           prerelease: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload ISO to Release
-        # Only proceed if an ISO file was found and release was created
-        if: steps.get_iso.outputs.iso_file != '' && steps.create_release.outcome == 'success'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: nightly-build-${{ github.run_id }}
-          name: Nightly Build ${{ github.run_id }} # This is redundant if you're just attaching files to an existing release
           files: ${{ steps.get_iso.outputs.iso_file }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
