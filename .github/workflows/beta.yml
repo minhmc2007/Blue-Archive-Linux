@@ -37,7 +37,7 @@ jobs:
       - name: Get ISO filename
         id: get_iso
         run: |
-          ISO_FILE=$(ls output/*.iso | head -n 1)
+          ISO_FILE=$(ls output/*.iso | head -n 1 || echo "")
           if [ -z "$ISO_FILE" ]; then
             echo "No ISO file found in output/ directory. Skipping release upload."
             echo "iso_file=" >> $GITHUB_OUTPUT
@@ -48,7 +48,7 @@ jobs:
       - name: Get previous release tag
         id: get_prev_tag
         run: |
-          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^nightly-build-' | head -n 1)
+          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^nightly-build-' | head -n 1 || echo "")
           if [ -z "$PREV_TAG" ]; then
             echo "No previous nightly build tag found. Using first commit."
             PREV_TAG=$(git rev-list --max-parents=0 HEAD)
@@ -61,12 +61,7 @@ jobs:
           PREV_TAG="${{ steps.get_prev_tag.outputs.prev_tag }}"
           
           # Generate changelog using git log
-          CHANGELOG=$(git log --pretty=format:"- %s (%h)" $PREV_TAG..HEAD --no-merges)
-          
-          # If no changes, create a simple message
-          if [ -z "$CHANGELOG" ]; then
-            CHANGELOG="- No new commits since last release"
-          fi
+          CHANGELOG=$(git log --pretty=format:"- %s (%h)" $PREV_TAG..HEAD --no-merges || echo "- No new commits since last release")
           
           # Create full changelog with metadata
           FULL_CHANGELOG=$(cat << 'EOF'
@@ -79,7 +74,7 @@ jobs:
 - **Branch**: ${{ github.ref_name }}
 
 ### 📝 Changes Since Last Release
-$CHANGELOG
+${CHANGELOG}
 
 ### 💾 Download
 - Download the ISO file from the assets below
@@ -91,11 +86,11 @@ EOF
           )
           
           # Save changelog to file
-          echo "$FULL_CHANGELOG" > changelog.md
+          echo "${FULL_CHANGELOG}" > changelog.md
           
           # Write to GitHub output with proper multi-line handling
           echo "changelog<<EOF" >> $GITHUB_OUTPUT
-          echo "$FULL_CHANGELOG" >> $GITHUB_OUTPUT
+          echo "${FULL_CHANGELOG}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create or Update Release and Upload ISO
