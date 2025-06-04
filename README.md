@@ -4,6 +4,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Beta-red)  
 
+[![Manual ISO Builder](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/Test-build.yml/badge.svg)](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/Test-build.yml)
+
 # Blue Archive Linux
 
 *A light, Blue Archive-themed Linux for fans.*
