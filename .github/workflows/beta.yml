@@ -60,11 +60,13 @@ jobs:
         run: |
           PREV_TAG="${{ steps.get_prev_tag.outputs.prev_tag }}"
           
-          # Generate changelog using git log
-          CHANGELOG=$(git log --pretty=format:"- %s (%h)" $PREV_TAG..HEAD --no-merges || echo "- No new commits since last release")
+          # Generate changelog using git log. Quote PREV_TAG for safety.
+          CHANGELOG=$(git log --pretty=format:"- %s (%h)" "${PREV_TAG}"..HEAD --no-merges || echo "- No new commits since last release")
           
           # Create full changelog with metadata
-          FULL_CHANGELOG=$(cat << 'EOF'
+          # Use an unquoted EOF to allow shell expansions for variables and command substitutions.
+          # GitHub Actions expressions like ${{ github.run_id }} are expanded by Actions before the script runs.
+          FULL_CHANGELOG=$(cat << EOF
 ## 🚀 Nightly Build ${{ github.run_id }}
 
 ### 📋 Build Information
@@ -89,9 +91,12 @@ EOF
           echo "${FULL_CHANGELOG}" > changelog.md
           
           # Write to GitHub output with proper multi-line handling
-          echo "changelog<<EOF" >> $GITHUB_OUTPUT
-          echo "${FULL_CHANGELOG}" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          # Using a slightly more unique delimiter for GITHUB_OUTPUT to avoid clashes if changelog contains "EOF"
+          {
+            echo "changelog<<CHANGELOG_TEXT_EOF"
+            echo "${FULL_CHANGELOG}"
+            echo "CHANGELOG_TEXT_EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Create or Update Release and Upload ISO
         if: steps.get_iso.outputs.iso_file != ''
