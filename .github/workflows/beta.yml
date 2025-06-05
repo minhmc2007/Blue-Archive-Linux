@@ -69,14 +69,16 @@ jobs:
           FULL_CHANGELOG=$(cat << EOF
 ## 🚀 Nightly Build ${{ github.run_id }}
 
-### 📋 Build Information
-- **Build Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-- **Workflow Run**: [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
-- **Commit**: [\`$(git rev-parse --short HEAD)\`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))
-- **Branch**: ${{ github.ref_name }}
-
-### 📝 Changes Since Last Release
-${CHANGELOG}
+- name: Generate build information
+  run: |
+    echo "# 📋 Build Information"
+    echo "- **Build Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+    echo "- **Workflow Run**: [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+    echo "- **Commit**: [\`$(git rev-parse --short HEAD)\`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))"
+    echo "- **Branch**: ${{ github.ref_name }}"
+    echo ""
+    echo "### 📝 Changes Since Last Release"
+    echo "${CHANGELOG}"
 
 ### 💾 Download
 - Download the ISO file from the assets below
