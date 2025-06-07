@@ -72,6 +72,27 @@ Want to help make Blue Archive Linux even better?
 - 🎨 Submit wallpapers or themes
 - 📖 Improve documentation
 
+## 👥 Contributors
+
+Special thanks to all the amazing people who have contributed to Blue Archive Linux! 💙
+
+### 🏆 Core Team
+- **[@minhmc2007](https://github.com/minhmc2007)** - *Project Creator & Lead Developer*
+- **[@dungdinhmanh](https://github.com/dungdinhmanh)** - *Co-Developer*
+
+### 🧪 Beta Testers
+*Senseis who help test the distro!*
+- **[@WatashiFuzzy](https://github.com/WatashiFuzzy)** - *Beta Tester*
+
+---
+
+**Want to see your name here?** 
+- 🧪 [Become a beta tester](#-testers-desperately-needed-)
+- 🐛 Report bugs in our [Issues](https://github.com/minhmc2007/Blue-Archive-Linux/issues)
+- 📖 Help improve documentation
+
+*All contributors will be recognized here with their GitHub profile and contribution type!*
+
 ## 📞 Contact & Support
 
 - GitHub Issues: For bugs and feature requests
