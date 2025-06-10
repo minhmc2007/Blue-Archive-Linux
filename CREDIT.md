@@ -1,0 +1,1 @@
+Shiroko syslinux image by Nexon
