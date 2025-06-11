@@ -11,18 +11,16 @@ iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 # --- Build Configuration ---
 install_dir="arch"
 arch="x86_64"
-pacman_conf="pacman.conf"
+pacman_conf="pacman.conf" # Make sure this pacman.conf is suitable for building the airootfs
 airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
 bootstrap_tarball_compression=('zstd' '-c' '-T0' '--auto-threads=logical' '--long' '-19')
 
 # --- Boot Modes ---
-# These are the boot methods your ISO will support.
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 
 # --- File Permissions ---
-# This sets specific permissions for files inside the final ISO.
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
@@ -33,21 +31,32 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
 
-
 # --- Custom Build Function ---
-# This special function (_prepare_airootfs) is run by archiso after installing packages.
-# It's the perfect place for final system configuration.
-
 _prepare_airootfs() {
-    # The 'arch-chroot' command runs the command *inside* the filesystem being built.
-    
     # 1. Set the default Plymouth theme and rebuild the initramfs to include it.
+    # This rebuilds the initramfs *within the airootfs*.
+    # The ISO's *boot* initramfs is handled separately by mkarchiso.
     arch-chroot "${airootfs_dir}" plymouth-set-default-theme -R blue-archive-plymouth
 
-    # 2. Enable the graphical login manager (SDDM) to start on boot.
+    # 2. Enable essential services
     arch-chroot "${airootfs_dir}" systemctl enable sddm.service
-
-    # 3. Enable networking services to start on boot.
     arch-chroot "${airootfs_dir}" systemctl enable systemd-networkd.service
     arch-chroot "${airootfs_dir}" systemctl enable systemd-resolved.service
+    # Potentially enable other services like bluetooth, cups, etc. if needed by default
+
+    # 3. Set default target to graphical
+    arch-chroot "${airootfs_dir}" systemctl set-default graphical.target
+
+    # 4. Optional: Clean up pacman cache to reduce ISO size
+    arch-chroot "${airootfs_dir}" pacman -Scc --noconfirm
+
+    # 5. Optional: Other customizations (e.g., adding users, setting locale)
+    # arch-chroot "${airootfs_dir}" useradd -m -G wheel -s /bin/bash liveuser
+    # arch-chroot "${airootfs_dir}" passwd -d liveuser # Remove password for live user
+    # echo "liveuser ALL=(ALL) NOPASSWD: ALL" > "${airootfs_dir}/etc/sudoers.d/liveuser"
+    # chmod 440 "${airootfs_dir}/etc/sudoers.d/liveuser"
+    # arch-chroot "${airootfs_dir}" ln -sf /usr/share/zoneinfo/Your/Timezone /etc/localtime
+    # echo "en_US.UTF-8 UTF-8" > "${airootfs_dir}/etc/locale.gen"
+    # echo "LANG=en_US.UTF-8" > "${airootfs_dir}/etc/locale.conf"
+    # arch-chroot "${airootfs_dir}" locale-gen
 }
