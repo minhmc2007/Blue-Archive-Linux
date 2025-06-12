@@ -1,4 +1,4 @@
 rm out/ work/ -rf
-sudo pacman -Syy --noconfirm
+pacman -Syy --noconfirm
 mkarchiso -v .
 
