@@ -1,158 +1,129 @@
+# Blue Archive KDE Distribution - Debloated Package List
+
+# Custom Blue Archive Theme
 bluearchive-kde-theme
 bluefetch
 blue-archive-welcome-app
 
-
+# Display System
 wayland
 xorg-xwayland
 libva
 libvdpau
-
-virtualbox-guest-utils
-qemu-guest-agent
-open-vm-tools
-xf86-video-vesa
-xf86-video-qxl
-#xf86-video-vmware
 mesa
 
+# Boot and Display Manager
 plymouth
 plasma-meta
 sddm
 konsole
 dolphin
-#ark           # archive manager
-#kate          # text editor
-#kcalc         # calculator
-#plasma-workspace
 
+# Shell and Audio
 fish
 alsa-utils
-amd-ucode
-arch-install-scripts
-archinstall
 
-b43-fwcutter
-base
-bcachefs-tools
-bind
-bolt
-brltty
-broadcom-wl
-btrfs-progs
-clonezilla
-cloud-init
-cryptsetup
-darkhttpd
-ddrescue
-dhclient
-dhcpcd
-diffutils
-dmidecode
-dmraid
-dnsmasq
-dosfstools
-e2fsprogs
-edk2-shell
-efibootmgr
-espeakup
-ethtool
-exfatprogs
-f2fs-tools
-fatresize
-foot-terminfo
-fsarchiver
-gpart
-gpm
-gptfdisk
-grml-zsh-config
-grub
-hdparm
-hyperv
+# CPU Microcode (keep both for compatibility)
+amd-ucode
 intel-ucode
-irssi
-iw
-iwd
-jfsutils
-kitty-terminfo
-ldns
-less
-lftp
-libfido2
-libusb-compat
+
+# Base System and Installation
+base
 linux
-linux-atm
 linux-firmware
 linux-firmware-marvell
-livecd-sounds
-lsscsi
-lvm2
-lynx
-man-db
-man-pages
-mc
-mdadm
-memtest86+
-memtest86+-efi
+arch-install-scripts
+archinstall
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-modemmanager
-mtools
-nano
-nbd
-ndisc6
-nfs-utils
-nilfs-utils
-nmap
-ntfs-3g
-nvme-cli
-open-iscsi
-open-vm-tools
-openconnect
-openpgp-card-tools
-openssh
-openvpn
-partclone
-parted
-partimage
-pcsclite
-ppp
-pptpclient
-pv
-qemu-guest-agent
-refind
-reflector
-rp-pppoe
-rsync
-rxvt-unicode-terminfo
-screen
-sdparm
-sequoia-sq
-sg3_utils
-smartmontools
-sof-firmware
-squashfs-tools
-sudo
+
+# Boot and UEFI
+grub
+efibootmgr
 syslinux
-systemd-resolvconf
-tcpdump
+
+# Live Environment
+livecd-sounds
+foot-terminfo
+kitty-terminfo
+rxvt-unicode-terminfo
 terminus-font
-testdisk
-tmux
-tpm2-tools
-tpm2-tss
-udftools
+
+# System Tools
+sudo
+systemd-resolvconf
+dmidecode
+hdparm
+smartmontools
+usbutils
 usb_modeswitch
 usbmuxd
-usbutils
-vim
-vpnc
+
+# Network
+dhcpcd
+iw
+iwd
+modemmanager
+networkmanager
+openssh
 wireless-regdb
 wireless_tools
 wpa_supplicant
-wvdial
+
+# File Systems (essential ones)
+btrfs-progs
+cryptsetup
+dosfstools
+e2fsprogs
+exfatprogs
+f2fs-tools
+ntfs-3g
+squashfs-tools
 xfsprogs
-xl2tpd
-zsh
+
+# Hardware Support
+bolt
+sof-firmware
+nvme-cli
+
+# Partitioning and Recovery
+gpart
+gpm
+gptfdisk
+lvm2
+mdadm
+parted
+
+# System Recovery Tools
+clonezilla
+ddrescue
+fsarchiver
+partclone
+partimage
+testdisk
+
+# Memory Testing
+memtest86+
+memtest86+-efi
+
+# Text Editors and Utilities
+nano
+vim
+less
+man-db
+man-pages
 file
+diffutils
+
+# Network Utilities
+rsync
+tmux
+reflector
+
+# Archive and Compression
+mtools
+nfs-utils
+openpgp-card-tools
+pv
+sg3_utils
