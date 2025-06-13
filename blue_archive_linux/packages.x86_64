@@ -1,3 +1,8 @@
+bluearchive-kde-theme
+bluefetch
+blue-archive-welcome-app-
+
+
 wayland
 xorg-xwayland
 libva
@@ -16,9 +21,9 @@ plasma-meta
 sddm
 konsole
 dolphin
-ark           # archive manager
-kate          # text editor
-kcalc         # calculator
+#ark           # archive manager
+#kate          # text editor
+#kcalc         # calculator
 #plasma-workspace
 
 fish
