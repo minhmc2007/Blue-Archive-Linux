@@ -16,10 +16,10 @@ plasma-meta
 sddm
 konsole
 dolphin
-#ark           # archive manager
-#kate          # text editor
-#kcalc         # calculator
-plasma-workspace
+ark           # archive manager
+kate          # text editor
+kcalc         # calculator
+#plasma-workspace
 
 fish
 alsa-utils
