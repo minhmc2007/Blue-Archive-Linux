@@ -2,6 +2,8 @@
   <img src="/BlueArchiveLinux.png" alt="Blue Archive Linux Logo" width="300"/>
 </div>
 
+![logo-fun](logo.png)
+
 ![Status](https://img.shields.io/badge/Status-Beta-red)  
 
 [![Manual Beta ISO Builder](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/beta.yml/badge.svg)](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/beta.yml)
