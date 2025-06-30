@@ -1,0 +1,156 @@
+name: Manual Beta ISO Builder (testing)
+
+on:
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  build-iso:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write permission for releases
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch full history for changelog generation
+
+      - name: Build ISO in Docker (privileged)
+        run: |
+          docker run --rm --privileged -v "${{ github.workspace }}":/build -w /build archlinux:base /bin/bash -c "
+            pacman -Sy --noconfirm archiso git &&
+            git clone https://github.com/minhmc2007/Blue-Archive-Linux &&
+            cd Blue-Archive-Linux/blue_archive_linux &&
+            bash build.sh
+          "
+
+      - name: Copy ISO from build output
+        run: |
+          mkdir -p output
+          cp -r Blue-Archive-Linux/blue_archive_linux/out/* output/ || echo 'No ISO output found'
+
+      - name: Install XZ compression
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xz-utils
+
+      - name: Compress ISO with XZ
+        id: compress_iso
+        run: |
+          # Find the ISO file
+          ISO_FILE=$(ls output/*.iso | head -n 1 || echo "")
+          if [ -z "$ISO_FILE" ]; then
+            echo "No ISO file found in output/ directory. Skipping compression."
+            echo "original_iso=" >> $GITHUB_OUTPUT
+            echo "compressed_file=" >> $GITHUB_OUTPUT
+            echo "original_size=" >> $GITHUB_OUTPUT
+            echo "compressed_size=" >> $GITHUB_OUTPUT
+            echo "compression_ratio=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Get original file info
+          ORIGINAL_SIZE=$(stat -c%s "$ISO_FILE")
+          ORIGINAL_SIZE_MB=$(( ORIGINAL_SIZE / 1024 / 1024 ))
+          echo "Original ISO size: ${ORIGINAL_SIZE_MB}MB"
+          
+          # Get base filename without extension
+          BASE_NAME=$(basename "$ISO_FILE" .iso)
+          
+          echo "🗜️ Compressing with XZ (maximum compression, multi-threaded)..."
+          time xz -9 -T0 -c "$ISO_FILE" > "output/${BASE_NAME}.iso.xz"
+          
+          # Get compressed file info
+          COMPRESSED_SIZE=$(stat -c%s "output/${BASE_NAME}.iso.xz")
+          COMPRESSED_SIZE_MB=$(( COMPRESSED_SIZE / 1024 / 1024 ))
+          COMPRESSION_RATIO=$(( (ORIGINAL_SIZE - COMPRESSED_SIZE) * 100 / ORIGINAL_SIZE ))
+          
+          echo "✅ Compression complete!"
+          echo "Original size: ${ORIGINAL_SIZE_MB}MB"
+          echo "Compressed size: ${COMPRESSED_SIZE_MB}MB"
+          echo "Space saved: ${COMPRESSION_RATIO}%"
+          
+          # Check if file is too big for GitHub (2GB limit)
+          if [ $COMPRESSED_SIZE -gt 2000000000 ]; then
+            echo "🚨 File too big for GitHub! Splitting into parts..."
+            split -b 1900M "output/${BASE_NAME}.iso.xz" "output/${BASE_NAME}.iso.xz.part"
+            rm "output/${BASE_NAME}.iso.xz"
+            
+            # List split files
+            SPLIT_FILES=$(ls output/${BASE_NAME}.iso.xz.part* | tr '\n' ' ')
+            echo "split_files=$SPLIT_FILES" >> $GITHUB_OUTPUT
+            echo "is_split=true" >> $GITHUB_OUTPUT
+            echo "compressed_file=" >> $GITHUB_OUTPUT
+          else
+            echo "is_split=false" >> $GITHUB_OUTPUT
+            echo "split_files=" >> $GITHUB_OUTPUT
+            echo "compressed_file=output/${BASE_NAME}.iso.xz" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload Compressed ISO Artifact
+        if: steps.compress_iso.outputs.compressed_file != '' || steps.compress_iso.outputs.is_split == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlueArchiveLinux-Compressed
+          path: |
+            ${{ steps.compress_iso.outputs.compressed_file }}
+            output/*.part*
+
+      - name: Get previous release tag
+        id: get_prev_tag
+        run: |
+          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^nightly-build-' | head -n 1 || echo "")
+          if [ -z "$PREV_TAG" ]; then
+            echo "No previous tag found. Using first commit."
+            FIRST_COMMIT=$(git rev-list --max-parents=0 HEAD)
+            echo "prev_tag=$FIRST_COMMIT" >> $GITHUB_OUTPUT
+          else
+            echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          if [ -z "${{ steps.get_prev_tag.outputs.prev_tag }}" ]; then
+            CHANGELOG="Initial release"
+          else
+            CHANGELOG=$(git log ${{ steps.get_prev_tag.outputs.prev_tag }}..HEAD --oneline)
+          fi
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGELOG" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Generate build information
+        run: |
+          echo "# 📋 Build Information" > build_info.md
+          echo "- **Build Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> build_info.md
+          echo "- **Workflow Run**: [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> build_info.md
+          echo "- **Commit**: [\`$(git rev-parse --short HEAD)\`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))" >> build_info.md
+          echo "- **Branch**: ${{ github.ref_name }}" >> build_info.md
+          echo "" >> build_info.md
+          if [ -n "${{ steps.compress_iso.outputs.compression_ratio }}" ]; then
+            echo "## 📦 Compression Information" >> build_info.md
+            echo "- **Compression Method**: XZ (Maximum)" >> build_info.md
+            echo "- **Original Size**: ${{ steps.compress_iso.outputs.original_size }}" >> build_info.md
+            echo "- **Compressed Size**: ${{ steps.compress_iso.outputs.compressed_size }}" >> build_info.md
+            echo "- **Space Saved**: ${{ steps.compress_iso.outputs.compression_ratio }}" >> build_info.md
+            if [ "${{ steps.compress_iso.outputs.is_split }}" == "true" ]; then
+              echo "- **📁 Note**: File split into parts due to GitHub 2GB limit" >> build_info.md
+              echo "- **🔧 To reconstruct**: \`cat *.part* > filename.iso.xz && xz -d filename.iso.xz\`" >> build_info.md
+            fi
+            echo "" >> build_info.md
+          fi
+          echo "### 📝 Changes Since Last Release" >> build_info.md
+          echo "${{ steps.changelog.outputs.changelog }}" >> build_info.md
+
+      - name: Create Release
+        if: steps.compress_iso.outputs.compressed_file != '' || steps.compress_iso.outputs.is_split == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "nightly-build-${{ github.run_id }}"
+          name: "Nightly Build ${{ github.run_id }}"
+          body_path: build_info.md
+          files: |
+            ${{ steps.compress_iso.outputs.compressed_file }}
+            ${{ steps.compress_iso.outputs.split_files }}
+          draft: false
+          prerelease: true
