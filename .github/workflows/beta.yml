@@ -56,8 +56,8 @@ jobs:
           # Get base filename without extension
           BASE_NAME=$(basename "$ISO_FILE" .iso)
           
-          echo "🗜️ Compressing with XZ (maximum compression)..."
-          time xz -9 -c "$ISO_FILE" > "output/${BASE_NAME}.iso.xz"
+          echo "🗜️ Compressing with XZ (maximum compression, multi-threaded)..."
+          time xz -9 -T0 -c "$ISO_FILE" > "output/${BASE_NAME}.iso.xz"
           
           # Get compressed file info
           COMPRESSED_SIZE=$(stat -c%s "output/${BASE_NAME}.iso.xz")
