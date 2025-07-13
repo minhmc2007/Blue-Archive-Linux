@@ -4,110 +4,127 @@
 
 ![logo-fun](logo.png)
 
-![Status](https://img.shields.io/badge/Status-Beta-red)  
+![Status](https://img.shields.io/badge/Status-Rebuilding-blue)
 
-[![Manual Beta ISO Builder](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/beta.yml/badge.svg)](https://github.com/minhmc2007/Blue-Archive-Linux/actions/workflows/beta.yml)
 
 # Blue Archive Linux
 
-*A light, Blue Archive-themed Linux for fans.*
-
-## What's This?
-
-Blue Archive Linux, made by **minhmc2007**, is a fun Arch-based Linux with a *Blue Archive* vibe. It's rolling-release and mixes cool looks with some handy stuff.
-
-## 🚨 TESTERS DESPERATELY NEEDED! 🚨
-
-**I REALLY, REALLY NEED YOUR HELP!** 🙏
-
-This project is in beta and I'm looking for volunteers to test Blue Archive Linux. If you're interested in:
-- Testing cool Blue Archive-themed Linux distro
-- Helping improve the experience for fellow fans
-- Being part of the development process
-
-**Please consider becoming a tester!** Your feedback would be incredibly valuable and much appreciated! 
-
-👍 **Contact me if you want to help test!**
-
-## ✨ Cool Features
-
-- **💙 Blue Archive Login**: Custom SDDM theme for a dope start
-- **🖥️ KDE PLASMA + Wallpaper**: PLASMA with *Blue Archive* wallpapers (still working on 'em)
-- **⚡ Arch-Based**: Rolling release with all the latest packages
-- **🎯 Fan-Made**: Built with love for the Blue Archive community
-- **🚀 Lightweight**: Optimized for performance without sacrificing aesthetics, maybe
-
-## 📋 Requirements
-
-- 64-bit processor
-- At least 2GB RAM (4GB recommended)
-- 20GB free disk space
-- USB drive for installation
-
-## 🚀 Installation
-
-1. Download the latest ISO from [Releases](https://github.com/minhmc2007/Blue-Archive-Linux/releases)
-2. Flash to USB using tools like Rufus or Balena Etcher
-3. Boot from USB and follow the installer
-4. Enjoy your Blue Archive desktop experience!
-
-## 🛠️ Development Status
-
-This is currently in **BETA** - expect some rough edges! That's why I need testers so badly! 😅
-
-### What's Working:
-- ✅ Basic system functionality
-- ✅ Custom SDDM theme
-- ✅ KDE Plasma environment
-
-### What's Coming:
-- 🔄 More Blue Archive wallpapers
-- 🔄 Custom icon themes
-- 🔄 Additional Blue Archive elements
-- 🔄 Performance optimizations (maybe)
-
-## 🤝 Contributing
-
-Want to help make Blue Archive Linux even better?
-- 🐛 Report bugs in [Issues](https://github.com/minhmc2007/Blue-Archive-Linux/issues)
-- 💡 Suggest features
-- 🎨 Submit wallpapers or themes
-- 📖 Improve documentation
-
-## 👥 Contributors
-
-Special thanks to all the amazing people who have contributed to Blue Archive Linux! 💙
-
-### 🏆 Core Team
-- **[@minhmc2007](https://github.com/minhmc2007)** - *Project Creator & Lead Developer*
-- **[@dungdinhmanh](https://github.com/dungdinhmanh)** - *Co-Developer*
-
-### 🧪 Beta Testers
-*Senseis who help test the distro!*
-- **[@WatashiFuzzy](https://github.com/WatashiFuzzy)** - *Beta Tester*
+*A minimal, Blue Archive-themed Linux distribution for fans and power users.*
 
 ---
 
-**Want to see your name here?** 
-- 🧪 [Become a beta tester](#-testers-desperately-needed-)
-- 🐛 Report bugs in our [Issues](https://github.com/minhmc2007/Blue-Archive-Linux/issues)
-- 📖 Help improve documentation
+## 📌 Project Redirection Notice
 
-*All contributors will be recognized here with their GitHub profile and contribution type!*
+**Blue Archive Linux is currently being rebuilt from the ground up.**
 
-## 📞 Contact & Support
+We're moving away from our original **Arch Linux** base to a **Debian-based** foundation while maintaining the spirit of Arch:
+- 💡 Minimal first-boot system (CLI only)
+- 🧰 You install what you need, how you want it
+- 🎨 Easy to customize, especially for Blue Archive fans
+- 🧼 Clean base, zero bloat
 
-- GitHub Issues: For bugs and feature requests
-- Gmail : quangminh21072010@gmail.com 
+This is no longer just a themed distro — it's a flexible system designed for power users who want control *and* aesthetic.
 
-## 🙏 Special Thanks
+---
 
-Thanks to all the testers and contributors who help make this project awesome!
+## ⚙️ Current Status
+
+- 🧱 **Base system:** Debian minimal (debootstrap-based)
+- 🧪 **Current phase:** Early rebuilding
+- 🖥️ **UI layer:** *Not included by default* — install KDE, XFCE, or anything you want
+- 🎨 **Blue Archive themes and login (SDDM)**: Coming soon as opt-in packages
+- 📦 **Package management:** APT (with `apt`, `tasksel`, optional Flatpak or Nala)
+
+---
+
+## 🔥 Philosophy
+
+Inspired by Arch Linux, but based on Debian:
+> *"Be simple, be clean, and give users the power to build their own perfect setup."*
+
+### Goals:
+- 💻 Minimal base CLI install
+- 🎯 User-driven setup (like Arch's install scripts)
+- 💙 Blue Archive themes, wallpapers, login screens, and branding as optional layers
+- 🚀 Fast to install, easy to script
+
+---
+
+## 🧪 Call for Testers
+
+**We need YOU to help shape Blue Archive Linux!**
+
+Are you:
+- A fan of Blue Archive?
+- Comfortable with CLI-based Linux systems?
+- Willing to test and give feedback?
+
+Then you're the Sensei we need! 🫡  
+👉 [Open an issue](https://github.com/minhmc2007/Blue-Archive-Linux/issues) or email to join testing.
+
+---
+
+## 📋 System Requirements
+
+- 🧠 64-bit processor (x86_64)
+- 🧮 1GB RAM minimum (2GB+ recommended)
+- 💾 10GB disk (minimum), 20GB+ recommended
+- 📀 USB drive for installation
+
+---
+
+## 🛠️ Installation Guide (WIP)
+
+> Full ISO and installer will be provided soon.
+
+For now (testing only):
+1. Clone the build repo or download the prebuilt ISO (if available)
+2. Flash with tools like **Rufus** or **Balena Etcher**
+3. Boot into the CLI-based system
+4. Install your favorite desktop (`apt install kde-plasma-desktop`, etc.)
+5. Add optional Blue Archive theme packages (coming soon)
+
+---
+
+## 🖌️ Optional BA Components (Coming Soon)
+
+- 🖼️ Blue Archive Wallpapers
+- 🎨 SDDM Login Theme (BA-themed)
+- 🔊 Custom system sounds
+- 🧃 KDE Plasma color schemes
+- 🛠️ Custom CLI tools (`bluefetch`, `bluepm`, etc.)
+
+---
+
+## 🤝 Contributing
+
+We welcome all help:
+- 🐞 Bug reports in [Issues](https://github.com/minhmc2007/Blue-Archive-Linux/issues)
+- 📦 Package suggestions
+- 🎨 Art contributions (wallpapers, icons)
+- 📖 Docs and install script improvement
+
+---
+
+## 👥 Contributors
+
+### 🧠 Core Team
+- **[@minhmc2007](https://github.com/minhmc2007)** — Creator & Lead Dev  
+- **[@dungdinhmanh](https://github.com/dungdinhmanh)** — Co-Developer
+
+### 🧪 Beta Testers
+- **[@WatashiFuzzy](https://github.com/WatashiFuzzy)** — Beta Testing
+
+---
+
+## 📬 Contact
+
+- **GitHub Issues** — Bugs & feature requests
+- **Email** — quangminh21072010@gmail.com
 
 ---
 
 <div align="center">
-  <strong>Made with 💙 for Blue Archive fans</strong>
-  <br>
-  <em>Sensei, let's make Linux kawaii together! ✨</em>
+  <strong>Made with 💙 for Blue Archive fans</strong>  
+  <em>Let's build something minimal, beautiful, and powerful together — for Senseis, by Senseis.</em>
 </div>
