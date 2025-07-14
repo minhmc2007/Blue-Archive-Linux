@@ -1,0 +1,4 @@
+# Ignore various debconf-related false positives
+tasksel: no-debconf-config
+tasksel: unused-debconf-template tasksel/*
+tasksel: debconf-is-not-a-registry *usr/lib/tasksel/tasksel-debconf*

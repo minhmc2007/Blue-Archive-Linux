@@ -1,4 +1,1 @@
-rm out/ work/ -rf
-pacman -Syy --noconfirm
-mkarchiso -v .
-
+sudo lb clean && sudo lb build

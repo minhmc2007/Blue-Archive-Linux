@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=Blue Archive
-Description=Blue Archive boot animation
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/blue-archive-plymouth
-ScriptFile=/usr/share/plymouth/themes/blue-archive-plymouth/blue-archive-plymouth.script

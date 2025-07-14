@@ -1,0 +1,7 @@
+Archive: stable
+Origin: Debian
+Label: Debian
+Version: 12.11
+Acquire-By-Hash: yes
+Component: main
+Architecture: amd64

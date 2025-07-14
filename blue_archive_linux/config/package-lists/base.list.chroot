@@ -1,0 +1,45 @@
+# ---- Core Live System ----
+# Essential for the system to boot as a live image.
+live-boot
+live-config
+systemd-sysv
+
+# ---- Kernel ----
+# The Linux kernel itself.
+linux-image-amd64
+
+# ---- Essential System Tools ----
+# For running commands with root privileges.
+sudo
+# A modern, user-friendly shell.
+fish
+# A simple and easy-to-use text editor.
+nano
+# A more advanced, powerful text editor.
+vim-tiny
+# For system monitoring.
+htop
+
+# ---- Networking Tools ----
+# The modern standard for managing network connections (wired and wireless).
+network-manager
+# Utilities for checking wireless networks.
+wireless-tools
+iw
+# For downloading files.
+curl
+wget
+
+# ---- Partitioning and Filesystem Tools ----
+# Standard partitioning tools.
+fdisk
+gdisk
+parted
+# For creating common filesystems.
+dosfstools
+btrfs-progs
+e2fsprogs
+
+# ---- Other Useful Tools ----
+git
+
