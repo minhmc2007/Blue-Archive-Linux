@@ -1,3 +1,0 @@
-interest-noawait /lib/udev/hwdb.d
-# Triggers added by dh_installinitramfs/13.11.4
-activate-noawait update-initramfs

@@ -1,3 +1,0 @@
-table mangle {
-	chain output		{ type route hook output priority -150; }
-}
