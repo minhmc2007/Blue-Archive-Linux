@@ -1,5 +1,3 @@
-# 🌟 Blue Archive Linux
-
 <div align="center">
   <img src="/BlueArchiveLinux.png" alt="Blue Archive Linux Logo" width="400"/>
   
