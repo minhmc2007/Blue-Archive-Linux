@@ -13,6 +13,12 @@ linux-image-amd64
 sudo
 # A modern, user-friendly shell.
 fish
+# A sound server that manages audio input/output and per-app volume control.
+pulseaudio
+# ALSA utilities for low-level audio configuration and testing.
+alsa-utils
+# Adds support for Bluetooth audio devices in PulseAudio.
+pulseaudio-module-bluetooth
 # A simple and easy-to-use text editor.
 nano
 # A more advanced, powerful text editor.
@@ -29,6 +35,7 @@ iw
 # For downloading files.
 curl
 wget
+
 
 # ---- Partitioning and Filesystem Tools ----
 # Standard partitioning tools.
