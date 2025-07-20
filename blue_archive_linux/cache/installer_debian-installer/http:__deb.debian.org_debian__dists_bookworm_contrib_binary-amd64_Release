@@ -1,7 +1,0 @@
-Archive: stable
-Origin: Debian
-Label: Debian
-Version: 12.11
-Acquire-By-Hash: yes
-Component: contrib
-Architecture: amd64
