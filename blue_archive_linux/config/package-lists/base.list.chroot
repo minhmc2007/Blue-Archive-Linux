@@ -19,7 +19,9 @@ nano
 vim-tiny
 # For system monitoring.
 htop
-
+# For bluepm
+python3-requests
+python3-pip
 # ---- Networking Tools ----
 # The modern standard for managing network connections (wired and wireless).
 network-manager

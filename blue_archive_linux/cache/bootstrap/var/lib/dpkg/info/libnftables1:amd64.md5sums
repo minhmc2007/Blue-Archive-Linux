@@ -1,0 +1,5 @@
+30c38a0f16facb677cfcbbb0d70fb91f  usr/lib/x86_64-linux-gnu/libnftables.so.1.1.0
+6b01f0187adcf1bb2e2dcf8f8f3bc3a0  usr/share/doc/libnftables1/changelog.Debian.gz
+f9ef14fe463393c95dc0b88a8409b0e6  usr/share/doc/libnftables1/copyright
+611be52ea20724da1c2b6df2274dfbd3  usr/share/man/man3/libnftables.3.gz
+4a268c352bd42ccdd92bccee029c3d2d  usr/share/man/man5/libnftables-json.5.gz

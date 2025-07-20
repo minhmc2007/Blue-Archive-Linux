@@ -1,0 +1,3733 @@
+2025-07-17 01:13:02 URL:http://deb.debian.org/debian/dists/bookworm/InRelease [151071/151071] -> "/Blue-Archive-Linux/blue_archive_linux/chroot/var/lib/apt/lists/partial/deb.debian.org_debian_dists_bookworm_InRelease" [1]
+gpgv: Signature made Sat May 17 09:13:49 2025 UTC
+gpgv:                using RSA key A7236886F3CCCAAD148A27F80E98404D386FA1D9
+gpgv: Good signature from "Debian Archive Automatic Signing Key (11/bullseye) <ftpmaster@debian.org>"
+gpgv: Signature made Sat May 17 09:13:50 2025 UTC
+gpgv:                using RSA key 4CB50190207B4758A3F73A796ED0E7B82643E131
+gpgv: Good signature from "Debian Archive Automatic Signing Key (12/bookworm) <ftpmaster@debian.org>"
+gpgv: Signature made Sat May 17 09:17:02 2025 UTC
+gpgv:                using EDDSA key 4D64FEC119C2029067D6E791F8D2585B8783D481
+gpgv: Good signature from "Debian Stable Release Key (12/bookworm) <debian-release@lists.debian.org>"
+2025-07-17 01:13:08 URL:http://deb.debian.org/debian/dists/bookworm/main/binary-amd64/by-hash/SHA256/c9bb33f1dc3e679fead4b8c53cac7a1ef99a26b06f48f56ba84510b9c4bc6625 [8792976/8792976] -> "/Blue-Archive-Linux/blue_archive_linux/chroot/var/lib/apt/lists/partial/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages.xz" [1]
+2025-07-17 01:13:10 URL:http://deb.debian.org/debian/dists/bookworm/contrib/binary-amd64/by-hash/SHA256/8ed7a62ecc8c407b00e04794dddcca7dfdc8e93cae8238904a107df773de30a0 [53480/53480] -> "/Blue-Archive-Linux/blue_archive_linux/chroot/var/lib/apt/lists/partial/deb.debian.org_debian_dists_bookworm_contrib_binary-amd64_Packages.xz" [1]
+2025-07-17 01:13:10 URL:http://deb.debian.org/debian/dists/bookworm/non-free-firmware/binary-amd64/by-hash/SHA256/6f1f5d0b6d7aab29860d53902981940564d40e5606ad4238a6c597e81e5fe94e [6372/6372] -> "/Blue-Archive-Linux/blue_archive_linux/chroot/var/lib/apt/lists/partial/deb.debian.org_debian_dists_bookworm_non-free-firmware_binary-amd64_Packages.xz" [1]
+2025-07-17 01:13:11 URL:http://deb.debian.org/debian/dists/bookworm/non-free/binary-amd64/by-hash/SHA256/261c67e03e9e6591aeb4f83311b5c15a9076e3d2ccbda9ecb5c237cf8ed74723 [101516/101516] -> "/Blue-Archive-Linux/blue_archive_linux/chroot/var/lib/apt/lists/partial/deb.debian.org_debian_dists_bookworm_non-free_binary-amd64_Packages.xz" [1]
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+2025-07-17 01:13:23 URL:http://deb.debian.org/debian/pool/main/a/adduser/adduser_3.134_all.deb [183272/183272] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/adduser_3.134_all.deb" [1]
+2025-07-17 01:13:25 URL:http://deb.debian.org/debian/pool/main/a/apt/apt_2.6.1_amd64.deb [1372852/1372852] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/apt_2.6.1_amd64.deb" [1]
+2025-07-17 01:13:27 URL:http://deb.debian.org/debian/pool/main/a/apt/apt-utils_2.6.1_amd64.deb [309288/309288] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/apt-utils_2.6.1_amd64.deb" [1]
+2025-07-17 01:13:27 URL:http://deb.debian.org/debian/pool/main/b/base-files/base-files_12.4+deb12u11_amd64.deb [70880/70880] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/base-files_12.4+deb12u11_amd64.deb" [1]
+2025-07-17 01:13:28 URL:http://deb.debian.org/debian/pool/main/b/base-passwd/base-passwd_3.6.1_amd64.deb [59972/59972] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/base-passwd_3.6.1_amd64.deb" [1]
+2025-07-17 01:13:30 URL:http://deb.debian.org/debian/pool/main/b/bash/bash_5.2.15-2+b8_amd64.deb [1490512/1490512] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/bash_5.2.15-2+b8_amd64.deb" [1]
+2025-07-17 01:13:30 URL:http://deb.debian.org/debian/pool/main/u/util-linux/bsdutils_2.38.1-5+deb12u3_amd64.deb [94412/94412] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/bsdutils_1%3a2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:13:33 URL:http://deb.debian.org/debian/pool/main/c/coreutils/coreutils_9.1-1_amd64.deb [2896560/2896560] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/coreutils_9.1-1_amd64.deb" [1]
+2025-07-17 01:13:34 URL:http://deb.debian.org/debian/pool/main/c/cpio/cpio_2.13+dfsg-7.1_amd64.deb [245036/245036] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/cpio_2.13+dfsg-7.1_amd64.deb" [1]
+2025-07-17 01:13:34 URL:http://deb.debian.org/debian/pool/main/c/cron/cron_3.0pl1-162_amd64.deb [73084/73084] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/cron_3.0pl1-162_amd64.deb" [1]
+2025-07-17 01:13:35 URL:http://deb.debian.org/debian/pool/main/c/cron/cron-daemon-common_3.0pl1-162_all.deb [12660/12660] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/cron-daemon-common_3.0pl1-162_all.deb" [1]
+2025-07-17 01:13:36 URL:http://deb.debian.org/debian/pool/main/d/dash/dash_0.5.12-2_amd64.deb [91848/91848] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/dash_0.5.12-2_amd64.deb" [1]
+2025-07-17 01:13:36 URL:http://deb.debian.org/debian/pool/main/d/debconf/debconf_1.5.82_all.deb [121212/121212] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/debconf_1.5.82_all.deb" [1]
+2025-07-17 01:13:37 URL:http://deb.debian.org/debian/pool/main/d/debconf/debconf-i18n_1.5.82_all.deb [208040/208040] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/debconf-i18n_1.5.82_all.deb" [1]
+2025-07-17 01:13:38 URL:http://deb.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2023.3+deb12u2_all.deb [178572/178572] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/debian-archive-keyring_2023.3+deb12u2_all.deb" [1]
+2025-07-17 01:13:39 URL:http://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.7-0.5~deb12u1_amd64.deb [102588/102588] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/debianutils_5.7-0.5~deb12u1_amd64.deb" [1]
+2025-07-17 01:13:40 URL:http://deb.debian.org/debian/pool/main/d/diffutils/diffutils_3.8-4_amd64.deb [351740/351740] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/diffutils_1%3a3.8-4_amd64.deb" [1]
+2025-07-17 01:13:40 URL:http://deb.debian.org/debian/pool/main/d/dmidecode/dmidecode_3.4-1_amd64.deb [68764/68764] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/dmidecode_3.4-1_amd64.deb" [1]
+2025-07-17 01:13:41 URL:http://deb.debian.org/debian/pool/main/l/lvm2/dmsetup_1.02.185-2_amd64.deb [82040/82040] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/dmsetup_2%3a1.02.185-2_amd64.deb" [1]
+2025-07-17 01:13:43 URL:http://deb.debian.org/debian/pool/main/d/dpkg/dpkg_1.21.22_amd64.deb [1567356/1567356] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/dpkg_1.21.22_amd64.deb" [1]
+2025-07-17 01:13:43 URL:http://deb.debian.org/debian/pool/main/e/e2fsprogs/e2fsprogs_1.47.0-2_amd64.deb [571372/571372] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/e2fsprogs_1.47.0-2_amd64.deb" [1]
+2025-07-17 01:13:45 URL:http://deb.debian.org/debian/pool/main/u/util-linux/fdisk_2.38.1-5+deb12u3_amd64.deb [141320/141320] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/fdisk_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:13:46 URL:http://deb.debian.org/debian/pool/main/f/findutils/findutils_4.9.0-4_amd64.deb [635500/635500] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/findutils_4.9.0-4_amd64.deb" [1]
+2025-07-17 01:13:47 URL:http://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12-base_12.2.0-14+deb12u1_amd64.deb [37596/37596] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/gcc-12-base_12.2.0-14+deb12u1_amd64.deb" [1]
+2025-07-17 01:13:48 URL:http://deb.debian.org/debian/pool/main/g/gnupg2/gpgv_2.2.40-1.1_amd64.deb [648396/648396] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/gpgv_2.2.40-1.1_amd64.deb" [1]
+2025-07-17 01:13:48 URL:http://deb.debian.org/debian/pool/main/g/grep/grep_3.8-5_amd64.deb [421444/421444] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/grep_3.8-5_amd64.deb" [1]
+2025-07-17 01:13:48 URL:http://deb.debian.org/debian/pool/main/g/gzip/gzip_1.12-1_amd64.deb [140364/140364] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/gzip_1.12-1_amd64.deb" [1]
+2025-07-17 01:13:49 URL:http://deb.debian.org/debian/pool/main/h/hostname/hostname_3.23+nmu1_amd64.deb [10500/10500] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/hostname_3.23+nmu1_amd64.deb" [1]
+2025-07-17 01:13:49 URL:http://deb.debian.org/debian/pool/main/i/ifupdown/ifupdown_0.8.41_amd64.deb [62104/62104] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/ifupdown_0.8.41_amd64.deb" [1]
+2025-07-17 01:13:50 URL:http://deb.debian.org/debian/pool/main/i/init-system-helpers/init_1.65.2_amd64.deb [16788/16788] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/init_1.65.2_amd64.deb" [1]
+2025-07-17 01:13:50 URL:http://deb.debian.org/debian/pool/main/i/init-system-helpers/init-system-helpers_1.65.2_all.deb [49800/49800] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/init-system-helpers_1.65.2_all.deb" [1]
+2025-07-17 01:13:52 URL:http://deb.debian.org/debian/pool/main/i/iproute2/iproute2_6.1.0-3_amd64.deb [1045828/1045828] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/iproute2_6.1.0-3_amd64.deb" [1]
+2025-07-17 01:13:52 URL:http://deb.debian.org/debian/pool/main/i/iputils/iputils-ping_20221126-1+deb12u1_amd64.deb [47172/47172] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/iputils-ping_3%3a20221126-1+deb12u1_amd64.deb" [1]
+2025-07-17 01:13:54 URL:http://deb.debian.org/debian/pool/main/i/isc-dhcp/isc-dhcp-client_4.4.3-P1-2_amd64.deb [1095928/1095928] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/isc-dhcp-client_4.4.3-P1-2_amd64.deb" [1]
+2025-07-17 01:13:55 URL:http://deb.debian.org/debian/pool/main/i/isc-dhcp/isc-dhcp-common_4.4.3-P1-2_amd64.deb [117272/117272] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/isc-dhcp-common_4.4.3-P1-2_amd64.deb" [1]
+2025-07-17 01:13:55 URL:http://deb.debian.org/debian/pool/main/k/kmod/kmod_30+20221128-1_amd64.deb [95180/95180] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/kmod_30+20221128-1_amd64.deb" [1]
+2025-07-17 01:13:56 URL:http://deb.debian.org/debian/pool/main/l/less/less_590-2.1~deb12u2_amd64.deb [132044/132044] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/less_590-2.1~deb12u2_amd64.deb" [1]
+2025-07-17 01:13:57 URL:http://deb.debian.org/debian/pool/main/a/acl/libacl1_2.3.1-3_amd64.deb [31488/31488] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libacl1_2.3.1-3_amd64.deb" [1]
+2025-07-17 01:13:57 URL:http://deb.debian.org/debian/pool/main/a/apparmor/libapparmor1_3.0.8-3_amd64.deb [41192/41192] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libapparmor1_3.0.8-3_amd64.deb" [1]
+2025-07-17 01:13:59 URL:http://deb.debian.org/debian/pool/main/a/apt/libapt-pkg6.0_2.6.1_amd64.deb [907236/907236] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libapt-pkg6.0_2.6.1_amd64.deb" [1]
+2025-07-17 01:13:59 URL:http://deb.debian.org/debian/pool/main/a/argon2/libargon2-1_0~20171227-0.3+deb12u1_amd64.deb [19432/19432] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libargon2-1_0~20171227-0.3+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:00 URL:http://deb.debian.org/debian/pool/main/a/attr/libattr1_2.5.1-4_amd64.deb [22164/22164] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libattr1_1%3a2.5.1-4_amd64.deb" [1]
+2025-07-17 01:14:00 URL:http://deb.debian.org/debian/pool/main/a/audit/libaudit-common_3.0.9-1_all.deb [10448/10448] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libaudit-common_1%3a3.0.9-1_all.deb" [1]
+2025-07-17 01:14:00 URL:http://deb.debian.org/debian/pool/main/a/audit/libaudit1_3.0.9-1_amd64.deb [46764/46764] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libaudit1_1%3a3.0.9-1_amd64.deb" [1]
+2025-07-17 01:14:01 URL:http://deb.debian.org/debian/pool/main/u/util-linux/libblkid1_2.38.1-5+deb12u3_amd64.deb [147380/147380] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libblkid1_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:02 URL:http://deb.debian.org/debian/pool/main/libb/libbpf/libbpf1_1.1.0-1_amd64.deb [145304/145304] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libbpf1_1%3a1.1.0-1_amd64.deb" [1]
+2025-07-17 01:14:03 URL:http://deb.debian.org/debian/pool/main/libb/libbsd/libbsd0_0.11.7-2_amd64.deb [117416/117416] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libbsd0_0.11.7-2_amd64.deb" [1]
+2025-07-17 01:14:03 URL:http://deb.debian.org/debian/pool/main/b/bzip2/libbz2-1.0_1.0.8-5+b1_amd64.deb [47348/47348] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libbz2-1.0_1.0.8-5+b1_amd64.deb" [1]
+2025-07-17 01:14:05 URL:http://deb.debian.org/debian/pool/main/g/glibc/libc-bin_2.36-9+deb12u10_amd64.deb [608116/608116] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libc-bin_2.36-9+deb12u10_amd64.deb" [1]
+2025-07-17 01:14:08 URL:http://deb.debian.org/debian/pool/main/g/glibc/libc6_2.36-9+deb12u10_amd64.deb [2757496/2757496] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libc6_2.36-9+deb12u10_amd64.deb" [1]
+2025-07-17 01:14:08 URL:http://deb.debian.org/debian/pool/main/libc/libcap-ng/libcap-ng0_0.8.3-1+b3_amd64.deb [17068/17068] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcap-ng0_0.8.3-1+b3_amd64.deb" [1]
+2025-07-17 01:14:08 URL:http://deb.debian.org/debian/pool/main/libc/libcap2/libcap2_2.66-4+deb12u1_amd64.deb [27204/27204] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcap2_1%3a2.66-4+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:09 URL:http://deb.debian.org/debian/pool/main/libc/libcap2/libcap2-bin_2.66-4+deb12u1_amd64.deb [34820/34820] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcap2-bin_1%3a2.66-4+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:09 URL:http://deb.debian.org/debian/pool/main/e/e2fsprogs/libcom-err2_1.47.0-2_amd64.deb [19760/19760] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcom-err2_1.47.0-2_amd64.deb" [1]
+2025-07-17 01:14:09 URL:http://deb.debian.org/debian/pool/main/libx/libxcrypt/libcrypt1_4.4.33-2_amd64.deb [89464/89464] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcrypt1_1%3a4.4.33-2_amd64.deb" [1]
+2025-07-17 01:14:11 URL:http://deb.debian.org/debian/pool/main/c/cryptsetup/libcryptsetup12_2.6.1-4~deb12u2_amd64.deb [223344/223344] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libcryptsetup12_2%3a2.6.1-4~deb12u2_amd64.deb" [1]
+2025-07-17 01:14:12 URL:http://deb.debian.org/debian/pool/main/d/db5.3/libdb5.3_5.3.28+dfsg2-1_amd64.deb [697412/697412] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libdb5.3_5.3.28+dfsg2-1_amd64.deb" [1]
+2025-07-17 01:14:13 URL:http://deb.debian.org/debian/pool/main/c/cdebconf/libdebconfclient0_0.270_amd64.deb [9900/9900] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libdebconfclient0_0.270_amd64.deb" [1]
+2025-07-17 01:14:14 URL:http://deb.debian.org/debian/pool/main/l/lvm2/libdevmapper1.02.1_1.02.185-2_amd64.deb [132796/132796] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libdevmapper1.02.1_2%3a1.02.185-2_amd64.deb" [1]
+2025-07-17 01:14:14 URL:http://deb.debian.org/debian/pool/main/libe/libedit/libedit2_3.1-20221030-2_amd64.deb [92992/92992] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libedit2_3.1-20221030-2_amd64.deb" [1]
+2025-07-17 01:14:15 URL:http://deb.debian.org/debian/pool/main/e/elfutils/libelf1_0.188-2.1_amd64.deb [173796/173796] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libelf1_0.188-2.1_amd64.deb" [1]
+2025-07-17 01:14:16 URL:http://deb.debian.org/debian/pool/main/e/e2fsprogs/libext2fs2_1.47.0-2_amd64.deb [204824/204824] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libext2fs2_1.47.0-2_amd64.deb" [1]
+2025-07-17 01:14:17 URL:http://deb.debian.org/debian/pool/main/u/util-linux/libfdisk1_2.38.1-5+deb12u3_amd64.deb [193624/193624] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libfdisk1_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:17 URL:http://deb.debian.org/debian/pool/main/libf/libffi/libffi8_3.4.4-1_amd64.deb [22856/22856] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libffi8_3.4.4-1_amd64.deb" [1]
+2025-07-17 01:14:17 URL:http://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-s1_12.2.0-14+deb12u1_amd64.deb [49856/49856] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgcc-s1_12.2.0-14+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:19 URL:http://deb.debian.org/debian/pool/main/libg/libgcrypt20/libgcrypt20_1.10.1-3_amd64.deb [696328/696328] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgcrypt20_1.10.1-3_amd64.deb" [1]
+2025-07-17 01:14:20 URL:http://deb.debian.org/debian/pool/main/g/gmp/libgmp10_6.2.1+dfsg1-1.1_amd64.deb [562588/562588] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgmp10_2%3a6.2.1+dfsg1-1.1_amd64.deb" [1]
+2025-07-17 01:14:22 URL:http://deb.debian.org/debian/pool/main/g/gnutls28/libgnutls30_3.7.9-2+deb12u4_amd64.deb [1405152/1405152] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgnutls30_3.7.9-2+deb12u4_amd64.deb" [1]
+2025-07-17 01:14:23 URL:http://deb.debian.org/debian/pool/main/libg/libgpg-error/libgpg-error0_1.46-1_amd64.deb [76888/76888] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgpg-error0_1.46-1_amd64.deb" [1]
+2025-07-17 01:14:24 URL:http://deb.debian.org/debian/pool/main/k/krb5/libgssapi-krb5-2_1.20.1-2+deb12u3_amd64.deb [134696/134696] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libgssapi-krb5-2_1.20.1-2+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:24 URL:http://deb.debian.org/debian/pool/main/n/nettle/libhogweed6_3.8.1-2_amd64.deb [327524/327524] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libhogweed6_3.8.1-2_amd64.deb" [1]
+2025-07-17 01:14:25 URL:http://deb.debian.org/debian/pool/main/libi/libidn2/libidn2-0_2.3.3-1+b1_amd64.deb [123636/123636] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libidn2-0_2.3.3-1+b1_amd64.deb" [1]
+2025-07-17 01:14:25 URL:http://deb.debian.org/debian/pool/main/i/iptables/libip4tc2_1.8.9-2_amd64.deb [19016/19016] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libip4tc2_1.8.9-2_amd64.deb" [1]
+2025-07-17 01:14:26 URL:http://deb.debian.org/debian/pool/main/j/jansson/libjansson4_2.14-2_amd64.deb [40788/40788] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libjansson4_2.14-2_amd64.deb" [1]
+2025-07-17 01:14:27 URL:http://deb.debian.org/debian/pool/main/j/json-c/libjson-c5_0.16-2_amd64.deb [44120/44120] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libjson-c5_0.16-2_amd64.deb" [1]
+2025-07-17 01:14:27 URL:http://deb.debian.org/debian/pool/main/k/krb5/libk5crypto3_1.20.1-2+deb12u3_amd64.deb [78924/78924] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libk5crypto3_1.20.1-2+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:28 URL:http://deb.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.6.3-2_amd64.deb [8808/8808] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libkeyutils1_1.6.3-2_amd64.deb" [1]
+2025-07-17 01:14:28 URL:http://deb.debian.org/debian/pool/main/k/kmod/libkmod2_30+20221128-1_amd64.deb [57892/57892] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libkmod2_30+20221128-1_amd64.deb" [1]
+2025-07-17 01:14:30 URL:http://deb.debian.org/debian/pool/main/k/krb5/libkrb5-3_1.20.1-2+deb12u3_amd64.deb [331872/331872] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libkrb5-3_1.20.1-2+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:30 URL:http://deb.debian.org/debian/pool/main/k/krb5/libkrb5support0_1.20.1-2+deb12u3_amd64.deb [32800/32800] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libkrb5support0_1.20.1-2+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:30 URL:http://deb.debian.org/debian/pool/main/libl/liblocale-gettext-perl/liblocale-gettext-perl_1.07-5_amd64.deb [15408/15408] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/liblocale-gettext-perl_1.07-5_amd64.deb" [1]
+2025-07-17 01:14:30 URL:http://deb.debian.org/debian/pool/main/l/lz4/liblz4-1_1.9.4-1_amd64.deb [62884/62884] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/liblz4-1_1.9.4-1_amd64.deb" [1]
+2025-07-17 01:14:32 URL:http://deb.debian.org/debian/pool/main/x/xz-utils/liblzma5_5.4.1-1_amd64.deb [205420/205420] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/liblzma5_5.4.1-1_amd64.deb" [1]
+2025-07-17 01:14:32 URL:http://deb.debian.org/debian/pool/main/libm/libmd/libmd0_1.0.4-2_amd64.deb [29456/29456] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libmd0_1.0.4-2_amd64.deb" [1]
+2025-07-17 01:14:33 URL:http://deb.debian.org/debian/pool/main/libm/libmnl/libmnl0_1.0.4-3_amd64.deb [12476/12476] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libmnl0_1.0.4-3_amd64.deb" [1]
+2025-07-17 01:14:33 URL:http://deb.debian.org/debian/pool/main/u/util-linux/libmount1_2.38.1-5+deb12u3_amd64.deb [165732/165732] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libmount1_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:34 URL:http://deb.debian.org/debian/pool/main/n/ncurses/libncursesw6_6.4-4_amd64.deb [133824/133824] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libncursesw6_6.4-4_amd64.deb" [1]
+2025-07-17 01:14:35 URL:http://deb.debian.org/debian/pool/main/n/nettle/libnettle8_3.8.1-2_amd64.deb [287764/287764] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libnettle8_3.8.1-2_amd64.deb" [1]
+2025-07-17 01:14:35 URL:http://deb.debian.org/debian/pool/main/n/newt/libnewt0.52_0.52.23-1+b1_amd64.deb [59236/59236] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libnewt0.52_0.52.23-1+b1_amd64.deb" [1]
+2025-07-17 01:14:36 URL:http://deb.debian.org/debian/pool/main/n/nftables/libnftables1_1.0.6-2+deb12u2_amd64.deb [299116/299116] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libnftables1_1.0.6-2+deb12u2_amd64.deb" [1]
+2025-07-17 01:14:36 URL:http://deb.debian.org/debian/pool/main/libn/libnftnl/libnftnl11_1.2.4-2_amd64.deb [61632/61632] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libnftnl11_1.2.4-2_amd64.deb" [1]
+2025-07-17 01:14:37 URL:http://deb.debian.org/debian/pool/main/p/p11-kit/libp11-kit0_0.24.1-2_amd64.deb [345080/345080] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libp11-kit0_0.24.1-2_amd64.deb" [1]
+2025-07-17 01:14:37 URL:http://deb.debian.org/debian/pool/main/p/pam/libpam-modules_1.5.2-6+deb12u1_amd64.deb [290976/290976] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpam-modules_1.5.2-6+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:38 URL:http://deb.debian.org/debian/pool/main/p/pam/libpam-modules-bin_1.5.2-6+deb12u1_amd64.deb [75604/75604] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpam-modules-bin_1.5.2-6+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:38 URL:http://deb.debian.org/debian/pool/main/p/pam/libpam-runtime_1.5.2-6+deb12u1_all.deb [161064/161064] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpam-runtime_1.5.2-6+deb12u1_all.deb" [1]
+2025-07-17 01:14:39 URL:http://deb.debian.org/debian/pool/main/p/pam/libpam0g_1.5.2-6+deb12u1_amd64.deb [91960/91960] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpam0g_1.5.2-6+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:40 URL:http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-8-0_10.42-1_amd64.deb [260776/260776] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpcre2-8-0_10.42-1_amd64.deb" [1]
+2025-07-17 01:14:40 URL:http://deb.debian.org/debian/pool/main/p/popt/libpopt0_1.19+dfsg-1_amd64.deb [43268/43268] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libpopt0_1.19+dfsg-1_amd64.deb" [1]
+2025-07-17 01:14:41 URL:http://deb.debian.org/debian/pool/main/p/procps/libproc2-0_4.0.2-3_amd64.deb [62804/62804] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libproc2-0_2%3a4.0.2-3_amd64.deb" [1]
+2025-07-17 01:14:41 URL:http://deb.debian.org/debian/pool/main/r/readline/libreadline8_8.2-1.3_amd64.deb [165760/165760] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libreadline8_8.2-1.3_amd64.deb" [1]
+2025-07-17 01:14:42 URL:http://deb.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.5.4-1+deb12u1_amd64.deb [46808/46808] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libseccomp2_2.5.4-1+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:42 URL:http://deb.debian.org/debian/pool/main/libs/libselinux/libselinux1_3.4-1+b6_amd64.deb [73720/73720] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libselinux1_3.4-1+b6_amd64.deb" [1]
+2025-07-17 01:14:42 URL:http://deb.debian.org/debian/pool/main/libs/libsemanage/libsemanage-common_3.4-1_all.deb [21632/21632] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsemanage-common_3.4-1_all.deb" [1]
+2025-07-17 01:14:43 URL:http://deb.debian.org/debian/pool/main/libs/libsemanage/libsemanage2_3.4-1+b5_amd64.deb [89884/89884] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsemanage2_3.4-1+b5_amd64.deb" [1]
+2025-07-17 01:14:44 URL:http://deb.debian.org/debian/pool/main/libs/libsepol/libsepol2_3.4-2.1_amd64.deb [275900/275900] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsepol2_3.4-2.1_amd64.deb" [1]
+2025-07-17 01:14:45 URL:http://deb.debian.org/debian/pool/main/s/slang2/libslang2_2.3.3-3_amd64.deb [554316/554316] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libslang2_2.3.3-3_amd64.deb" [1]
+2025-07-17 01:14:46 URL:http://deb.debian.org/debian/pool/main/u/util-linux/libsmartcols1_2.38.1-5+deb12u3_amd64.deb [106776/106776] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsmartcols1_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:46 URL:http://deb.debian.org/debian/pool/main/e/e2fsprogs/libss2_1.47.0-2_amd64.deb [24504/24504] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libss2_1.47.0-2_amd64.deb" [1]
+2025-07-17 01:14:49 URL:http://deb.debian.org/debian/pool/main/o/openssl/libssl3_3.0.16-1~deb12u1_amd64.deb [2025692/2025692] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libssl3_3.0.16-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:14:49 URL:http://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++6_12.2.0-14+deb12u1_amd64.deb [612604/612604] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libstdc++6_12.2.0-14+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:50 URL:http://deb.debian.org/debian/pool/main/s/systemd/libsystemd-shared_252.36-1~deb12u1_amd64.deb [1692728/1692728] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsystemd-shared_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:14:51 URL:http://deb.debian.org/debian/pool/main/s/systemd/libsystemd0_252.36-1~deb12u1_amd64.deb [332336/332336] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libsystemd0_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:14:51 URL:http://deb.debian.org/debian/pool/main/libt/libtasn1-6/libtasn1-6_4.19.0-2+deb12u1_amd64.deb [48596/48596] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtasn1-6_4.19.0-2+deb12u1_amd64.deb" [1]
+2025-07-17 01:14:52 URL:http://deb.debian.org/debian/pool/main/libt/libtext-charwidth-perl/libtext-charwidth-perl_0.04-11_amd64.deb [9496/9496] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtext-charwidth-perl_0.04-11_amd64.deb" [1]
+2025-07-17 01:14:52 URL:http://deb.debian.org/debian/pool/main/libt/libtext-iconv-perl/libtext-iconv-perl_1.7-8_amd64.deb [14464/14464] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtext-iconv-perl_1.7-8_amd64.deb" [1]
+2025-07-17 01:14:52 URL:http://deb.debian.org/debian/pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-10_all.deb [8808/8808] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtext-wrapi18n-perl_0.06-10_all.deb" [1]
+2025-07-17 01:14:53 URL:http://deb.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.4-4_amd64.deb [331352/331352] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtinfo6_6.4-4_amd64.deb" [1]
+2025-07-17 01:14:54 URL:http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc-common_1.3.3+ds-1_all.deb [14048/14048] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtirpc-common_1.3.3+ds-1_all.deb" [1]
+2025-07-17 01:14:54 URL:http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc3_1.3.3+ds-1_amd64.deb [85192/85192] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libtirpc3_1.3.3+ds-1_amd64.deb" [1]
+2025-07-17 01:14:55 URL:http://deb.debian.org/debian/pool/main/s/systemd/libudev1_252.36-1~deb12u1_amd64.deb [108620/108620] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libudev1_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:14:56 URL:http://deb.debian.org/debian/pool/main/libu/libunistring/libunistring2_1.0-2_amd64.deb [436708/436708] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libunistring2_1.0-2_amd64.deb" [1]
+2025-07-17 01:14:56 URL:http://deb.debian.org/debian/pool/main/u/util-linux/libuuid1_2.38.1-5+deb12u3_amd64.deb [28784/28784] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libuuid1_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:14:57 URL:http://deb.debian.org/debian/pool/main/i/iptables/libxtables12_1.8.9-2_amd64.deb [30752/30752] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libxtables12_1.8.9-2_amd64.deb" [1]
+2025-07-17 01:14:57 URL:http://deb.debian.org/debian/pool/main/x/xxhash/libxxhash0_0.8.1-1_amd64.deb [27584/27584] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libxxhash0_0.8.1-1_amd64.deb" [1]
+2025-07-17 01:14:58 URL:http://deb.debian.org/debian/pool/main/libz/libzstd/libzstd1_1.5.4+dfsg2-5_amd64.deb [290036/290036] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/libzstd1_1.5.4+dfsg2-5_amd64.deb" [1]
+2025-07-17 01:15:00 URL:http://deb.debian.org/debian/pool/main/s/shadow/login_4.13+dfsg1-1+deb12u1_amd64.deb [615896/615896] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb" [1]
+2025-07-17 01:15:00 URL:http://deb.debian.org/debian/pool/main/l/logrotate/logrotate_3.21.0-1_amd64.deb [62108/62108] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/logrotate_3.21.0-1_amd64.deb" [1]
+2025-07-17 01:15:01 URL:http://deb.debian.org/debian/pool/main/e/e2fsprogs/logsave_1.47.0-2_amd64.deb [19588/19588] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/logsave_1.47.0-2_amd64.deb" [1]
+2025-07-17 01:15:02 URL:http://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20200120-3.1_amd64.deb [119144/119144] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/mawk_1.3.4.20200120-3.1_amd64.deb" [1]
+2025-07-17 01:15:03 URL:http://deb.debian.org/debian/pool/main/u/util-linux/mount_2.38.1-5+deb12u3_amd64.deb [134044/134044] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/mount_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:15:04 URL:http://deb.debian.org/debian/pool/main/n/nano/nano_7.2-1+deb12u1_amd64.deb [689556/689556] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/nano_7.2-1+deb12u1_amd64.deb" [1]
+2025-07-17 01:15:04 URL:http://deb.debian.org/debian/pool/main/n/ncurses/ncurses-base_6.4-4_all.deb [261308/261308] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/ncurses-base_6.4-4_all.deb" [1]
+2025-07-17 01:15:07 URL:http://deb.debian.org/debian/pool/main/n/ncurses/ncurses-bin_6.4-4_amd64.deb [421400/421400] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/ncurses-bin_6.4-4_amd64.deb" [1]
+2025-07-17 01:15:07 URL:http://deb.debian.org/debian/pool/main/n/netbase/netbase_6.4_all.deb [12800/12800] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/netbase_6.4_all.deb" [1]
+2025-07-17 01:15:08 URL:http://deb.debian.org/debian/pool/main/n/nftables/nftables_1.0.6-2+deb12u2_amd64.deb [70292/70292] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/nftables_1.0.6-2+deb12u2_amd64.deb" [1]
+2025-07-17 01:15:09 URL:http://deb.debian.org/debian/pool/main/s/shadow/passwd_4.13+dfsg1-1+deb12u1_amd64.deb [972056/972056] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/passwd_1%3a4.13+dfsg1-1+deb12u1_amd64.deb" [1]
+2025-07-17 01:15:12 URL:http://deb.debian.org/debian/pool/main/p/perl/perl-base_5.36.0-7+deb12u2_amd64.deb [1608556/1608556] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/perl-base_5.36.0-7+deb12u2_amd64.deb" [1]
+2025-07-17 01:15:12 URL:http://deb.debian.org/debian/pool/main/p/procps/procps_4.0.2-3_amd64.deb [708712/708712] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/procps_2%3a4.0.2-3_amd64.deb" [1]
+2025-07-17 01:15:13 URL:http://deb.debian.org/debian/pool/main/r/readline/readline-common_8.2-1.3_all.deb [68988/68988] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/readline-common_8.2-1.3_all.deb" [1]
+2025-07-17 01:15:14 URL:http://deb.debian.org/debian/pool/main/s/sed/sed_4.9-1_amd64.deb [328900/328900] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/sed_4.9-1_amd64.deb" [1]
+2025-07-17 01:15:15 URL:http://deb.debian.org/debian/pool/main/s/sensible-utils/sensible-utils_0.0.17+nmu1_all.deb [19020/19020] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/sensible-utils_0.0.17+nmu1_all.deb" [1]
+2025-07-17 01:15:16 URL:http://deb.debian.org/debian/pool/main/s/systemd/systemd_252.36-1~deb12u1_amd64.deb [3037356/3037356] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/systemd_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:15:16 URL:http://deb.debian.org/debian/pool/main/s/systemd/systemd-sysv_252.36-1~deb12u1_amd64.deb [42552/42552] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/systemd-sysv_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:15:17 URL:http://deb.debian.org/debian/pool/main/s/sysvinit/sysvinit-utils_3.06-4_amd64.deb [30996/30996] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/sysvinit-utils_3.06-4_amd64.deb" [1]
+2025-07-17 01:15:19 URL:http://deb.debian.org/debian/pool/main/t/tar/tar_1.34+dfsg-1.2+deb12u1_amd64.deb [836288/836288] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/tar_1.34+dfsg-1.2+deb12u1_amd64.deb" [1]
+2025-07-17 01:15:19 URL:http://deb.debian.org/debian/pool/main/t/tasksel/tasksel_3.73_all.deb [51208/51208] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/tasksel_3.73_all.deb" [1]
+2025-07-17 01:15:20 URL:http://deb.debian.org/debian/pool/main/t/tasksel/tasksel-data_3.73_all.deb [17988/17988] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/tasksel-data_3.73_all.deb" [1]
+2025-07-17 01:15:21 URL:http://deb.debian.org/debian/pool/main/t/tzdata/tzdata_2025b-0+deb12u1_all.deb [299412/299412] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/tzdata_2025b-0+deb12u1_all.deb" [1]
+2025-07-17 01:15:22 URL:http://deb.debian.org/debian/pool/main/s/systemd/udev_252.36-1~deb12u1_amd64.deb [1703964/1703964] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/udev_252.36-1~deb12u1_amd64.deb" [1]
+2025-07-17 01:15:22 URL:http://deb.debian.org/debian/pool/main/u/usrmerge/usr-is-merged_37~deb12u1_all.deb [5616/5616] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/usr-is-merged_37~deb12u1_all.deb" [1]
+2025-07-17 01:15:23 URL:http://deb.debian.org/debian/pool/main/u/util-linux/util-linux_2.38.1-5+deb12u3_amd64.deb [1177276/1177276] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/util-linux_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:15:24 URL:http://deb.debian.org/debian/pool/main/u/util-linux/util-linux-extra_2.38.1-5+deb12u3_amd64.deb [110728/110728] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/util-linux-extra_2.38.1-5+deb12u3_amd64.deb" [1]
+2025-07-17 01:15:25 URL:http://deb.debian.org/debian/pool/main/v/vim/vim-common_9.0.1378-2+deb12u2_all.deb [124836/124836] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/vim-common_2%3a9.0.1378-2+deb12u2_all.deb" [1]
+2025-07-17 01:15:26 URL:http://deb.debian.org/debian/pool/main/v/vim/vim-tiny_9.0.1378-2+deb12u2_amd64.deb [719960/719960] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/vim-tiny_2%3a9.0.1378-2+deb12u2_amd64.deb" [1]
+2025-07-17 01:15:27 URL:http://deb.debian.org/debian/pool/main/n/newt/whiptail_0.52.23-1+b1_amd64.deb [24228/24228] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/whiptail_0.52.23-1+b1_amd64.deb" [1]
+2025-07-17 01:15:27 URL:http://deb.debian.org/debian/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb [86684/86684] -> "/Blue-Archive-Linux/blue_archive_linux/chroot//var/cache/apt/archives/partial/zlib1g_1%3a1.2.13.dfsg-1_amd64.deb" [1]
+amd64: ok
+gpgv: Signature made Sat May 17 09:13:49 2025 UTC
+gpgv:                using RSA key A7236886F3CCCAAD148A27F80E98404D386FA1D9
+gpgv: Good signature from "Debian Archive Automatic Signing Key (11/bullseye) <ftpmaster@debian.org>"
+gpgv: Signature made Sat May 17 09:13:50 2025 UTC
+gpgv:                using RSA key 4CB50190207B4758A3F73A796ED0E7B82643E131
+gpgv: Good signature from "Debian Archive Automatic Signing Key (12/bookworm) <ftpmaster@debian.org>"
+gpgv: Signature made Sat May 17 09:17:02 2025 UTC
+gpgv:                using EDDSA key 4D64FEC119C2029067D6E791F8D2585B8783D481
+gpgv: Good signature from "Debian Stable Release Key (12/bookworm) <debian-release@lists.debian.org>"
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing 'Description' field
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing 'Architecture' field
+Selecting previously unselected package base-passwd.
+(Reading database ... 0 files and directories currently installed.)
+Preparing to unpack .../base-passwd_3.6.1_amd64.deb ...
+Unpacking base-passwd (3.6.1) ...
+dpkg: base-passwd: dependency problems, but configuring anyway as you requested:
+ base-passwd depends on libc6 (>= 2.34); however:
+  Package libc6 is not installed.
+ base-passwd depends on libdebconfclient0 (>= 0.145); however:
+  Package libdebconfclient0 is not installed.
+ base-passwd depends on libselinux1 (>= 3.1~); however:
+  Package libselinux1 is not installed.
+
+Setting up base-passwd (3.6.1) ...
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 24 package 'dpkg':
+ missing 'Description' field
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 24 package 'dpkg':
+ missing 'Architecture' field
+Selecting previously unselected package base-files.
+dpkg: regarding .../base-files_12.4+deb12u11_amd64.deb containing base-files, pre-dependency problem:
+ base-files pre-depends on awk
+  awk is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+(Reading database ... 41 files and directories currently installed.)
+Preparing to unpack .../base-files_12.4+deb12u11_amd64.deb ...
+Unpacking base-files (12.4+deb12u11) ...
+dpkg: base-files: dependency problems, but configuring anyway as you requested:
+ base-files depends on awk; however:
+  Package awk is not installed.
+
+Setting up base-files (12.4+deb12u11) ...
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 51 package 'dpkg':
+ missing 'Description' field
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 51 package 'dpkg':
+ missing 'Architecture' field
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libbz2-1.0
+  libbz2-1.0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libc6 (>= 2.34)
+  libc6 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on liblzma5 (>= 5.4.0)
+  liblzma5 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libmd0 (>= 0.0.0)
+  libmd0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libselinux1 (>= 3.1~)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libzstd1 (>= 1.5.2)
+  libzstd1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+(Reading database ... 121 files and directories currently installed.)
+Preparing to unpack .../dpkg_1.21.22_amd64.deb ...
+Unpacking dpkg (1.21.22) over (1.21.22) ...
+dpkg: dpkg: dependency problems, but configuring anyway as you requested:
+ dpkg depends on libbz2-1.0; however:
+  Package libbz2-1.0 is not installed.
+ dpkg depends on libc6 (>= 2.34); however:
+  Package libc6 is not installed.
+ dpkg depends on liblzma5 (>= 5.4.0); however:
+  Package liblzma5 is not installed.
+ dpkg depends on libmd0 (>= 0.0.0); however:
+  Package libmd0 is not installed.
+ dpkg depends on libselinux1 (>= 3.1~); however:
+  Package libselinux1 is not installed.
+ dpkg depends on libzstd1 (>= 1.5.2); however:
+  Package libzstd1 is not installed.
+ dpkg depends on zlib1g (>= 1:1.1.4); however:
+  Package zlib1g is not installed.
+ dpkg depends on tar (>= 1.28-1); however:
+  Package tar is not installed.
+
+Setting up dpkg (1.21.22) ...
+Selecting previously unselected package libc6:amd64.
+(Reading database ... 420 files and directories currently installed.)
+Preparing to unpack .../libc6_2.36-9+deb12u10_amd64.deb ...
+Unpacking libc6:amd64 (2.36-9+deb12u10) ...
+dpkg: libc6:amd64: dependency problems, but configuring anyway as you requested:
+ libc6:amd64 depends on libgcc-s1; however:
+  Package libgcc-s1 is not installed.
+
+Setting up libc6:amd64 (2.36-9+deb12u10) ...
+Selecting previously unselected package perl-base.
+dpkg: regarding .../perl-base_5.36.0-7+deb12u2_amd64.deb containing perl-base, pre-dependency problem:
+ perl-base pre-depends on libcrypt1 (>= 1:4.1.0)
+  libcrypt1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+(Reading database ... 713 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.36.0-7+deb12u2_amd64.deb ...
+Unpacking perl-base (5.36.0-7+deb12u2) ...
+dpkg: perl-base: dependency problems, but configuring anyway as you requested:
+ perl-base depends on libcrypt1 (>= 1:4.1.0); however:
+  Package libcrypt1 is not installed.
+
+Setting up perl-base (5.36.0-7+deb12u2) ...
+Selecting previously unselected package mawk.
+(Reading database ... 1441 files and directories currently installed.)
+Preparing to unpack .../mawk_1.3.4.20200120-3.1_amd64.deb ...
+Unpacking mawk (1.3.4.20200120-3.1) ...
+Setting up mawk (1.3.4.20200120-3.1) ...
+update-alternatives: using /usr/bin/mawk to provide /usr/bin/awk (awk) in auto mode
+Selecting previously unselected package debconf.
+(Reading database ... 1460 files and directories currently installed.)
+Preparing to unpack .../debconf_1.5.82_all.deb ...
+Unpacking debconf (1.5.82) ...
+Setting up debconf (1.5.82) ...
+Selecting previously unselected package adduser.
+(Reading database ... 1620 files and directories currently installed.)
+Preparing to unpack .../archives/adduser_3.134_all.deb ...
+Unpacking adduser (3.134) ...
+Selecting previously unselected package apt.
+Preparing to unpack .../archives/apt_2.6.1_amd64.deb ...
+Unpacking apt (2.6.1) ...
+Preparing to unpack .../base-files_12.4+deb12u11_amd64.deb ...
+Unpacking base-files (12.4+deb12u11) over (12.4+deb12u11) ...
+Preparing to unpack .../base-passwd_3.6.1_amd64.deb ...
+Unpacking base-passwd (3.6.1) over (3.6.1) ...
+Selecting previously unselected package bash.
+dpkg: regarding .../bash_5.2.15-2+b8_amd64.deb containing bash, pre-dependency problem:
+ bash pre-depends on libtinfo6 (>= 6)
+  libtinfo6 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../bash_5.2.15-2+b8_amd64.deb ...
+Unpacking bash (5.2.15-2+b8) ...
+Selecting previously unselected package bsdutils.
+dpkg: regarding .../bsdutils_1%3a2.38.1-5+deb12u3_amd64.deb containing bsdutils, pre-dependency problem:
+ bsdutils pre-depends on libsystemd0
+  libsystemd0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../bsdutils_1%3a2.38.1-5+deb12u3_amd64.deb ...
+Unpacking bsdutils (1:2.38.1-5+deb12u3) ...
+Selecting previously unselected package coreutils.
+dpkg: regarding .../coreutils_9.1-1_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libacl1 (>= 2.2.23)
+  libacl1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../coreutils_9.1-1_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libattr1 (>= 1:2.4.44)
+  libattr1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../coreutils_9.1-1_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libgmp10 (>= 2:6.2.1+dfsg1)
+  libgmp10 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../coreutils_9.1-1_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libselinux1 (>= 3.1~)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../coreutils_9.1-1_amd64.deb ...
+Unpacking coreutils (9.1-1) ...
+Selecting previously unselected package dash.
+Preparing to unpack .../dash_0.5.12-2_amd64.deb ...
+Unpacking dash (0.5.12-2) ...
+Preparing to unpack .../debconf_1.5.82_all.deb ...
+Unpacking debconf (1.5.82) over (1.5.82) ...
+Selecting previously unselected package debian-archive-keyring.
+Preparing to unpack .../debian-archive-keyring_2023.3+deb12u2_all.deb ...
+Unpacking debian-archive-keyring (2023.3+deb12u2) ...
+Selecting previously unselected package debianutils.
+Preparing to unpack .../debianutils_5.7-0.5~deb12u1_amd64.deb ...
+Unpacking debianutils (5.7-0.5~deb12u1) ...
+Selecting previously unselected package diffutils.
+Preparing to unpack .../diffutils_1%3a3.8-4_amd64.deb ...
+Unpacking diffutils (1:3.8-4) ...
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libbz2-1.0
+  libbz2-1.0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on liblzma5 (>= 5.4.0)
+  liblzma5 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libmd0 (>= 0.0.0)
+  libmd0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libselinux1 (>= 3.1~)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libzstd1 (>= 1.5.2)
+  libzstd1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.21.22_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../dpkg_1.21.22_amd64.deb ...
+Unpacking dpkg (1.21.22) over (1.21.22) ...
+Selecting previously unselected package e2fsprogs.
+dpkg: regarding .../e2fsprogs_1.47.0-2_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libblkid1 (>= 2.36)
+  libblkid1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.47.0-2_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libcom-err2 (>= 1.43.9)
+  libcom-err2 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.47.0-2_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libext2fs2 (= 1.47.0-2)
+  libext2fs2 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.47.0-2_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libss2 (>= 1.38)
+  libss2 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.47.0-2_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libuuid1 (>= 2.16)
+  libuuid1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../e2fsprogs_1.47.0-2_amd64.deb ...
+Unpacking e2fsprogs (1.47.0-2) ...
+Selecting previously unselected package findutils.
+dpkg: regarding .../findutils_4.9.0-4_amd64.deb containing findutils, pre-dependency problem:
+ findutils pre-depends on libselinux1 (>= 3.1~)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../findutils_4.9.0-4_amd64.deb ...
+Unpacking findutils (4.9.0-4) ...
+Selecting previously unselected package gcc-12-base:amd64.
+Preparing to unpack .../gcc-12-base_12.2.0-14+deb12u1_amd64.deb ...
+Unpacking gcc-12-base:amd64 (12.2.0-14+deb12u1) ...
+Selecting previously unselected package gpgv.
+Preparing to unpack .../gpgv_2.2.40-1.1_amd64.deb ...
+Unpacking gpgv (2.2.40-1.1) ...
+Selecting previously unselected package grep.
+dpkg: regarding .../archives/grep_3.8-5_amd64.deb containing grep, pre-dependency problem:
+ grep pre-depends on libpcre2-8-0 (>= 10.32)
+  libpcre2-8-0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../archives/grep_3.8-5_amd64.deb ...
+Unpacking grep (3.8-5) ...
+Selecting previously unselected package gzip.
+Preparing to unpack .../archives/gzip_1.12-1_amd64.deb ...
+Unpacking gzip (1.12-1) ...
+Selecting previously unselected package hostname.
+Preparing to unpack .../hostname_3.23+nmu1_amd64.deb ...
+Unpacking hostname (3.23+nmu1) ...
+Selecting previously unselected package init-system-helpers.
+Preparing to unpack .../init-system-helpers_1.65.2_all.deb ...
+Unpacking init-system-helpers (1.65.2) ...
+Selecting previously unselected package libacl1:amd64.
+Preparing to unpack .../libacl1_2.3.1-3_amd64.deb ...
+Unpacking libacl1:amd64 (2.3.1-3) ...
+Selecting previously unselected package libapt-pkg6.0:amd64.
+Preparing to unpack .../libapt-pkg6.0_2.6.1_amd64.deb ...
+Unpacking libapt-pkg6.0:amd64 (2.6.1) ...
+Selecting previously unselected package libattr1:amd64.
+Preparing to unpack .../libattr1_1%3a2.5.1-4_amd64.deb ...
+Unpacking libattr1:amd64 (1:2.5.1-4) ...
+Selecting previously unselected package libaudit-common.
+Preparing to unpack .../libaudit-common_1%3a3.0.9-1_all.deb ...
+Unpacking libaudit-common (1:3.0.9-1) ...
+Selecting previously unselected package libaudit1:amd64.
+Preparing to unpack .../libaudit1_1%3a3.0.9-1_amd64.deb ...
+Unpacking libaudit1:amd64 (1:3.0.9-1) ...
+Selecting previously unselected package libblkid1:amd64.
+Preparing to unpack .../libblkid1_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libblkid1:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libbz2-1.0:amd64.
+Preparing to unpack .../libbz2-1.0_1.0.8-5+b1_amd64.deb ...
+Unpacking libbz2-1.0:amd64 (1.0.8-5+b1) ...
+Selecting previously unselected package libc-bin.
+Preparing to unpack .../libc-bin_2.36-9+deb12u10_amd64.deb ...
+Unpacking libc-bin (2.36-9+deb12u10) ...
+Preparing to unpack .../libc6_2.36-9+deb12u10_amd64.deb ...
+Unpacking libc6:amd64 (2.36-9+deb12u10) over (2.36-9+deb12u10) ...
+Selecting previously unselected package libcap-ng0:amd64.
+Preparing to unpack .../libcap-ng0_0.8.3-1+b3_amd64.deb ...
+Unpacking libcap-ng0:amd64 (0.8.3-1+b3) ...
+Selecting previously unselected package libcap2:amd64.
+Preparing to unpack .../libcap2_1%3a2.66-4+deb12u1_amd64.deb ...
+Unpacking libcap2:amd64 (1:2.66-4+deb12u1) ...
+Selecting previously unselected package libcom-err2:amd64.
+Preparing to unpack .../libcom-err2_1.47.0-2_amd64.deb ...
+Unpacking libcom-err2:amd64 (1.47.0-2) ...
+Selecting previously unselected package libcrypt1:amd64.
+Preparing to unpack .../libcrypt1_1%3a4.4.33-2_amd64.deb ...
+Unpacking libcrypt1:amd64 (1:4.4.33-2) ...
+Selecting previously unselected package libdb5.3:amd64.
+Preparing to unpack .../libdb5.3_5.3.28+dfsg2-1_amd64.deb ...
+Unpacking libdb5.3:amd64 (5.3.28+dfsg2-1) ...
+Selecting previously unselected package libdebconfclient0:amd64.
+Preparing to unpack .../libdebconfclient0_0.270_amd64.deb ...
+Unpacking libdebconfclient0:amd64 (0.270) ...
+Selecting previously unselected package libext2fs2:amd64.
+Preparing to unpack .../libext2fs2_1.47.0-2_amd64.deb ...
+Unpacking libext2fs2:amd64 (1.47.0-2) ...
+Selecting previously unselected package libffi8:amd64.
+Preparing to unpack .../libffi8_3.4.4-1_amd64.deb ...
+Unpacking libffi8:amd64 (3.4.4-1) ...
+Selecting previously unselected package libgcc-s1:amd64.
+Preparing to unpack .../libgcc-s1_12.2.0-14+deb12u1_amd64.deb ...
+Unpacking libgcc-s1:amd64 (12.2.0-14+deb12u1) ...
+Selecting previously unselected package libgcrypt20:amd64.
+Preparing to unpack .../libgcrypt20_1.10.1-3_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.10.1-3) ...
+Selecting previously unselected package libgmp10:amd64.
+Preparing to unpack .../libgmp10_2%3a6.2.1+dfsg1-1.1_amd64.deb ...
+Unpacking libgmp10:amd64 (2:6.2.1+dfsg1-1.1) ...
+Selecting previously unselected package libgnutls30:amd64.
+Preparing to unpack .../libgnutls30_3.7.9-2+deb12u4_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.7.9-2+deb12u4) ...
+Selecting previously unselected package libgpg-error0:amd64.
+Preparing to unpack .../libgpg-error0_1.46-1_amd64.deb ...
+Unpacking libgpg-error0:amd64 (1.46-1) ...
+Selecting previously unselected package libhogweed6:amd64.
+Preparing to unpack .../libhogweed6_3.8.1-2_amd64.deb ...
+Unpacking libhogweed6:amd64 (3.8.1-2) ...
+Selecting previously unselected package libidn2-0:amd64.
+Preparing to unpack .../libidn2-0_2.3.3-1+b1_amd64.deb ...
+Unpacking libidn2-0:amd64 (2.3.3-1+b1) ...
+Selecting previously unselected package liblz4-1:amd64.
+Preparing to unpack .../liblz4-1_1.9.4-1_amd64.deb ...
+Unpacking liblz4-1:amd64 (1.9.4-1) ...
+Selecting previously unselected package liblzma5:amd64.
+Preparing to unpack .../liblzma5_5.4.1-1_amd64.deb ...
+Unpacking liblzma5:amd64 (5.4.1-1) ...
+Selecting previously unselected package libmd0:amd64.
+Preparing to unpack .../libmd0_1.0.4-2_amd64.deb ...
+Unpacking libmd0:amd64 (1.0.4-2) ...
+Selecting previously unselected package libmount1:amd64.
+Preparing to unpack .../libmount1_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libmount1:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libnettle8:amd64.
+Preparing to unpack .../libnettle8_3.8.1-2_amd64.deb ...
+Unpacking libnettle8:amd64 (3.8.1-2) ...
+Selecting previously unselected package libp11-kit0:amd64.
+Preparing to unpack .../libp11-kit0_0.24.1-2_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.24.1-2) ...
+Selecting previously unselected package libpam-modules:amd64.
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libaudit1 (>= 1:2.2.1)
+  libaudit1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libcrypt1 (>= 1:4.3.0)
+  libcrypt1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libdb5.3
+  libdb5.3:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libpam0g (>= 1.4.1)
+  libpam0g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libselinux1 (>= 3.1~)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.5.2-6+deb12u1_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libpam-modules-bin (= 1.5.2-6+deb12u1)
+  libpam-modules-bin is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../libpam-modules_1.5.2-6+deb12u1_amd64.deb ...
+Unpacking libpam-modules:amd64 (1.5.2-6+deb12u1) ...
+Selecting previously unselected package libpam-modules-bin.
+Preparing to unpack .../libpam-modules-bin_1.5.2-6+deb12u1_amd64.deb ...
+Unpacking libpam-modules-bin (1.5.2-6+deb12u1) ...
+Selecting previously unselected package libpam-runtime.
+Preparing to unpack .../libpam-runtime_1.5.2-6+deb12u1_all.deb ...
+Unpacking libpam-runtime (1.5.2-6+deb12u1) ...
+Selecting previously unselected package libpam0g:amd64.
+Preparing to unpack .../libpam0g_1.5.2-6+deb12u1_amd64.deb ...
+Unpacking libpam0g:amd64 (1.5.2-6+deb12u1) ...
+Selecting previously unselected package libpcre2-8-0:amd64.
+Preparing to unpack .../libpcre2-8-0_10.42-1_amd64.deb ...
+Unpacking libpcre2-8-0:amd64 (10.42-1) ...
+Selecting previously unselected package libseccomp2:amd64.
+Preparing to unpack .../libseccomp2_2.5.4-1+deb12u1_amd64.deb ...
+Unpacking libseccomp2:amd64 (2.5.4-1+deb12u1) ...
+Selecting previously unselected package libselinux1:amd64.
+Preparing to unpack .../libselinux1_3.4-1+b6_amd64.deb ...
+Unpacking libselinux1:amd64 (3.4-1+b6) ...
+Selecting previously unselected package libsemanage-common.
+Preparing to unpack .../libsemanage-common_3.4-1_all.deb ...
+Unpacking libsemanage-common (3.4-1) ...
+Selecting previously unselected package libsemanage2:amd64.
+Preparing to unpack .../libsemanage2_3.4-1+b5_amd64.deb ...
+Unpacking libsemanage2:amd64 (3.4-1+b5) ...
+Selecting previously unselected package libsepol2:amd64.
+Preparing to unpack .../libsepol2_3.4-2.1_amd64.deb ...
+Unpacking libsepol2:amd64 (3.4-2.1) ...
+Selecting previously unselected package libsmartcols1:amd64.
+Preparing to unpack .../libsmartcols1_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libss2:amd64.
+Preparing to unpack .../libss2_1.47.0-2_amd64.deb ...
+Unpacking libss2:amd64 (1.47.0-2) ...
+Selecting previously unselected package libstdc++6:amd64.
+Preparing to unpack .../libstdc++6_12.2.0-14+deb12u1_amd64.deb ...
+Unpacking libstdc++6:amd64 (12.2.0-14+deb12u1) ...
+Selecting previously unselected package libsystemd0:amd64.
+Preparing to unpack .../libsystemd0_252.36-1~deb12u1_amd64.deb ...
+Unpacking libsystemd0:amd64 (252.36-1~deb12u1) ...
+Selecting previously unselected package libtasn1-6:amd64.
+Preparing to unpack .../libtasn1-6_4.19.0-2+deb12u1_amd64.deb ...
+Unpacking libtasn1-6:amd64 (4.19.0-2+deb12u1) ...
+Selecting previously unselected package libtinfo6:amd64.
+Preparing to unpack .../libtinfo6_6.4-4_amd64.deb ...
+Unpacking libtinfo6:amd64 (6.4-4) ...
+Selecting previously unselected package libudev1:amd64.
+Preparing to unpack .../libudev1_252.36-1~deb12u1_amd64.deb ...
+Unpacking libudev1:amd64 (252.36-1~deb12u1) ...
+Selecting previously unselected package libunistring2:amd64.
+Preparing to unpack .../libunistring2_1.0-2_amd64.deb ...
+Unpacking libunistring2:amd64 (1.0-2) ...
+Selecting previously unselected package libuuid1:amd64.
+Preparing to unpack .../libuuid1_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libuuid1:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libxxhash0:amd64.
+Preparing to unpack .../libxxhash0_0.8.1-1_amd64.deb ...
+Unpacking libxxhash0:amd64 (0.8.1-1) ...
+Selecting previously unselected package libzstd1:amd64.
+Preparing to unpack .../libzstd1_1.5.4+dfsg2-5_amd64.deb ...
+Unpacking libzstd1:amd64 (1.5.4+dfsg2-5) ...
+Selecting previously unselected package login.
+dpkg: regarding .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libaudit1 (>= 1:2.2.1)
+  libaudit1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libcrypt1 (>= 1:4.1.0)
+  libcrypt1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam0g (>= 0.99.7.1)
+  libpam0g:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam-runtime
+  libpam-runtime is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam-modules
+  libpam-modules:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../login_1%3a4.13+dfsg1-1+deb12u1_amd64.deb ...
+Unpacking login (1:4.13+dfsg1-1+deb12u1) ...
+Selecting previously unselected package logsave.
+Preparing to unpack .../logsave_1.47.0-2_amd64.deb ...
+Unpacking logsave (1.47.0-2) ...
+Preparing to unpack .../mawk_1.3.4.20200120-3.1_amd64.deb ...
+Unpacking mawk (1.3.4.20200120-3.1) over (1.3.4.20200120-3.1) ...
+Selecting previously unselected package mount.
+dpkg: regarding .../mount_2.38.1-5+deb12u3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libblkid1 (>= 2.17.2)
+  libblkid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.38.1-5+deb12u3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libmount1 (>= 2.38)
+  libmount1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.38.1-5+deb12u3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libselinux1 (>= 3.1~)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.38.1-5+deb12u3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libsmartcols1 (>= 2.33)
+  libsmartcols1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../mount_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking mount (2.38.1-5+deb12u3) ...
+Selecting previously unselected package ncurses-base.
+Preparing to unpack .../ncurses-base_6.4-4_all.deb ...
+Unpacking ncurses-base (6.4-4) ...
+Selecting previously unselected package ncurses-bin.
+dpkg: regarding .../ncurses-bin_6.4-4_amd64.deb containing ncurses-bin, pre-dependency problem:
+ ncurses-bin pre-depends on libtinfo6 (>= 6.3)
+  libtinfo6:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../ncurses-bin_6.4-4_amd64.deb ...
+Unpacking ncurses-bin (6.4-4) ...
+Selecting previously unselected package passwd.
+Preparing to unpack .../passwd_1%3a4.13+dfsg1-1+deb12u1_amd64.deb ...
+Unpacking passwd (1:4.13+dfsg1-1+deb12u1) ...
+dpkg: regarding .../perl-base_5.36.0-7+deb12u2_amd64.deb containing perl-base, pre-dependency problem:
+ perl-base pre-depends on libcrypt1 (>= 1:4.1.0)
+  libcrypt1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../perl-base_5.36.0-7+deb12u2_amd64.deb ...
+Unpacking perl-base (5.36.0-7+deb12u2) over (5.36.0-7+deb12u2) ...
+Selecting previously unselected package sed.
+dpkg: regarding .../archives/sed_4.9-1_amd64.deb containing sed, pre-dependency problem:
+ sed pre-depends on libacl1 (>= 2.2.23)
+  libacl1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../archives/sed_4.9-1_amd64.deb containing sed, pre-dependency problem:
+ sed pre-depends on libselinux1 (>= 3.1~)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../archives/sed_4.9-1_amd64.deb ...
+Unpacking sed (4.9-1) ...
+Selecting previously unselected package sysvinit-utils.
+Preparing to unpack .../sysvinit-utils_3.06-4_amd64.deb ...
+Unpacking sysvinit-utils (3.06-4) ...
+Selecting previously unselected package tar.
+dpkg: regarding .../tar_1.34+dfsg-1.2+deb12u1_amd64.deb containing tar, pre-dependency problem:
+ tar pre-depends on libacl1 (>= 2.2.23)
+  libacl1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../tar_1.34+dfsg-1.2+deb12u1_amd64.deb containing tar, pre-dependency problem:
+ tar pre-depends on libselinux1 (>= 3.1~)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../tar_1.34+dfsg-1.2+deb12u1_amd64.deb ...
+Unpacking tar (1.34+dfsg-1.2+deb12u1) ...
+Selecting previously unselected package tzdata.
+Preparing to unpack .../tzdata_2025b-0+deb12u1_all.deb ...
+Unpacking tzdata (2025b-0+deb12u1) ...
+Selecting previously unselected package usr-is-merged.
+Preparing to unpack .../usr-is-merged_37~deb12u1_all.deb ...
+Unpacking usr-is-merged (37~deb12u1) ...
+Selecting previously unselected package util-linux.
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libblkid1 (>= 2.37.2)
+  libblkid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libcap-ng0 (>= 0.7.9)
+  libcap-ng0:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libcrypt1 (>= 1:4.1.0)
+  libcrypt1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libmount1 (>= 2.38)
+  libmount1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libpam0g (>= 0.99.7.1)
+  libpam0g:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libselinux1 (>= 3.1~)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libsmartcols1 (>= 2.38)
+  libsmartcols1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libsystemd0
+  libsystemd0:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libtinfo6 (>= 6)
+  libtinfo6:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libudev1 (>= 183)
+  libudev1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libuuid1 (>= 2.16)
+  libuuid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.38.1-5+deb12u3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../util-linux_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking util-linux (2.38.1-5+deb12u3) ...
+Selecting previously unselected package util-linux-extra.
+Preparing to unpack .../util-linux-extra_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking util-linux-extra (2.38.1-5+deb12u3) ...
+Selecting previously unselected package zlib1g:amd64.
+Preparing to unpack .../zlib1g_1%3a1.2.13.dfsg-1_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.13.dfsg-1) ...
+Setting up debian-archive-keyring (2023.3+deb12u2) ...
+Setting up usr-is-merged (37~deb12u1) ...
+Setting up libaudit-common (1:3.0.9-1) ...
+Setting up libsemanage-common (3.4-1) ...
+Setting up debconf (1.5.82) ...
+Setting up gcc-12-base:amd64 (12.2.0-14+deb12u1) ...
+Setting up tzdata (2025b-0+deb12u1) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Thu Jul 17 01:16:26 UTC 2025.
+Universal Time is now:  Thu Jul 17 01:16:26 UTC 2025.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up ncurses-base (6.4-4) ...
+Setting up init-system-helpers (1.65.2) ...
+Setting up libgcc-s1:amd64 (12.2.0-14+deb12u1) ...
+Setting up libc6:amd64 (2.36-9+deb12u10) ...
+Setting up libudev1:amd64 (252.36-1~deb12u1) ...
+Setting up libffi8:amd64 (3.4.4-1) ...
+Setting up libmd0:amd64 (1.0.4-2) ...
+Setting up libxxhash0:amd64 (0.8.1-1) ...
+Setting up libattr1:amd64 (1:2.5.1-4) ...
+Setting up sysvinit-utils (3.06-4) ...
+Setting up libtasn1-6:amd64 (4.19.0-2+deb12u1) ...
+Setting up debianutils (5.7-0.5~deb12u1) ...
+update-alternatives: using /usr/bin/which.debianutils to provide /usr/bin/which (which) in auto mode
+Setting up mawk (1.3.4.20200120-3.1) ...
+Setting up libdebconfclient0:amd64 (0.270) ...
+Setting up base-files (12.4+deb12u11) ...
+Setting up libbz2-1.0:amd64 (1.0.8-5+b1) ...
+Setting up libdb5.3:amd64 (5.3.28+dfsg2-1) ...
+Setting up libblkid1:amd64 (2.38.1-5+deb12u3) ...
+Setting up libstdc++6:amd64 (12.2.0-14+deb12u1) ...
+Setting up libtinfo6:amd64 (6.4-4) ...
+Setting up bash (5.2.15-2+b8) ...
+update-alternatives: using /usr/share/man/man7/bash-builtins.7.gz to provide /usr/share/man/man7/builtins.7.gz (builtins.7.gz) in auto mode
+Setting up libzstd1:amd64 (1.5.4+dfsg2-5) ...
+Setting up liblzma5:amd64 (5.4.1-1) ...
+Setting up libgpg-error0:amd64 (1.46-1) ...
+Setting up liblz4-1:amd64 (1.9.4-1) ...
+Setting up libc-bin (2.36-9+deb12u10) ...
+Setting up ncurses-bin (6.4-4) ...
+Setting up libacl1:amd64 (2.3.1-3) ...
+Setting up libunistring2:amd64 (1.0-2) ...
+Setting up libsmartcols1:amd64 (2.38.1-5+deb12u3) ...
+Setting up libgcrypt20:amd64 (1.10.1-3) ...
+Setting up zlib1g:amd64 (1:1.2.13.dfsg-1) ...
+Setting up libcrypt1:amd64 (1:4.4.33-2) ...
+Setting up libidn2-0:amd64 (2.3.3-1+b1) ...
+Setting up libcom-err2:amd64 (1.47.0-2) ...
+Setting up diffutils (1:3.8-4) ...
+Setting up libseccomp2:amd64 (2.5.4-1+deb12u1) ...
+Setting up libcap2:amd64 (1:2.66-4+deb12u1) ...
+Setting up hostname (3.23+nmu1) ...
+Setting up libcap-ng0:amd64 (0.8.3-1+b3) ...
+Setting up libext2fs2:amd64 (1.47.0-2) ...
+Setting up libnettle8:amd64 (3.8.1-2) ...
+Setting up libgmp10:amd64 (2:6.2.1+dfsg1-1.1) ...
+Setting up libp11-kit0:amd64 (0.24.1-2) ...
+Setting up libaudit1:amd64 (1:3.0.9-1) ...
+Setting up libuuid1:amd64 (2.38.1-5+deb12u3) ...
+Setting up libss2:amd64 (1.47.0-2) ...
+Setting up libsepol2:amd64 (3.4-2.1) ...
+Setting up libpcre2-8-0:amd64 (10.42-1) ...
+Setting up logsave (1.47.0-2) ...
+Setting up gpgv (2.2.40-1.1) ...
+Setting up util-linux-extra (2.38.1-5+deb12u3) ...
+Setting up libhogweed6:amd64 (3.8.1-2) ...
+Setting up e2fsprogs (1.47.0-2) ...
+Setting up libsystemd0:amd64 (252.36-1~deb12u1) ...
+Setting up libselinux1:amd64 (3.4-1+b6) ...
+Setting up libgnutls30:amd64 (3.7.9-2+deb12u4) ...
+Setting up libpam0g:amd64 (1.5.2-6+deb12u1) ...
+Setting up libapt-pkg6.0:amd64 (2.6.1) ...
+Setting up sed (4.9-1) ...
+Setting up findutils (4.9.0-4) ...
+Setting up libmount1:amd64 (2.38.1-5+deb12u3) ...
+Setting up libsemanage2:amd64 (3.4-1+b5) ...
+Setting up base-passwd (3.6.1) ...
+Setting up bsdutils (1:2.38.1-5+deb12u3) ...
+Setting up tar (1.34+dfsg-1.2+deb12u1) ...
+update-alternatives: using /usr/sbin/rmt-tar to provide /usr/sbin/rmt (rmt) in auto mode
+Setting up libpam-modules-bin (1.5.2-6+deb12u1) ...
+Setting up coreutils (9.1-1) ...
+Setting up util-linux (2.38.1-5+deb12u3) ...
+update-alternatives: using /bin/more to provide /usr/bin/pager (pager) in auto mode
+Setting up dpkg (1.21.22) ...
+Setting up mount (2.38.1-5+deb12u3) ...
+Setting up dash (0.5.12-2) ...
+No diversion 'diversion of /bin/sh by bash', none removed.
+Adding 'diversion of /bin/sh to /bin/sh.distrib by dash'
+No diversion 'diversion of /usr/share/man/man1/sh.1.gz by bash', none removed.
+Adding 'diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by dash'
+Setting up libpam-modules:amd64 (1.5.2-6+deb12u1) ...
+Setting up grep (3.8-5) ...
+Setting up perl-base (5.36.0-7+deb12u2) ...
+Setting up gzip (1.12-1) ...
+Setting up passwd (1:4.13+dfsg1-1+deb12u1) ...
+Shadow passwords are now on.
+Setting up libpam-runtime (1.5.2-6+deb12u1) ...
+Setting up login (1:4.13+dfsg1-1+deb12u1) ...
+Setting up adduser (3.134) ...
+Setting up apt (2.6.1) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+(Reading database ... 6089 files and directories currently installed.)
+Preparing to unpack .../libssl3_3.0.16-1~deb12u1_amd64.deb ...
+Unpacking libssl3:amd64 (3.0.16-1~deb12u1) ...
+Setting up libssl3:amd64 (3.0.16-1~deb12u1) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+(Reading database ... 6101 files and directories currently installed.)
+Preparing to unpack .../dmsetup_2%3a1.02.185-2_amd64.deb ...
+Unpacking dmsetup (2:1.02.185-2) ...
+Preparing to unpack .../libapparmor1_3.0.8-3_amd64.deb ...
+Unpacking libapparmor1:amd64 (3.0.8-3) ...
+Preparing to unpack .../libargon2-1_0~20171227-0.3+deb12u1_amd64.deb ...
+Unpacking libargon2-1:amd64 (0~20171227-0.3+deb12u1) ...
+Preparing to unpack .../libcryptsetup12_2%3a2.6.1-4~deb12u2_amd64.deb ...
+Unpacking libcryptsetup12:amd64 (2:2.6.1-4~deb12u2) ...
+Preparing to unpack .../libdevmapper1.02.1_2%3a1.02.185-2_amd64.deb ...
+Unpacking libdevmapper1.02.1:amd64 (2:1.02.185-2) ...
+Preparing to unpack .../libfdisk1_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.38.1-5+deb12u3) ...
+Preparing to unpack .../libip4tc2_1.8.9-2_amd64.deb ...
+Unpacking libip4tc2:amd64 (1.8.9-2) ...
+Preparing to unpack .../libjson-c5_0.16-2_amd64.deb ...
+Unpacking libjson-c5:amd64 (0.16-2) ...
+Preparing to unpack .../libkmod2_30+20221128-1_amd64.deb ...
+Unpacking libkmod2:amd64 (30+20221128-1) ...
+Preparing to unpack .../libsystemd-shared_252.36-1~deb12u1_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (252.36-1~deb12u1) ...
+Preparing to unpack .../systemd_252.36-1~deb12u1_amd64.deb ...
+Unpacking systemd (252.36-1~deb12u1) ...
+Setting up libapparmor1:amd64 (3.0.8-3) ...
+Setting up libargon2-1:amd64 (0~20171227-0.3+deb12u1) ...
+Setting up libfdisk1:amd64 (2.38.1-5+deb12u3) ...
+Setting up libip4tc2:amd64 (1.8.9-2) ...
+Setting up libjson-c5:amd64 (0.16-2) ...
+Setting up libkmod2:amd64 (30+20221128-1) ...
+Setting up libsystemd-shared:amd64 (252.36-1~deb12u1) ...
+Setting up libdevmapper1.02.1:amd64 (2:1.02.185-2) ...
+Setting up dmsetup (2:1.02.185-2) ...
+Setting up libcryptsetup12:amd64 (2:2.6.1-4~deb12u2) ...
+Setting up systemd (252.36-1~deb12u1) ...
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /lib/systemd/system/systemd-pstore.service.
+Initializing machine ID from random generator.
+Creating group 'systemd-journal' with GID 999.
+Creating group 'systemd-network' with GID 998.
+Creating user 'systemd-network' (systemd Network Management) with UID 998 and GID 998.
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+(Reading database ... 7023 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_252.36-1~deb12u1_amd64.deb ...
+Unpacking systemd-sysv (252.36-1~deb12u1) ...
+Setting up systemd-sysv (252.36-1~deb12u1) ...
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "en_US.UTF-8",
+	LANG = "C"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+(Reading database ... 7041 files and directories currently installed.)
+Preparing to unpack .../cron-daemon-common_3.0pl1-162_all.deb ...
+Unpacking cron-daemon-common (3.0pl1-162) ...
+Setting up cron-daemon-common (3.0pl1-162) ...
+Adding group `crontab' (GID 101) ...
+Done.
+(Reading database ... 7059 files and directories currently installed.)
+Preparing to unpack .../apt-utils_2.6.1_amd64.deb ...
+Unpacking apt-utils (2.6.1) ...
+Preparing to unpack .../cpio_2.13+dfsg-7.1_amd64.deb ...
+Unpacking cpio (2.13+dfsg-7.1) ...
+Preparing to unpack .../cron_3.0pl1-162_amd64.deb ...
+Unpacking cron (3.0pl1-162) ...
+Preparing to unpack .../debconf-i18n_1.5.82_all.deb ...
+Unpacking debconf-i18n (1.5.82) ...
+Preparing to unpack .../dmidecode_3.4-1_amd64.deb ...
+Unpacking dmidecode (3.4-1) ...
+Preparing to unpack .../fdisk_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking fdisk (2.38.1-5+deb12u3) ...
+Preparing to unpack .../ifupdown_0.8.41_amd64.deb ...
+Unpacking ifupdown (0.8.41) ...
+Preparing to unpack .../archives/init_1.65.2_amd64.deb ...
+Unpacking init (1.65.2) ...
+Preparing to unpack .../iproute2_6.1.0-3_amd64.deb ...
+Unpacking iproute2 (6.1.0-3) ...
+Preparing to unpack .../iputils-ping_3%3a20221126-1+deb12u1_amd64.deb ...
+Unpacking iputils-ping (3:20221126-1+deb12u1) ...
+Preparing to unpack .../isc-dhcp-client_4.4.3-P1-2_amd64.deb ...
+Unpacking isc-dhcp-client (4.4.3-P1-2) ...
+Preparing to unpack .../isc-dhcp-common_4.4.3-P1-2_amd64.deb ...
+Unpacking isc-dhcp-common (4.4.3-P1-2) ...
+Preparing to unpack .../kmod_30+20221128-1_amd64.deb ...
+Unpacking kmod (30+20221128-1) ...
+Preparing to unpack .../less_590-2.1~deb12u2_amd64.deb ...
+Unpacking less (590-2.1~deb12u2) ...
+Preparing to unpack .../libbpf1_1%3a1.1.0-1_amd64.deb ...
+Unpacking libbpf1:amd64 (1:1.1.0-1) ...
+Preparing to unpack .../libbsd0_0.11.7-2_amd64.deb ...
+Unpacking libbsd0:amd64 (0.11.7-2) ...
+Preparing to unpack .../libcap2-bin_1%3a2.66-4+deb12u1_amd64.deb ...
+Unpacking libcap2-bin (1:2.66-4+deb12u1) ...
+Preparing to unpack .../libedit2_3.1-20221030-2_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20221030-2) ...
+Preparing to unpack .../libelf1_0.188-2.1_amd64.deb ...
+Unpacking libelf1:amd64 (0.188-2.1) ...
+Preparing to unpack .../libgssapi-krb5-2_1.20.1-2+deb12u3_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.20.1-2+deb12u3) ...
+Preparing to unpack .../libjansson4_2.14-2_amd64.deb ...
+Unpacking libjansson4:amd64 (2.14-2) ...
+Preparing to unpack .../libk5crypto3_1.20.1-2+deb12u3_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.20.1-2+deb12u3) ...
+Preparing to unpack .../libkeyutils1_1.6.3-2_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6.3-2) ...
+Preparing to unpack .../libkrb5-3_1.20.1-2+deb12u3_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.20.1-2+deb12u3) ...
+Preparing to unpack .../libkrb5support0_1.20.1-2+deb12u3_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.20.1-2+deb12u3) ...
+Preparing to unpack .../liblocale-gettext-perl_1.07-5_amd64.deb ...
+Unpacking liblocale-gettext-perl (1.07-5) ...
+Preparing to unpack .../libmnl0_1.0.4-3_amd64.deb ...
+Unpacking libmnl0:amd64 (1.0.4-3) ...
+Preparing to unpack .../libncursesw6_6.4-4_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4-4) ...
+Preparing to unpack .../libnewt0.52_0.52.23-1+b1_amd64.deb ...
+Unpacking libnewt0.52:amd64 (0.52.23-1+b1) ...
+Preparing to unpack .../libnftables1_1.0.6-2+deb12u2_amd64.deb ...
+Unpacking libnftables1:amd64 (1.0.6-2+deb12u2) ...
+Preparing to unpack .../libnftnl11_1.2.4-2_amd64.deb ...
+Unpacking libnftnl11:amd64 (1.2.4-2) ...
+Preparing to unpack .../libpopt0_1.19+dfsg-1_amd64.deb ...
+Unpacking libpopt0:amd64 (1.19+dfsg-1) ...
+Preparing to unpack .../libproc2-0_2%3a4.0.2-3_amd64.deb ...
+Unpacking libproc2-0:amd64 (2:4.0.2-3) ...
+Preparing to unpack .../libreadline8_8.2-1.3_amd64.deb ...
+Unpacking libreadline8:amd64 (8.2-1.3) ...
+Preparing to unpack .../libslang2_2.3.3-3_amd64.deb ...
+Unpacking libslang2:amd64 (2.3.3-3) ...
+Preparing to unpack .../libtext-charwidth-perl_0.04-11_amd64.deb ...
+Unpacking libtext-charwidth-perl:amd64 (0.04-11) ...
+Preparing to unpack .../libtext-iconv-perl_1.7-8_amd64.deb ...
+Unpacking libtext-iconv-perl:amd64 (1.7-8) ...
+Preparing to unpack .../libtext-wrapi18n-perl_0.06-10_all.deb ...
+Unpacking libtext-wrapi18n-perl (0.06-10) ...
+Preparing to unpack .../libtirpc-common_1.3.3+ds-1_all.deb ...
+Unpacking libtirpc-common (1.3.3+ds-1) ...
+Preparing to unpack .../libtirpc3_1.3.3+ds-1_amd64.deb ...
+Unpacking libtirpc3:amd64 (1.3.3+ds-1) ...
+Preparing to unpack .../libxtables12_1.8.9-2_amd64.deb ...
+Unpacking libxtables12:amd64 (1.8.9-2) ...
+Preparing to unpack .../logrotate_3.21.0-1_amd64.deb ...
+Unpacking logrotate (3.21.0-1) ...
+Preparing to unpack .../nano_7.2-1+deb12u1_amd64.deb ...
+Unpacking nano (7.2-1+deb12u1) ...
+Preparing to unpack .../archives/netbase_6.4_all.deb ...
+Unpacking netbase (6.4) ...
+Preparing to unpack .../nftables_1.0.6-2+deb12u2_amd64.deb ...
+Unpacking nftables (1.0.6-2+deb12u2) ...
+Preparing to unpack .../procps_2%3a4.0.2-3_amd64.deb ...
+Unpacking procps (2:4.0.2-3) ...
+Preparing to unpack .../readline-common_8.2-1.3_all.deb ...
+Unpacking readline-common (8.2-1.3) ...
+Preparing to unpack .../sensible-utils_0.0.17+nmu1_all.deb ...
+Unpacking sensible-utils (0.0.17+nmu1) ...
+Preparing to unpack .../archives/tasksel_3.73_all.deb ...
+Unpacking tasksel (3.73) ...
+Preparing to unpack .../tasksel-data_3.73_all.deb ...
+Unpacking tasksel-data (3.73) ...
+Preparing to unpack .../udev_252.36-1~deb12u1_amd64.deb ...
+Unpacking udev (252.36-1~deb12u1) ...
+Preparing to unpack .../vim-common_2%3a9.0.1378-2+deb12u2_all.deb ...
+Unpacking vim-common (2:9.0.1378-2+deb12u2) ...
+Preparing to unpack .../vim-tiny_2%3a9.0.1378-2+deb12u2_amd64.deb ...
+Unpacking vim-tiny (2:9.0.1378-2+deb12u2) ...
+Preparing to unpack .../whiptail_0.52.23-1+b1_amd64.deb ...
+Unpacking whiptail (0.52.23-1+b1) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+Setting up cpio (2.13+dfsg-7.1) ...
+update-alternatives: using /bin/mt-gnu to provide /bin/mt (mt) in auto mode
+Setting up libtext-iconv-perl:amd64 (1.7-8) ...
+Setting up libtext-charwidth-perl:amd64 (0.04-11) ...
+Setting up libkeyutils1:amd64 (1.6.3-2) ...
+Setting up apt-utils (2.6.1) ...
+Setting up init (1.65.2) ...
+Setting up libtirpc-common (1.3.3+ds-1) ...
+Setting up less (590-2.1~deb12u2) ...
+Setting up kmod (30+20221128-1) ...
+Setting up libtext-wrapi18n-perl (0.06-10) ...
+Setting up libjansson4:amd64 (2.14-2) ...
+Setting up libkrb5support0:amd64 (1.20.1-2+deb12u3) ...
+Setting up libcap2-bin (1:2.66-4+deb12u1) ...
+Setting up vim-common (2:9.0.1378-2+deb12u2) ...
+Setting up libslang2:amd64 (2.3.3-3) ...
+Setting up libproc2-0:amd64 (2:4.0.2-3) ...
+Setting up libmnl0:amd64 (1.0.4-3) ...
+Setting up udev (252.36-1~deb12u1) ...
+A chroot environment has been detected, udev not started.
+Setting up libncursesw6:amd64 (6.4-4) ...
+Setting up libk5crypto3:amd64 (1.20.1-2+deb12u3) ...
+Setting up libxtables12:amd64 (1.8.9-2) ...
+Setting up nano (7.2-1+deb12u1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+Setting up sensible-utils (0.0.17+nmu1) ...
+Setting up procps (2:4.0.2-3) ...
+Setting up netbase (6.4) ...
+Setting up isc-dhcp-common (4.4.3-P1-2) ...
+Setting up libkrb5-3:amd64 (1.20.1-2+deb12u3) ...
+Setting up dmidecode (3.4-1) ...
+Setting up libbsd0:amd64 (0.11.7-2) ...
+Setting up libelf1:amd64 (0.188-2.1) ...
+Setting up iputils-ping (3:20221126-1+deb12u1) ...
+Setting up readline-common (8.2-1.3) ...
+Setting up liblocale-gettext-perl (1.07-5) ...
+Setting up libbpf1:amd64 (1:1.1.0-1) ...
+Setting up libpopt0:amd64 (1.19+dfsg-1) ...
+Setting up logrotate (3.21.0-1) ...
+Created symlink /etc/systemd/system/timers.target.wants/logrotate.timer → /lib/systemd/system/logrotate.timer.
+Setting up libnewt0.52:amd64 (0.52.23-1+b1) ...
+Setting up libedit2:amd64 (3.1-20221030-2) ...
+Setting up libreadline8:amd64 (8.2-1.3) ...
+Setting up cron (3.0pl1-162) ...
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/cron.service → /lib/systemd/system/cron.service.
+Setting up debconf-i18n (1.5.82) ...
+Setting up libnftnl11:amd64 (1.2.4-2) ...
+Setting up vim-tiny (2:9.0.1378-2+deb12u2) ...
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/view (view) in auto mode
+Setting up fdisk (2.38.1-5+deb12u3) ...
+Setting up libgssapi-krb5-2:amd64 (1.20.1-2+deb12u3) ...
+Setting up whiptail (0.52.23-1+b1) ...
+Setting up libtirpc3:amd64 (1.3.3+ds-1) ...
+Setting up libnftables1:amd64 (1.0.6-2+deb12u2) ...
+Setting up nftables (1.0.6-2+deb12u2) ...
+Setting up iproute2 (6.1.0-3) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Setting up isc-dhcp-client (4.4.3-P1-2) ...
+Setting up ifupdown (0.8.41) ...
+Creating /etc/network/interfaces.
+Created symlink /etc/systemd/system/multi-user.target.wants/networking.service → /lib/systemd/system/networking.service.
+Created symlink /etc/systemd/system/network-online.target.wants/networking.service → /lib/systemd/system/networking.service.
+Setting up tasksel (3.73) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Setting up tasksel-data (3.73) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...

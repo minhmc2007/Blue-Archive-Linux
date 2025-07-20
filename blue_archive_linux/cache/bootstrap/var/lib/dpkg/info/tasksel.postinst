@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+# Get tasksel's templates loaded up.
+. /usr/share/debconf/confmodule
+# Automatically added by dh_installmenu/13.11.4
+if [ "$1" = "configure" ] && [ -x "`command -v update-menus`" ] && [ -x "$DPKG_ROOT`command -v update-menus`" ]; then
+	update-menus
+fi
+# End automatically added section
+

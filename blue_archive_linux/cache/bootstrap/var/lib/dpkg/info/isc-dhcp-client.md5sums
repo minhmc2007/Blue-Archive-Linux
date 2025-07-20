@@ -1,0 +1,12 @@
+109391dbf7c16929b94f472710eded40  sbin/dhclient
+a75ea42aaae3751cfe350fbfbdc07298  sbin/dhclient-script
+e022a905540ba484c241ca96793547be  usr/share/doc/isc-dhcp-client/NEWS.Debian.gz
+3ad026ee8a5a88d4bf53d8c65968a0ca  usr/share/doc/isc-dhcp-client/README.gz
+ce0709333f86ad94a573735f5269a8b1  usr/share/doc/isc-dhcp-client/changelog.Debian.gz
+010baed8993701ab49afeced2044ac4e  usr/share/doc/isc-dhcp-client/changelog.gz
+411dd0bc31f205338064fe8a0204e8f6  usr/share/doc/isc-dhcp-client/copyright
+2724af1a21ae583001c264eb38b91155  usr/share/doc/isc-dhcp-client/dhclient.conf.example
+76c80cb22d15310cec31bae6088226c7  usr/share/man/man5/dhclient.conf.5.gz
+f0ae91acbfa3f2208fbf0a05401c324c  usr/share/man/man5/dhclient.leases.5.gz
+b6c1944cf501d6c679b43e9a78310903  usr/share/man/man8/dhclient-script.8.gz
+788f07002e910d2bf3ee616f350c7f7b  usr/share/man/man8/dhclient.8.gz
