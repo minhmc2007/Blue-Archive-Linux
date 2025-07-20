@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+echo "blue_archive_linux" > /etc/hostname
