@@ -37,13 +37,13 @@ LB_PARENT_MIRROR_BOOTSTRAP="http://deb.debian.org/debian/"
 LB_PARENT_MIRROR_CHROOT="http://deb.debian.org/debian/"
 
 # Set security parent mirror to fetch packages from
-LB_PARENT_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
+LB_PARENT_MIRROR_CHROOT_SECURITY="http://security.debian.org/debian-security"
 
 # Set parent mirror which ends up in the image
 LB_PARENT_MIRROR_BINARY="http://deb.debian.org/debian/"
 
 # Set security parent mirror which ends up in the image
-LB_PARENT_MIRROR_BINARY_SECURITY="http://security.debian.org/"
+LB_PARENT_MIRROR_BINARY_SECURITY="http://security.debian.org/debian-security"
 
 # Set debian-installer parent mirror
 LB_PARENT_MIRROR_DEBIAN_INSTALLER="http://deb.debian.org/debian/"
@@ -55,13 +55,13 @@ LB_MIRROR_BOOTSTRAP="http://deb.debian.org/debian/"
 LB_MIRROR_CHROOT="http://deb.debian.org/debian/"
 
 # Set security mirror to fetch packages from
-LB_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
+LB_MIRROR_CHROOT_SECURITY="http://security.debian.org/debian-security"
 
 # Set mirror which ends up in the image
 LB_MIRROR_BINARY="http://deb.debian.org/debian/"
 
 # Set security mirror which ends up in the image
-LB_MIRROR_BINARY_SECURITY="http://security.debian.org/"
+LB_MIRROR_BINARY_SECURITY="http://security.debian.org/debian-security"
 
 # Set debian-installer mirror
 LB_MIRROR_DEBIAN_INSTALLER="http://deb.debian.org/debian/"
