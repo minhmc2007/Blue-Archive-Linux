@@ -1,0 +1,232 @@
+/* General Styles */
+:root {
+    --primary-color: #00a8ff;
+    --secondary-color: #4ecdc4;
+    --background-color: #f4f7f6;
+    --text-color: #333;
+    --heading-color: #2c3e50;
+    --card-bg-color: #ffffff;
+    --border-radius: 8px;
+    --shadow: 0 4px 8px rgba(0,0,0,0.1);
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    --primary-color: #007acc;
+    --secondary-color: #3aa39b;
+    --background-color: #1a1a1a;
+    --text-color: #f4f7f6;
+    --heading-color: #ffffff;
+    --card-bg-color: #2c2c2c;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+}
+
+/* Navigation */
+nav {
+    background: var(--card-bg-color);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: var(--heading-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#theme-switcher {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#theme-switcher:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    background: var(--card-bg-color);
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    scroll-margin-top: 80px; /* Offset for sticky nav */
+}
+
+section h2 {
+    color: var(--heading-color);
+    font-size: 2em;
+    margin-top: 0;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+section h2 .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+/* Feature Grid */
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.feature-item {
+    background: #fdfdfd;
+    padding: 20px;
+    border-left: 4px solid var(--primary-color);
+}
+
+body.dark-mode .feature-item {
+    background: #3a3a3a;
+}
+
+.feature-item h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Code Blocks */
+pre {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+body.dark-mode pre {
+    background: #1a1a1a;
+}
+
+code {
+    font-family: "Fira Code", "Courier New", monospace;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: var(--heading-color);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
