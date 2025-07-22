@@ -14,19 +14,20 @@ jobs:
         with:
           fetch-depth: 0 # Fetch full history for changelog generation
 
-      - name: Build ISO in Docker (privileged)
+      - name: Install build dependencies
         run: |
-          docker run --rm --privileged -v "${{ github.workspace }}":/build -w /build archlinux:base /bin/bash -c "
-            pacman -Sy --noconfirm archiso git &&
-            git clone https://github.com/minhmc2007/Blue-Archive-Linux &&
-            cd Blue-Archive-Linux/blue_archive_linux &&
-            bash build.sh
-          "
+          sudo apt-get update
+          sudo apt-get install -y live-build debootstrap
+
+      - name: Build the ISO
+        run: |
+          cd blue_archive_linux
+          sudo ./build.sh
 
       - name: Copy ISO from build output
         run: |
           mkdir -p output
-          cp -r Blue-Archive-Linux/blue_archive_linux/out/* output/ || echo 'No ISO output found'
+          cp blue_archive_linux/*.iso output/ || echo 'No ISO output found'
 
       - name: Install XZ compression
         run: |
@@ -112,7 +113,7 @@ jobs:
           echo "# 📋 Build Information" > build_info.md
           echo "- **Build Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> build_info.md
           echo "- **Workflow Run**: [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> build_info.md
-          echo "- **Commit**: [\`$(git rev-parse --short HEAD)\`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))" >> build_info.md
+          echo "- **Commit**: [`$(git rev-parse --short HEAD)`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))" >> build_info.md
           echo "- **Branch**: ${{ github.ref_name }}" >> build_info.md
           echo "" >> build_info.md
           if [ -n "${{ steps.compress_iso.outputs.compression_ratio }}" ]; then
@@ -134,5 +135,3 @@ jobs:
           name: "Nightly Build ${{ github.run_id }}"
           body_path: build_info.md
           files: ${{ steps.compress_iso.outputs.compressed_file }}
-          draft: false
-          prerelease: true
