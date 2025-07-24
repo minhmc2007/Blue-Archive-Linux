@@ -217,7 +217,7 @@ sudo apt update && sudo apt install live-build
 
 ---
 
-## 👥 Our Amazing Team
+## 👥 Our Amazing Team (only me still maintain this, others no longer working for this project)
 
 <div align="center">
 
@@ -236,7 +236,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/dungdinhmanh.png" width="100px;" alt="dungdinhmanh"/>
 <br /><sub><b>@dungdinhmanh</b></sub>
 </a>
-<br />Co-Developer
+<br />Co-Developer (no longer maintain)
 </td>
 </tr>
 </table>
@@ -249,7 +249,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/WatashiFuzzy.png" width="80px;" alt="WatashiFuzzy"/>
 <br /><sub><b>@WatashiFuzzy</b></sub>
 </a>
-<br />Beta Testing Lead
+<br />Beta Testing Lead (no longer testing)
 </td>
 <td align="center">
 <a href="https://github.com/minhmc2007/Blue-Archive-Linux/issues/new?template=beta-testing.md">
