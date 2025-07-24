@@ -8,7 +8,7 @@
   
   **A minimal, Blue Archive-themed Linux distribution built by Senseis, for Senseis**
   
-  *Now featuring `bluepm` - our custom package manager for seamless BA experience*
+  *Now featuring `bluepm` - our custom package manager for a seamless BA experience*
 </div>
 
 ---
@@ -110,12 +110,12 @@ bluepm update-cache
 ### 🔥 **Method 1: ISO Installation** (Recommended)
 ```bash
 # Download the latest ISO
- Link: https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest
+Link: https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest
 
 # Flash to USB (Linux)
 sudo dd if=Blue_Archive_Linux*.iso of=/dev/sdX bs=4M status=progress
 
-# Flash Windows 
+# Flash on Windows 
 Use Rufus
 
 # Boot and follow the installer or try the live environment
@@ -199,7 +199,7 @@ bluepm update-cache
 | 🎨 **Design** | Themes, wallpapers, icons | Photoshop, GIMP, UI/UX |
 | 📖 **Documentation** | Guides, tutorials, wiki | Writing, Markdown |
 | 🧪 **Testing** | Beta testing, bug reports | Linux experience |
-| 🌐 **Community** | Github discussion | Communication |
+| 🌐 **Community** | GitHub discussions | Communication |
 
 </div>
 
@@ -217,7 +217,7 @@ sudo apt update && sudo apt install live-build
 
 ---
 
-## 👥 Our Amazing Team (only me still maintain this, others no longer working for this project)
+## 👥 Our Amazing Team (only I maintain this now; others are no longer working on this project)
 
 <div align="center">
 
@@ -236,7 +236,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/dungdinhmanh.png" width="100px;" alt="dungdinhmanh"/>
 <br /><sub><b>@dungdinhmanh</b></sub>
 </a>
-<br />Co-Developer (no longer maintain)
+<br />Co-Developer (no longer maintaining)
 </td>
 </tr>
 </table>
@@ -290,7 +290,7 @@ sudo apt update && sudo apt install live-build
 - 🐧 **Debian Project** - For the solid foundation  
 - 🎨 **Blue Archive Community** - For inspiration and support
 - 💻 **Open Source Community** - For the tools that make this possible
-- Read CREDIT.md for more
+- Read CREDIT.md for more information
 
 ---
 
