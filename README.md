@@ -84,7 +84,15 @@ bluepm update-cache
 <details>
 <summary>🖼️ <strong>Click to see screenshots</strong></summary>
 
-*Screenshots coming soon !*
+<div align="center">
+
+**KDE Plasma**
+<img src="docs/Screenshot_KDE.png" alt="KDE Screenshot" width="400"/>
+
+**XFCE**
+<img src="docs/Screenshot_XFCE.png" alt="XFCE Screenshot" width="400"/>
+
+</div>
 
 **What's included:**
 - 🌸 **Shiroko wallpaper**

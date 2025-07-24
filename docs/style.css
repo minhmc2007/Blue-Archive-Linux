@@ -75,7 +75,7 @@ nav .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 nav a {
@@ -158,6 +158,34 @@ body.dark-mode .feature-item {
     color: var(--primary-color);
 }
 
+/* Screenshot Gallery */
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.screenshot-gallery figure {
+    margin: 0;
+    background: var(--card-bg-color);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.screenshot-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+}
+
+.screenshot-gallery figcaption {
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
 ul,
 ol {
     padding-left: 20px;
@@ -203,6 +231,10 @@ footer {
     text-align: center;
     padding: 30px 0;
     margin-top: 40px;
+}
+
+body.dark-mode footer {
+    background: #1a1a1a;
 }
 
 footer p {
