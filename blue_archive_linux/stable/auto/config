@@ -1,0 +1,16 @@
+#!/bin/bash
+
+lb config noauto \
+    --mode debian \
+    --system live \
+    --architecture amd64 \
+    --distribution bookworm \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --debian-installer live \
+    --debian-installer-gui false \
+    --iso-application "Blue Archive Linux" \
+    --iso-volume "Blue Archive Linux" \
+    --iso-publisher "minhmc2007" \
+    --memtest memtest86+ \
+    --bootappend-live "boot=live" \
+    --binary-images iso-hybrid
