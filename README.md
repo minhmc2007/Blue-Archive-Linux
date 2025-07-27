@@ -30,7 +30,7 @@
 
 ### 💎 **Blue Archive Experience**
 - **Stunning Shiroko wallpapers** (XFCE tested, GNOME/KDE ready)
-- **bluepm package manager** - Our own PM for BA packages
+- **bluepm package manager** - Our own package manager for BA packages
 - **Clean BA branding** throughout the system
 - **More BA goodies coming soon** - SDDM themes, sounds, icons
 
@@ -78,7 +78,6 @@ bluepm update-cache
 
 ---
 
-
 ## 🎨 Visual Experience
 
 <details>
@@ -119,7 +118,6 @@ sudo dd if=Blue_Archive_Linux*.iso of=/dev/sdX bs=4M status=progress
 Use Rufus
 
 # Boot and follow the installer or try the live environment
-
 ```
 
 ### 🛠️ **Method 2: Manual Build** (Advanced)
@@ -141,7 +139,6 @@ bluepm install bal-kde-plasma  # or xfce4, gnome
 
 # Set up bluepm
 bluepm update-cache
-
 ```
 
 ---
@@ -217,7 +214,7 @@ sudo apt update && sudo apt install live-build
 
 ---
 
-## 👥 Our Amazing Team (only I maintain this now; others are no longer working on this project)
+## 👥 Our Amazing Team
 
 <div align="center">
 
@@ -261,6 +258,8 @@ sudo apt update && sudo apt install live-build
 </tr>
 </table>
 
+*Note: I currently maintain this project alone; other contributors are no longer actively working on the project.*
+
 </div>
 
 ---
@@ -272,12 +271,14 @@ sudo apt update && sudo apt install live-build
 **Get Help & Stay Connected**
 
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/minhmc2007/Blue-Archive-Linux/issues)
+[![Telegram](https://img.shields.io/badge/Telegram-Official%20Group-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/blue_archive_linux)
 [![Email](https://img.shields.io/badge/Email-quangminh21072010@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quangminh21072010@gmail.com)
+
+**Join our official Telegram group:** [https://t.me/blue_archive_linux](https://t.me/blue_archive_linux)
 
 </div>
 
 ---
-
 
 ## 📄 License & Credits
 
