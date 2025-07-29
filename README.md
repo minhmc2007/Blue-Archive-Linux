@@ -91,6 +91,9 @@ bluepm update-cache
 **XFCE**
 <img src="docs/Screenshot_XFCE.png" alt="XFCE Screenshot" width="400"/>
 
+**GNOME**
+<img src="docs/Screenshot_GNOME.png" alt="GNOME Screenshot" width="400"/>
+
 </div>
 
 **What's included:**
