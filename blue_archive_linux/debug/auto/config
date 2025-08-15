@@ -4,7 +4,7 @@ lb config noauto \
     --mode debian \
     --system live \
     --architecture amd64 \
-    --distribution bookworm \
+    --distribution trixie \
     --archive-areas "main contrib non-free non-free-firmware" \
     --debian-installer live \
     --debian-installer-gui false \
