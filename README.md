@@ -132,6 +132,11 @@ cd Blue-Archive-Linux && cd blue_archive_linux
 # Run the build script
 sudo bash build.sh
 
+# Or using Makefile
+sudo apt install docker && sudo systemctl start docker
+make menuconfig
+make (you might need to run it as root)
+
 # Flash the generated ISO
 ```
 
