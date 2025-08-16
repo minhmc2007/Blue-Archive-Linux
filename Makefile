@@ -1,6 +1,6 @@
 # Makefile for building Blue Archive Linux ISO inside a Docker container
 # This Makefile is self-contained and does not require any external shell scripts.
-
+# Plz note that if you run sudo make so the iso will be inside /root
 # --- Configuration ---
 # Load the build configuration. It can be set via 'make menuconfig'.
 -include .build_config
@@ -40,7 +40,7 @@ DOCKER_COMMAND = \
 	./build.sh; \
 	\
 	echo "--- [Docker] Moving generated ISO to output volume... ---"; \
-	mv ../../Blue_Archive_Linux_amd64*.iso /output/final.iso; \
+	mv Blue_Archive_Linux_amd64*.iso /output/final.iso; \
 	\
 	echo "--- [Docker] Build process finished successfully. Exiting container. ---";
 
