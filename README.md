@@ -29,7 +29,7 @@
 <td width="50%">
 
 ### 💎 **Blue Archive Experience**
-- **Stunning Shiroko wallpapers** (XFCE tested, GNOME/KDE ready)
+- **Stunning Shiroko wallpapers** (XFCE/GNOME/KDE)
 - **bluepm package manager** - Our own package manager for BA packages
 - **Clean BA branding** throughout the system
 - **More BA goodies coming soon** - SDDM themes, sounds, icons
@@ -72,7 +72,6 @@ bluepm update-cache
 
 **Features:**
 - 🚀 **Lightning fast** - GitHub-based repository
-- 🔒 **Secure** - Package verification and rollback support
 - 🎯 **BA-focused** - Curated packages for the perfect experience
 - 🛡️ **Dependency smart** - Automatic dependency resolution
 
@@ -143,7 +142,7 @@ make (you might need to run it as root)
 ### 🎯 **Post-Install Setup**
 ```bash
 # Install your preferred desktop
-bluepm install bal-kde-plasma  # or xfce4, gnome
+bluepm install bal-kde-plasma  # or bal-xfce, bal-gnome
 
 # Set up bluepm
 bluepm update-cache
