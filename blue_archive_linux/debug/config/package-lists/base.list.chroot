@@ -12,13 +12,13 @@ linux-image-amd64
 # For running commands with root privileges.
 sudo
 # A modern, user-friendly shell.
-fish
+zsh
 # A simple and easy-to-use text editor.
 nano
 # A more advanced, powerful text editor.
-vim-tiny
+neovim
 # For system monitoring.
-htop
+btop fastfetch
 # For bluepm
 python3-requests
 python3-pip
