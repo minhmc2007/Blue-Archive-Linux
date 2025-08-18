@@ -240,7 +240,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/dungdinhmanh.png" width="100px;" alt="dungdinhmanh"/>
 <br /><sub><b>@dungdinhmanh</b></sub>
 </a>
-<br />Co-Developer (no longer maintaining)
+<br />Co-Developer
 </td>
 </tr>
 </table>
@@ -264,8 +264,6 @@ sudo apt update && sudo apt install live-build
 </td>
 </tr>
 </table>
-
-*Note: I currently maintain this project alone; other contributors are no longer actively working on the project.*
 
 </div>
 
