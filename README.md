@@ -29,7 +29,7 @@
 <td width="50%">
 
 ### 💎 **Blue Archive Experience**
-- **Stunning Shiroko wallpapers** (XFCE tested, GNOME/KDE ready)
+- **Stunning Shiroko wallpapers** (XFCE/GNOME/KDE)
 - **bluepm package manager** - Our own package manager for BA packages
 - **Clean BA branding** throughout the system
 - **More BA goodies coming soon** - SDDM themes, sounds, icons
@@ -72,7 +72,6 @@ bluepm update-cache
 
 **Features:**
 - 🚀 **Lightning fast** - GitHub-based repository
-- 🔒 **Secure** - Package verification and rollback support
 - 🎯 **BA-focused** - Curated packages for the perfect experience
 - 🛡️ **Dependency smart** - Automatic dependency resolution
 
@@ -132,13 +131,18 @@ cd Blue-Archive-Linux && cd blue_archive_linux
 # Run the build script
 sudo bash build.sh
 
+# Or using Makefile
+sudo apt install docker && sudo systemctl start docker
+make menuconfig
+make (you might need to run it as root)
+
 # Flash the generated ISO
 ```
 
 ### 🎯 **Post-Install Setup**
 ```bash
 # Install your preferred desktop
-bluepm install bal-kde-plasma  # or xfce4, gnome
+bluepm install bal-kde-plasma  # or bal-xfce, bal-gnome
 
 # Set up bluepm
 bluepm update-cache
@@ -236,7 +240,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/dungdinhmanh.png" width="100px;" alt="dungdinhmanh"/>
 <br /><sub><b>@dungdinhmanh</b></sub>
 </a>
-<br />Co-Developer (no longer maintaining)
+<br />Co-Developer
 </td>
 </tr>
 </table>
@@ -260,8 +264,6 @@ sudo apt update && sudo apt install live-build
 </td>
 </tr>
 </table>
-
-*Note: I currently maintain this project alone; other contributors are no longer actively working on the project.*
 
 </div>
 
