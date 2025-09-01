@@ -200,7 +200,7 @@ bluepm update-cache
 | Area | How to Help | Skills Needed |
 |------|-------------|---------------|
 | 🛠️ **Development** | Core system, bluepm features | Python, Bash, Linux |
-| 🎨 **Design** | Themes, wallpapers, icons | Photoshop, GIMP, UI/UX |
+| 🎨 **Design** | Themes, wallpapers, icons | Photoshop, GIMP, Figma |
 | 📖 **Documentation** | Guides, tutorials, wiki | Writing, Markdown |
 | 🧪 **Testing** | Beta testing, bug reports | Linux experience |
 | 🌐 **Community** | GitHub discussions | Communication |
