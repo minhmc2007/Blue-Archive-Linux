@@ -1,137 +1,98 @@
-name: Manual Beta ISO Builder
+name: Build Blue Archive Linux ISO
 
 on:
-  workflow_dispatch: # Manual trigger
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type to use'
+        required: true
+        default: 'debug'
+        type: choice
+        options:
+        - debug
+        - stable
 
 jobs:
   build-iso:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Grant write permission for releases
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetch full history for changelog generation
-
-      - name: Install build dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y sudo live-build debootstrap
-
-      - name: Build the ISO
-        run: |
-          cd blue_archive_linux
-          sudo ./build.sh
-
-      - name: Copy ISO from build output
-        run: |
-          mkdir -p output
-          cp blue_archive_linux/*.iso output/ || echo 'No ISO output found'
-
-      - name: Install XZ compression
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xz-utils
-
-      - name: Compress ISO with XZ
-        id: compress_iso
-        run: |
-          # Find the ISO file
-          ISO_FILE=$(ls output/*.iso | head -n 1 || echo "")
-          if [ -z "$ISO_FILE" ]; then
-            echo "No ISO file found in output/ directory. Skipping compression."
-            echo "original_iso=" >> $GITHUB_OUTPUT
-            echo "compressed_file=" >> $GITHUB_OUTPUT
-            echo "original_size=" >> $GITHUB_OUTPUT
-            echo "compressed_size=" >> $GITHUB_OUTPUT
-            echo "compression_ratio=" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          
-          # Get original file info
-          ORIGINAL_SIZE=$(stat -c%s "$ISO_FILE")
-          ORIGINAL_SIZE_MB=$(( ORIGINAL_SIZE / 1024 / 1024 ))
-          echo "Original ISO size: ${ORIGINAL_SIZE_MB}MB"
-          
-          # Get base filename without extension
-          BASE_NAME=$(basename "$ISO_FILE" .iso)
-          
-          echo "🗜️ Compressing with XZ (maximum compression, multi-threaded)..."
-          time xz -9 -T0 -c "$ISO_FILE" > "output/${BASE_NAME}.iso.xz"
-          
-          # Get compressed file info
-          COMPRESSED_SIZE=$(stat -c%s "output/${BASE_NAME}.iso.xz")
-          COMPRESSED_SIZE_MB=$(( COMPRESSED_SIZE / 1024 / 1024 ))
-          COMPRESSION_RATIO=$(( (ORIGINAL_SIZE - COMPRESSED_SIZE) * 100 / ORIGINAL_SIZE ))
-          
-          echo "✅ Compression complete!"
-          echo "Original size: ${ORIGINAL_SIZE_MB}MB"
-          echo "Compressed size: ${COMPRESSED_SIZE_MB}MB"
-          echo "Space saved: ${COMPRESSION_RATIO}%"
-          
-          # Set outputs
-          echo "original_iso=$ISO_FILE" >> $GITHUB_OUTPUT
-          echo "compressed_file=output/${BASE_NAME}.iso.xz" >> $GITHUB_OUTPUT
-          echo "original_size=${ORIGINAL_SIZE_MB}MB" >> $GITHUB_OUTPUT
-          echo "compressed_size=${COMPRESSED_SIZE_MB}MB" >> $GITHUB_OUTPUT
-          echo "compression_ratio=${COMPRESSION_RATIO}%" >> $GITHUB_OUTPUT
-
-      - name: Upload Compressed ISO Artifact
-        if: steps.compress_iso.outputs.compressed_file != ''
-        uses: actions/upload-artifact@v4
-        with:
-          name: BlueArchiveLinux-Compressed
-          path: ${{ steps.compress_iso.outputs.compressed_file }}
-
-      - name: Get previous release tag
-        id: get_prev_tag
-        run: |
-          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^nightly-build-' | head -n 1 || echo "")
-          if [ -z "$PREV_TAG" ]; then
-            echo "No previous tag found. Using first commit."
-            FIRST_COMMIT=$(git rev-list --max-parents=0 HEAD)
-            echo "prev_tag=$FIRST_COMMIT" >> $GITHUB_OUTPUT
-          else
-            echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Generate changelog
-        id: changelog
-        run: |
-          if [ -z "${{ steps.get_prev_tag.outputs.prev_tag }}" ]; then
-            CHANGELOG="Initial release"
-          else
-            CHANGELOG=$(git log ${{ steps.get_prev_tag.outputs.prev_tag }}..HEAD --oneline)
-          fi
-          echo "changelog<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGELOG" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Generate build information
-        run: |
-          echo "# 📋 Build Information" > build_info.md
-          echo "- **Build Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> build_info.md
-          echo "- **Workflow Run**: [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> build_info.md
-          echo "- **Commit**: [`$(git rev-parse --short HEAD)`](${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD))" >> build_info.md
-          echo "- **Branch**: ${{ github.ref_name }}" >> build_info.md
-          echo "" >> build_info.md
-          if [ -n "${{ steps.compress_iso.outputs.compression_ratio }}" ]; then
-            echo "## 📦 Compression Information" >> build_info.md
-            echo "- **Compression Method**: XZ (Maximum)" >> build_info.md
-            echo "- **Original Size**: ${{ steps.compress_iso.outputs.original_size }}" >> build_info.md
-            echo "- **Compressed Size**: ${{ steps.compress_iso.outputs.compressed_size }}" >> build_info.md
-            echo "- **Space Saved**: ${{ steps.compress_iso.outputs.compression_ratio }}" >> build_info.md
-            echo "" >> build_info.md
-          fi
-          echo "### 📝 Changes Since Last Release" >> build_info.md
-          echo "${{ steps.changelog.outputs.changelog }}" >> build_info.md
-
-      - name: Create Release
-        if: steps.compress_iso.outputs.compressed_file != ''
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "nightly-build-${{ github.run_id }}"
-          name: "Nightly Build ${{ github.run_id }}"
-          body_path: build_info.md
-          files: ${{ steps.compress_iso.outputs.compressed_file }}
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    
+    - name: Install Docker
+      run: |
+        # Docker is already installed on GitHub runners, but let's ensure it's running
+        sudo systemctl start docker
+        sudo systemctl enable docker
+        
+        # Add current user to docker group to avoid permission issues
+        sudo usermod -aG docker $USER
+        
+        # Verify Docker installation
+        docker --version
+    
+    - name: Configure build type
+      run: |
+        # Set build type based on workflow dispatch input or default to debug
+        BUILD_TYPE="${{ github.event.inputs.build_type || 'debug' }}"
+        echo "BUILD_TYPE := $BUILD_TYPE" > .build_config
+        echo "Configured build type: $BUILD_TYPE"
+        cat .build_config
+    
+    - name: Build ISO using Makefile
+      run: |
+        echo "Starting ISO build process..."
+        make build
+    
+    - name: Verify ISO creation
+      run: |
+        # Check if ISO file was created in home directory
+        ls -la ~/
+        ISO_FILE=$(find ~/ -name "Blue_Archive_Linux_amd64-*.iso" -type f | head -1)
+        if [ -z "$ISO_FILE" ]; then
+          echo "Error: No ISO file found!"
+          exit 1
+        fi
+        echo "ISO file found: $ISO_FILE"
+        echo "ISO_FILE=$ISO_FILE" >> $GITHUB_ENV
+        
+        # Get file size for artifact naming
+        ISO_SIZE=$(du -h "$ISO_FILE" | cut -f1)
+        echo "ISO size: $ISO_SIZE"
+        echo "ISO_SIZE=$ISO_SIZE" >> $GITHUB_ENV
+        
+        # Get build type for artifact naming
+        BUILD_TYPE=$(grep "BUILD_TYPE" .build_config | cut -d' ' -f3)
+        echo "BUILD_TYPE=$BUILD_TYPE" >> $GITHUB_ENV
+    
+    - name: Upload ISO as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Blue-Archive-Linux-ISO-${{ env.BUILD_TYPE }}-${{ github.run_number }}
+        path: ${{ env.ISO_FILE }}
+        retention-days: 30
+        compression-level: 0  # No compression since ISO is already compressed
+    
+    - name: Upload build logs
+      if: always()  # Upload logs even if build fails
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-logs-${{ github.run_number }}
+        path: |
+          .build_config
+        retention-days: 7
+    
+    - name: Clean up
+      if: always()
+      run: |
+        make clean || true
+        # Clean up any remaining Docker containers/images
+        docker system prune -f || true
