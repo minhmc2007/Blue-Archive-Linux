@@ -57,7 +57,7 @@
 
 ### 💎 **Blue Archive Experience**
 - **Stunning Shiroko wallpapers** (XFCE/GNOME/KDE)
-- **bluepm package manager** - Our own package manager for BA packages
+- **bluepm** - An BA-focused package manager
 - **Clean BA branding** throughout the system
 - **More BA goodies coming soon** - SDDM themes, sounds, icons
 
@@ -138,7 +138,7 @@ bluepm update-cache
 ### 🔥 **Method 1: ISO Installation** (Recommended)
 ```bash
 # Download the latest ISO
-Link: https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest
+[Download latest release](https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest)
 
 # Flash to USB (Linux)
 sudo dd if=Blue_Archive_Linux*.iso of=/dev/sdX bs=4M status=progress
