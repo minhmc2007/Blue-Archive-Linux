@@ -136,9 +136,9 @@ bluepm update-cache
 ## 🚀 Quick Start
 
 ### 🔥 **Method 1: ISO Installation** (Recommended)
+[Download latest release](https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest
 ```bash
 # Download the latest ISO
-[Download latest release](https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest)
 
 # Flash to USB (Linux)
 sudo dd if=Blue_Archive_Linux*.iso of=/dev/sdX bs=4M status=progress
