@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/kivotos.png" alt="KivotOS" />
   
-  [![Status](https://img.shields.io/badge/Status-Stable-00a8ff?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/minhmc2007/Blue-Archive-Linux)
+  [![Status](https://img.shields.io/badge/Status-About%20to%20Archive-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/minhmc2007/Blue-Archive-Linux)
   [![Architecture](https://img.shields.io/badge/Architecture-x86__64-ff6b6b?style=for-the-badge&logo=debian&logoColor=white)](#)
   [![License](https://img.shields.io/badge/License-GPL3-4ecdc4?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#)
   [![Contributors](https://img.shields.io/github/contributors/minhmc2007/Blue-Archive-Linux?style=for-the-badge&logo=github&logoColor=white&color=purple)](#contributors)
@@ -10,6 +10,33 @@
   
   *Now featuring `bluepm` - our custom package manager for a seamless BA experience*
 </div>
+
+---
+
+## 🛑 Development Status
+
+<div align="center">
+
+### 💙 Blue Archive Linux – Current Status
+
+**Blue Archive Linux has been my most popular project, and I'm proud of how far it came:**
+
+🎨 A themed Linux distro inspired by Blue Archive  
+📦 bluepm, an AUR-style package manager alongside apt  
+🖥️ Multiple desktop options (bal-xfce, bal-gnome, bal-kde-plasma)  
+🛠️ Built and maintained across 100+ commits  
+
+</div>
+
+> **Note:** As of now, I've started preparing the Debian 13 base update, but it is still in debug/testing and not a final polished release. This will be my last major contribution to Blue Archive Linux.
+>
+> Over the past year (2025), I've made 635 commits across my repos, with 705 total since 2022 — and most of that work was packed into the past few months. Because of that heavy activity, I'm taking a break to avoid burnout.
+
+**What's Next:**
+- ✅ The repo will stay public
+- ✅ Community forks are welcome  
+- ✅ A friend of mine may continue active development
+- ❌ I won't be pushing regular updates anymore
 
 ---
 
@@ -165,29 +192,29 @@ bluepm update-cache
 
 ---
 
-## 🧪 Join the Beta
+## 🧪 Community Forks Welcome
 
 <div align="center">
 
 ### 🫡 **Calling All Senseis!**
 
-**We need your help to make BAL perfect!**
+**While active development has slowed, the community can keep BAL alive!**
 
-<a href="https://github.com/minhmc2007/Blue-Archive-Linux/issues/new?template=beta-testing.md">
-  <img src="https://img.shields.io/badge/Join%20Beta%20Testing-ff6b6b?style=for-the-badge&logo=github&logoColor=white" alt="Join Beta Testing"/>
+<a href="https://github.com/minhmc2007/Blue-Archive-Linux/fork">
+  <img src="https://img.shields.io/badge/Fork%20The%20Project-4ecdc4?style=for-the-badge&logo=github&logoColor=white" alt="Fork The Project"/>
 </a>
 
-**What you get:**
-- 🎮 Early access to new features
-- 💬 Direct input on development
-- 🏆 Beta tester credits
-- 🎁 Exclusive BA wallpapers (maybe)
+**What you can do:**
+- 🍴 Fork and continue development
+- 💬 Join community discussions
+- 🏆 Maintain your own version
+- 🎁 Share improvements back to the community
 
-**What we need:**
-- 🐞 Bug reports and feedback
-- 💡 Feature suggestions  
-- 📸 Screenshots and use cases
-- 🤝 Community building
+**Current status:**
+- 🐞 Limited bug fix support
+- 💡 Community-driven development encouraged
+- 📸 Original repo remains as reference
+- 🤝 Community forks are the future
 
 </div>
 
@@ -233,7 +260,7 @@ sudo apt update && sudo apt install live-build
 <img src="https://github.com/minhmc2007.png" width="100px;" alt="minhmc2007"/>
 <br /><sub><b>@minhmc2007</b></sub>
 </a>
-<br />Creator & Lead Dev
+<br />Creator & Lead Dev (Taking a break)
 </td>
 <td align="center">
 <a href="https://github.com/dungdinhmanh">
@@ -256,11 +283,11 @@ sudo apt update && sudo apt install live-build
 <br />Beta Testing Lead (no longer testing)
 </td>
 <td align="center">
-<a href="https://github.com/minhmc2007/Blue-Archive-Linux/issues/new?template=beta-testing.md">
-<img src="https://via.placeholder.com/80x80/4ecdc4/ffffff?text=You" width="80px;" alt="Join Us"/>
+<a href="https://github.com/minhmc2007/Blue-Archive-Linux/fork">
+<img src="https://via.placeholder.com/80x80/4ecdc4/ffffff?text=You" width="80px;" alt="Fork Us"/>
 <br /><sub><b>You?</b></sub>
 </a>
-<br />Join Our Team!
+<br />Fork & Continue!
 </td>
 </tr>
 </table>
@@ -297,6 +324,22 @@ sudo apt update && sudo apt install live-build
 - 🎨 **Blue Archive Community** - For inspiration and support
 - 💻 **Open Source Community** - For the tools that make this possible
 - Read CREDIT.md for more information
+
+---
+
+## 💙 Final Words
+
+<div align="center">
+
+**To everyone who starred, forked, or just downloaded Blue Archive Linux — thank you.**
+
+Even if this project ends with a debug release, it remains my most popular repo and a highlight of what I've built so far.
+
+**— Quang Minh (minhmc2007)**
+
+*635 commits in 2025 • 705 total commits since 2022*
+
+</div>
 
 ---
 
