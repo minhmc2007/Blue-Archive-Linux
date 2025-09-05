@@ -1,7 +1,1 @@
-{
-  "schemaVersion": 1,
-  "label": "status",
-  "message": "work in process",
-  "color": "yellow",
-  "cacheSeconds": 300
-}
+{ "schemaVersion":1,"label":"status","message":"work in process","color":"yellow","cacheSeconds":300 }
