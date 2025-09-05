@@ -1,4 +1,4 @@
-<div align="center">
+2<div align="center">
   <img src="/kivotos.png" alt="KivotOS" />
   
   [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/minhmc2007/Blue-Archive-Linux)
@@ -136,7 +136,7 @@ bluepm update-cache
 ## 🚀 Quick Start
 
 ### 🔥 **Method 1: ISO Installation** (Recommended)
-[Download latest release](https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest
+[Download latest release](https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest)
 ```bash
 # Download the latest ISO
 
