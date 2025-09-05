@@ -1,8 +1,8 @@
 <div align="center">
   <img src="/kivotos.png" alt="KivotOS" />
   
-  [![Status](https://img.shields.io/badge/Status-About%20to%20Archive-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/minhmc2007/Blue-Archive-Linux)
-  [![Architecture](https://img.shields.io/badge/Architecture-x86__64-ff6b6b?style=for-the-badge&logo=debian&logoColor=white)](#)
+  [![Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/minhmc2007/Blue-Archive-Linux/main/.github/status.json&style=flat-square)](https://github.com/minhmc2007/Blue-Archive-Linux)
+ [![Architecture](https://img.shields.io/badge/Architecture-x86__64-ff6b6b?style=for-the-badge&logo=debian&logoColor=white)](#)
   [![License](https://img.shields.io/badge/License-GPL3-4ecdc4?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#)
   [![Contributors](https://img.shields.io/github/contributors/minhmc2007/Blue-Archive-Linux?style=for-the-badge&logo=github&logoColor=white&color=purple)](#contributors)
   
