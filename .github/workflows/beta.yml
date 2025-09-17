@@ -1,13 +1,10 @@
 name: Build Blue Archive Linux ISO
 
 on:
-  # Triggers the workflow on pushes to main or develop branches
   push:
     branches: [ main, develop ]
-  # Triggers the workflow on pull requests to the main branch
   pull_request:
     branches: [ main ]
-  # Allows you to manually run this workflow from the Actions tab
   workflow_dispatch:
     inputs:
       build_type:
@@ -29,7 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     # Define outputs to pass information to the release job
     outputs:
-      artifact_name: Blue-Archive-Linux-ISO-${{ env.BUILD_TYPE }}-${{ github.run_number }}
+      # CORRECTED: This now uses the step output to guarantee the value is passed correctly
+      artifact_name: Blue-Archive-Linux-ISO-${{ steps.configure_build.outputs.build_type }}-${{ github.run_number }}
       iso_basename: ${{ steps.verify_iso.outputs.iso_basename }}
       build_type: ${{ steps.configure_build.outputs.build_type }}
 
@@ -45,7 +43,6 @@ jobs:
 
     - name: Install and configure Docker
       run: |
-        # Docker is pre-installed, but ensure it's running and permissions are set
         sudo systemctl start docker
         sudo systemctl enable docker
         sudo usermod -aG docker $USER
@@ -54,13 +51,12 @@ jobs:
     - name: Configure build type
       id: configure_build
       run: |
-        # Set build type from manual input, or default to 'debug' for automated runs
         BUILD_TYPE="${{ github.event.inputs.build_type || 'debug' }}"
         echo "BUILD_TYPE := $BUILD_TYPE" > .build_config
         echo "Configured build type: $BUILD_TYPE"
         cat .build_config
-        # Set output for other jobs to use
-        echo "build_type=$BUILD_TYPE" >> $GITHUB_OUTPUT
+        # Set output for other jobs and steps to use
+        echo "build_type=$BUILD_TYPE" >> "$GITHUB_OUTPUT"
 
     - name: Build ISO using Makefile
       run: |
@@ -70,7 +66,6 @@ jobs:
     - name: Verify ISO creation and set outputs
       id: verify_iso
       run: |
-        # Check if ISO file was created in the user's home directory
         ls -la ~/
         ISO_FILE=$(find ~/ -name "Blue_Archive_Linux_amd64-*.iso" -type f | head -1)
         if [ -z "$ISO_FILE" ]; then
@@ -78,22 +73,21 @@ jobs:
           exit 1
         fi
         echo "ISO file found: $ISO_FILE"
-        echo "ISO_FILE=$ISO_FILE" >> $GITHUB_ENV
-
-        # Get the base filename of the ISO for release asset naming
+        echo "ISO_FILE=$ISO_FILE" >> "$GITHUB_ENV"
         ISO_BASENAME=$(basename "$ISO_FILE")
-        echo "ISO_BASENAME=$ISO_BASENAME" >> $GITHUB_OUTPUT
+        echo "iso_basename=$ISO_BASENAME" >> "$GITHUB_OUTPUT"
 
     - name: Upload ISO as a build artifact
       uses: actions/upload-artifact@v4
       with:
+        # This now uses the step output to ensure the name is correct
         name: Blue-Archive-Linux-ISO-${{ steps.configure_build.outputs.build_type }}-${{ github.run_number }}
         path: ${{ env.ISO_FILE }}
         retention-days: 30
-        compression-level: 0  # ISOs are already compressed
+        compression-level: 0
 
     - name: Upload build logs
-      if: always() # Run this even if the build fails
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: build-logs-${{ github.run_number }}
@@ -104,41 +98,33 @@ jobs:
       if: always()
       run: |
         make clean || true
-        # Clean up Docker to free up runner space
         docker system prune -af || true
 
-  # This job will only run if the 'publish_release' input is checked in a manual run
   release:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.publish_release == 'true'
-    needs: build-iso # This job depends on the build-iso job completing successfully
+    needs: build-iso
     runs-on: ubuntu-latest
     permissions:
-      # This permission is required to create a Git tag and a GitHub release
       contents: write
 
     steps:
     - name: Checkout repository
-      # This is required for the release action to generate changelogs from git history
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0 # Fetches all history for complete changelogs
+        fetch-depth: 0
 
     - name: Download ISO artifact from build job
       uses: actions/download-artifact@v4
       with:
+        # This will now receive the CORRECT name from the build job's output
         name: ${{ needs.build-iso.outputs.artifact_name }}
-        path: iso-dist # Download into a directory
+        path: iso-dist
 
     - name: Create GitHub Pre-Release and Upload ISO
       uses: softprops/action-gh-release@v2
       with:
-        # Create a tag like 'build-123' for this release
         tag_name: build-${{ github.run_number }}
-        # The release title will be 'Build 123 (debug)'
         name: Build ${{ github.run_number }} (${{ needs.build-iso.outputs.build_type }})
-        # This automatically generates detailed release notes from commit history
         generate_release_notes: true
-        # This ensures it shows up as a "Pre-release" on GitHub
         prerelease: true
-        # Uploads the ISO file from the directory we downloaded it into
         files: iso-dist/${{ needs.build-iso.outputs.iso_basename }}
