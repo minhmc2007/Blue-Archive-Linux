@@ -10,7 +10,7 @@ LB_BINARY_FILESYSTEM="fat32"
 LB_APT_INDICES="true"
 
 # Set boot parameters
-LB_BOOTAPPEND_LIVE="boot=live"
+LB_BOOTAPPEND_LIVE="boot=live username=sensei"
 
 # Set boot parameters
 LB_BOOTAPPEND_INSTALL=""
@@ -31,7 +31,7 @@ LB_BOOTLOADERS=""
 LB_CHECKSUMS="sha256 md5"
 
 # Set compression
-LB_COMPRESSION="none"
+LB_COMPRESSION="xz"
 
 # Support dm-verity on rootfs
 LB_DM_VERITY=""

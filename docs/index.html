@@ -8,33 +8,33 @@
     <link rel="icon" href="logo.png" type="image/png">
 </head>
 <body>
-    <header>
+    <header id="welcome">
         <div class="container">
-            <img src="logo.png" alt="Blue Archive Linux Logo" class="logo">
-            <h1>Blue Archive Linux</h1>
-            <p>A minimal, Blue Archive-themed Linux distribution built by Senseis, for Senseis.</p>
+            <nav>
+                <img src="logo.png" alt="Blue Archive Linux Logo" class="nav-logo">
+                <div class="nav-links" id="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="#screenshots">Screenshots</a>
+                    <a href="#quick-start">Download</a>
+                    <a href="https://github.com/minhmc2007/Blue-Archive-Linux" target="_blank">GitHub</a>
+                </div>
+                <button id="theme-switcher">Toggle Theme</button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+            <div class="hero-content">
+                <img src="logo.png" alt="Blue Archive Linux Logo" class="logo">
+                <h1 class="main-title">Blue Archive Linux</h1>
+                <p class="subtitle">A minimal, Blue Archive-themed Linux distribution built by Senseis, for Senseis.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/minhmc2007/Blue-Archive-Linux/releases/latest" class="btn btn-primary">Download Now</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
         </div>
     </header>
-
-    <nav>
-        <div class="container">
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <div class="nav-links" id="nav-links">
-                <a href="#about">About</a>
-                <a href="#features">Features</a>
-                <a href="#screenshots">Screenshots</a>
-                <a href="#quick-start">Quick Start</a>
-                <a href="#bluepm">bluepm</a>
-                <a href="#specifications">System Specifications</a>
-                <a href="#build">Build Process</a>
-                <a href="#contributing">Contributing</a>
-                <a href="#credits">Credits</a>
-            </div>
-            <button id="theme-switcher">Toggle Theme</button>
-        </div>
-    </nav>
 
     <main class="container">
         <section id="about">
@@ -76,6 +76,10 @@
                 <figure>
                     <img src="Screenshot_XFCE.png" alt="Blue Archive Linux with XFCE">
                     <figcaption>XFCE Desktop</figcaption>
+                </figure>
+                <figure>
+                    <img src="Screenshot_GNOME.png" alt="Blue Archive Linux with GNOME">
+                    <figcaption>GNOME Desktop</figcaption>
                 </figure>
             </div>
         </section>

@@ -2,8 +2,37 @@ const themeSwitcher = document.getElementById('theme-switcher');
 const navToggle = document.getElementById('nav-toggle');
 const navLinks = document.getElementById('nav-links');
 
+// Function to apply theme based on preference
+const applyTheme = (theme) => {
+    if (theme === 'dark') {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+};
+
+// Check for saved theme preference
+const savedTheme = localStorage.getItem('theme');
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+if (savedTheme) {
+    applyTheme(savedTheme);
+} else {
+    applyTheme(prefersDark.matches ? 'dark' : 'light');
+}
+
+// Listen for theme preference changes
+prefersDark.addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+        applyTheme(e.matches ? 'dark' : 'light');
+    }
+});
+
+// Theme switcher button event
 themeSwitcher.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
+    const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    applyTheme(newTheme);
 });
 
 navToggle.addEventListener('click', () => {

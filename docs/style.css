@@ -39,74 +39,124 @@ body.dark-mode {
     padding: 0 20px;
 }
 
-/* Header */
-header {
-    background: var(--primary-color);
+/* Welcome Section */
+#welcome {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 40px 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border-bottom: 5px solid var(--secondary-color);
 }
 
-header .logo {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 15px;
-    animation: logo-spin 5s linear infinite;
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    animation: logo-spin 10s linear infinite;
+}
+
+.main-title {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+    animation: slideInFromTop 1s ease-out;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+    animation: slideInFromBottom 1s ease-out;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    animation: fadeIn 1s ease-in-out 0.5s backwards;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 @keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font-weight: 700;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-header p {
-    margin: 5px 0 0;
-    font-size: 1.1em;
+@keyframes slideInFromTop {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInFromBottom {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
 
 /* Navigation */
 nav {
-    background: var(--card-bg-color);
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 nav a {
-    color: var(--heading-color);
+    color: white;
     text-decoration: none;
     font-weight: 600;
     padding: 5px 10px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s;
 }
 
 #theme-switcher {
-    background-color: var(--primary-color);
+    background-color: rgba(255,255,255,0.2);
     color: white;
     border: none;
     padding: 8px 12px;
@@ -130,7 +180,7 @@ section {
     padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
-    scroll-margin-top: 80px; /* Offset for sticky nav */
+    scroll-margin-top: 20px;
 }
 
 section h2 {
@@ -201,13 +251,11 @@ body.dark-mode .feature-item {
     color: var(--heading-color);
 }
 
-ul,
-ol {
+ul, ol {
     padding-left: 20px;
 }
 
-ul li,
-ol li {
+ul li, ol li {
     margin-bottom: 10px;
 }
 
@@ -259,6 +307,10 @@ footer a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5em;
+    }
+
     .feature-grid {
         grid-template-columns: 1fr;
     }
@@ -277,7 +329,7 @@ footer a {
         position: relative;
         width: 25px;
         height: 3px;
-        background: var(--heading-color);
+        background: white;
         transition: all 0.3s ease-in-out;
     }
 
@@ -287,17 +339,12 @@ footer a {
         position: absolute;
         width: 25px;
         height: 3px;
-        background: var(--heading-color);
+        background: white;
         transition: all 0.3s ease-in-out;
     }
 
-    .hamburger::before {
-        top: -8px;
-    }
-
-    .hamburger::after {
-        bottom: -8px;
-    }
+    .hamburger::before { top: -8px; }
+    .hamburger::after { bottom: -8px; }
 
     .nav-toggle.active .hamburger {
         background: transparent;
@@ -313,7 +360,7 @@ footer a {
 
     .nav-links {
         position: absolute;
-        top: 60px;
+        top: 80px;
         left: 0;
         right: 0;
         background: var(--card-bg-color);
@@ -321,12 +368,18 @@ footer a {
         align-items: center;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        
-        /* Animation */
         opacity: 0;
         visibility: hidden;
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    }
+    
+    body.dark-mode .nav-links {
+        background: #1a1a1a;
+    }
+
+    .nav-links a {
+        color: var(--heading-color);
     }
 
     .nav-links.active {
@@ -334,21 +387,15 @@ footer a {
         visibility: visible;
         transform: translateY(0);
     }
-
-    nav .container {
-        justify-content: space-between;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
 }
 
 @media (max-width: 480px) {
+    .main-title {
+        font-size: 2em;
+    }
     main {
         padding: 20px 10px;
     }
-
     section {
         padding: 20px;
     }
@@ -369,12 +416,11 @@ footer a {
 /* Hover effects for desktop */
 @media (min-width: 769px) {
     nav a:hover {
-        background-color: var(--primary-color);
-        color: white;
+        background-color: rgba(255,255,255,0.2);
     }
 
     #theme-switcher:hover {
-        background-color: var(--secondary-color);
+        background-color: rgba(255,255,255,0.4);
     }
 
     .feature-item:hover {
