@@ -1,0 +1,9 @@
+NAME="Blue Archive Linux"
+PRETTY_NAME="Blue Archive Linux"
+ID="arch"
+ID_LIKE="arch"
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/minhmc2007/Blue-Archive-Linux"
+
+
