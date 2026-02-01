@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# === 1. ORIGINAL KERNEL PARAMETER LOGIC ===
+# === 1. KERNEL PARAMETER HANDLER ===
 script_cmdline() {
     local param
     for param in $(</proc/cmdline); do
@@ -35,14 +35,16 @@ automated_script() {
     fi
 }
 
-# === 2. MAIN STARTUP LOGIC ===
+# === 2. STARTUP LOGIC ===
 if [[ $(tty) == "/dev/tty1" ]]; then
 
+    # Run the original automated script logic if present
     automated_script
 
     echo "--- Preparing Blue Archive Linux GUI ---"
 
-    # A. Setup bal-welcome Autostart
+    # A. Setup Autostart for the Welcome App
+    # This ensures the app opens as soon as Plasma loads
     mkdir -p /etc/xdg/autostart
     cat <<EOF > /etc/xdg/autostart/bal-welcome.desktop
 [Desktop Entry]
@@ -54,34 +56,10 @@ Terminal=false
 X-GNOME-Autostart-enabled=true
 EOF
 
-    # B. WALLPAPER LOGIC (The Fix)
-    # 1. Pick a random wallpaper
-    RAND_WP=$(find /usr/share/backgrounds -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) | shuf -n 1)
-
-    # 2. Create a dedicated script to apply this specific wallpaper
-    # We use 'plasma-apply-wallpaperimage' which talks to the running desktop
-    cat <<EOF > /usr/local/bin/bal-wallpaper-setup
-#!/bin/bash
-# Wait a few seconds for Plasma to be fully ready
-sleep 5
-if [ -f "$RAND_WP" ]; then
-    # Try the standard command
-    plasma-apply-wallpaperimage "$RAND_WP"
-fi
-EOF
-    chmod +x /usr/local/bin/bal-wallpaper-setup
-
-    # 3. Create an Autostart entry for this wallpaper script
-    cat <<EOF > /etc/xdg/autostart/bal-wallpaper.desktop
-[Desktop Entry]
-Type=Application
-Name=Set Wallpaper
-Exec=/usr/local/bin/bal-wallpaper-setup
-Terminal=false
-X-GNOME-Autostart-enabled=true
-EOF
-
-    # C. Launch GUI
+    # B. Start Xorg and Plasma
+    # The Flutter app will handle setting the wallpaper once it's open
     echo "Handing over to Plasma X11..."
     exec startx /usr/bin/startplasma-x11
+    kwriteconfig6 --file plasmarc --group PlasmaWelcome --key Enabled false
+
 fi
