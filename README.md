@@ -34,7 +34,7 @@ Blue Archive Linux provides a "Schale-inspired" workstation experience. It combi
 
 This distribution includes two proprietary tools that serve as the interface between the user and the system. Both are built using Dart to ensure smooth, hardware-accelerated UI transitions:
 
-*   **BAL Welcome:** A first-boot utility that guides you through system initialization, networking, and basic configuration.
+*   **BAL Welcome:** A first-boot utility that guides you through system initialization and basic configuration.
 *   **BAL Helper:** A specialized management tool for quick system adjustments and thematic settings.
 
 ### Development Documentation
