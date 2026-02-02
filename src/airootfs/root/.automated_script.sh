@@ -58,8 +58,9 @@ EOF
 
     # B. Start Xorg and Plasma
     # The Flutter app will handle setting the wallpaper once it's open
+    pacman -Rns plasma-welcome --noconfirm
     echo "Handing over to Plasma X11..."
     exec startx /usr/bin/startplasma-x11
-    kwriteconfig6 --file plasmarc --group PlasmaWelcome --key Enabled false
+    
 
 fi
