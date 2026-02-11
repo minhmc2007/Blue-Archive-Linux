@@ -47,17 +47,17 @@ If you are looking for the source code, build instructions, or development guide
 
 ## Installation
 
-1.  **Download:** Fetch the latest ISO from the [Releases](#) page.
-2.  **Flash:** Write the ISO to a USB drive using `dd` or a similar tool.
-3.  **Boot:** Start your system from the USB drive in UEFI mode.
+1.  **Download:** Get the latest ISO from the [Releases](#) page.
+2.  **Flash:** Write the ISO to a USB drive using `dd`, [balenaEtcher](https://etcher.balena.io/) or [ventoy](https://www.ventoy.net/en/index.html) to just drag'n'drop.
+3.  **Boot:**  Restart your PC, access the BIOS and choose your USB drive, remember to turn off Secure Boot in BIOS setting (if this is the first time you install more than 1 OS)
 4.  **Install:** Follow the graphical installation process. Upon the first login, the **Welcome Screen** will launch automatically to finish the setup.
 
 ---
 
 ## Acknowledgments
 
-*   **The Arch Linux & KDE Teams:** For providing the incredible foundation this project is built upon.
-*   **Nexon Games / NAT Games:** For the visual inspiration and the world of Blue Archive.
+*   **The [Arch Linux](https://archlinux.org/) & [KDE Teams](https://kde.org/):** For providing the incredible foundation this project is built upon.
+*   **Nexon Games :** For the visual inspiration and the world of Blue Archive.
 
 ---
 
