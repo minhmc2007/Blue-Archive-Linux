@@ -57,7 +57,7 @@ If you are looking for the source code, build instructions, or development guide
 ## Acknowledgments
 
 *   **The [Arch Linux](https://archlinux.org/) & [KDE Teams](https://kde.org/):** For providing the incredible foundation this project is built upon.
-*   **Nexon Games / NAT Games:** For the visual inspiration and the world of Blue Archive.
+*   **Nexon Games :** For the visual inspiration and the world of Blue Archive.
 ---
 
 *Disclaimer: Blue Archive Linux is a fan-made project and is not officially affiliated with Nexon Games or Yostar. All artistic assets belong to their respective owners.*
