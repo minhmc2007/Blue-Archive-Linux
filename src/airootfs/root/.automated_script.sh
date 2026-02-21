@@ -65,7 +65,7 @@ EOF
 [Desktop Entry]
 Type=Application
 Name=KDE Material You Colors
-Exec=kde-material-you-colors -a
+Exec=kde-material-you-colors
 Icon=preferences-desktop-color
 Terminal=false
 Categories=Utility;
