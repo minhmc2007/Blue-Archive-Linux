@@ -1,6 +1,6 @@
 NAME="Blue Archive Linux"
 PRETTY_NAME="Blue Archive Linux"
-ID="arch"
+ID="bal"
 ID_LIKE="arch"
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"

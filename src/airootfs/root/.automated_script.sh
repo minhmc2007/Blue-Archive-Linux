@@ -35,6 +35,9 @@ automated_script() {
     fi
 }
 
+# == 1.5 Copy some calamares shit
+cp /root/calamares /usr/share -r
+
 # === 2. STARTUP LOGIC ===
 if [[ $(tty) == "/dev/tty1" ]]; then
 
@@ -56,11 +59,26 @@ Terminal=false
 X-GNOME-Autostart-enabled=true
 EOF
 
-    # B. Start Xorg and Plasma
+    # B. Setup Autostart for KDE Material You Colors
+
+    cat <<EOF > /etc/xdg/autostart/kde-material-you-colors.desktop
+[Desktop Entry]
+Type=Application
+Name=KDE Material You Colors
+Exec=kde-material-you-colors -a
+Icon=preferences-desktop-color
+Terminal=false
+Categories=Utility;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+EOF
+
+    # C. Start Xorg and Plasma
     # The Flutter app will handle setting the wallpaper once it's open
     pacman -Rns plasma-welcome --noconfirm
     echo "Handing over to Plasma X11..."
+
+    # Everything after this line will not execute because exec replaces the process
     exec startx /usr/bin/startplasma-x11
-    
 
 fi

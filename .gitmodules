@@ -1,0 +1,3 @@
+[submodule "src/airootfs/root/SilentSDDM"]
+	path = src/airootfs/root/SilentSDDM
+	url = https://github.com/minhmc2007/SDDM-theme
