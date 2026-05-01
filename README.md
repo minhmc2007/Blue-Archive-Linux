@@ -54,6 +54,46 @@ If you are looking for the source code, build instructions, or development guide
 
 ---
 
+## Build Instructions
+
+You can build the Blue Archive Linux ISO manually using the provided `Makefile`.
+
+### Prerequisites
+
+*   **Arch Linux host** (recommended)
+*   `archiso` package installed
+*   `qemu-desktop` (for running the ISO)
+*   `docker` (optional, for containerized builds)
+
+### Using Makefile
+
+*   **Standard Build:** Build the production ISO with full compression.
+    ```bash
+    make build
+    ```
+*   **Debug Build:** Build the ISO without compression for much faster iteration.
+    ```bash
+    make debug
+    ```
+*   **Run in QEMU:** Test your built ISO with hardware acceleration (KVM) and optimized graphics (`virtio-vga-gl`).
+    ```bash
+    make run
+    ```
+*   **Clean Artifacts:** Remove build and work directories.
+    ```bash
+    make clean
+    ```
+
+### Containerized Build
+
+If you prefer to build in a clean environment, use Docker:
+```bash
+make docker-build
+```
+*Note: This requires Docker to be running and the container is executed in privileged mode to allow `mkarchiso` to perform mount operations.*
+
+---
+
 ## Acknowledgments
 
 *   **The [Arch Linux](https://archlinux.org/) & [KDE Teams](https://kde.org/):** For providing the incredible foundation this project is built upon.
