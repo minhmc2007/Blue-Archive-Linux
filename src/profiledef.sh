@@ -3,7 +3,7 @@
 
 iso_name="Blue_Archive_Linux"
 iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Blue ARchive Linux <https://github.com/minhmc2007/Blue-Archive-Linux>"
+iso_publisher="Blue Archive Linux <https://github.com/minhmc2007/Blue-Archive-Linux>"
 iso_application="Blue Archive Linux Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"

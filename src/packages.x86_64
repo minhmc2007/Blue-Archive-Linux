@@ -19,7 +19,6 @@ plasma
 gtk3
 libappindicator-gtk3
 mpv
-xorg-server
 alsa-utils
 amd-ucode
 arch-install-scripts

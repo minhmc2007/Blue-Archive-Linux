@@ -35,9 +35,6 @@ automated_script() {
     fi
 }
 
-# == 1.5 Copy some calamares shit
-cp /root/calamares /usr/share -r
-
 # === 2. STARTUP LOGIC ===
 if [[ $(tty) == "/dev/tty1" ]]; then
 
