@@ -1,20 +1,10 @@
 # Makefile for Blue Archive Linux
 
 ISO_DIR = src/out
-# Find the first .iso file in the output directory
-ISO_FILE = $(shell ls $(ISO_DIR)/*.iso 2>/dev/null | head -n 1)
+ISO_FILE = $(shell ls $(ISO_DIR)/*.iso 2>/dev/null | sort -t. -k2,4 -r | head -1)
+DISK = bal.qcow2
 
-# Memory: 2/3 of available memory in MB
-RAM = $(shell free -m | awk '/^Mem:/ {print int($$7 * 2 / 3)}')
-
-# KVM acceleration if available
-KVM = $(shell [ -e /dev/kvm ] && echo "-enable-kvm" || echo "")
-
-# QEMU graphics acceleration (virtio)
-# Using virtio-vga-gl for best 3D acceleration
-QEMU_FLAGS = -m $(RAM) $(KVM) -device virtio-vga-gl -display default,gl=on -cdrom $(ISO_FILE)
-
-.PHONY: build debug clean run docker-build
+.PHONY: all build debug clean run run-efi docker-build
 
 all: build
 
@@ -32,11 +22,17 @@ clean:
 
 run:
 	@if [ -z "$(ISO_FILE)" ]; then \
-		echo "Error: No ISO found in $(ISO_DIR). Run 'make build' first."; \
+		echo "Error: No ISO found in $(ISO_DIR). Run 'make build' first." >&2; \
 		exit 1; \
 	fi
-	@echo "Running ISO: $(ISO_FILE) with $(RAM)MB RAM..."
-	qemu-system-x86_64 $(QEMU_FLAGS)
+	./run.sh
+
+run-efi:
+	@if [ -z "$(ISO_FILE)" ]; then \
+		echo "Error: No ISO found in $(ISO_DIR). Run 'make build' first." >&2; \
+		exit 1; \
+	fi
+	./run.sh --efi
 
 docker-build:
 	@echo "Building Docker image..."
