@@ -9,8 +9,11 @@ EFI=0
 
 for arg in "$@"; do
   case "$arg" in
-    --efi) EFI=1 ;;
-    *) echo "Usage: $0 [--efi]" >&2; exit 1 ;;
+  --efi) EFI=1 ;;
+  *)
+    echo "Usage: $0 [--efi]" >&2
+    exit 1
+    ;;
   esac
 done
 
@@ -46,7 +49,7 @@ qemu-system-x86_64 \
   -drive file="$DISK",format=qcow2,if=virtio \
   -cdrom "$ISO" \
   -boot order=d \
-  -vga virtio \
+  -device virtio-vga-gl \
   -display gtk,gl=on \
   -device virtio-net,netdev=net0 \
   -netdev user,id=net0 \
