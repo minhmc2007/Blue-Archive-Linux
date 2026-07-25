@@ -25,23 +25,33 @@ Blue Archive Linux provides a "Schale-inspired" workstation experience. It combi
 ### Key Features
 
 *   **Arch Linux Base:** Reliable, lightweight, and always up-to-date.
-*   **Custom KDE Plasma:** A bespoke desktop environment featuring custom icon sets, color schemes, and layout configurations.
+*   **Custom KDE Plasma:** A bespoke desktop environment featuring custom color schemes.
 *   **Dart-Powered Utilities:** Built-in system tools designed with Dart/Flutter for high-fidelity animations and a premium feel.
 
 ---
 
-## Custom Applications
+## Custom Applications & Utilities
 
-This distribution includes two proprietary tools that serve as the interface between the user and the system. Both are built using Dart to ensure smooth, hardware-accelerated UI transitions:
+This distribution includes open-source custom tools built specifically to interface between the user and the system:
 
-*   **BAL Welcome:** A first-boot utility that guides you through system initialization and basic configuration.
-*   **BAL Helper:** A specialized management tool for quick system adjustments and thematic settings.
+*   **BAL Welcome:** A first-boot utility built using Dart/Flutter to guide you through system initialization and basic configuration with smooth UI transitions.
+*   **BAL Helper:** A specialized management tool built with Dart/Flutter for quick system adjustments and thematic settings.
+*   **Chimera:** A lightweight, offline-first universal Linux installer framework designed for deterministic, modular, and rootfs-based system deployment.
 
 ### Development Documentation
-If you are looking for the source code, build instructions, or development guides for these applications, please navigate to their respective directories within this repository:
+If you are looking for the source code, build instructions, or development guides for these applications, please navigate to their respective repositories:
 
 *   [Welcome App Source & Guide](https://github.com/minhmc2007/bal-welcome)
 *   [Helper App Source & Guide](https://github.com/minhmc2007/bal-helper)
+*   [Chimera Installer Framework](https://github.com/minhmc2007/Chimera)
+
+---
+
+## Package Repository
+
+For a complete list of pre-built custom packages, PKGBUILDs, and repository metadata, visit the official custom repository:
+
+*   [Blue Archive Linux Repository](https://github.com/minhmc2007/Blue-Archive-Linux-Repo)
 
 ---
 
@@ -49,7 +59,7 @@ If you are looking for the source code, build instructions, or development guide
 
 1.  **Download:** Get the latest ISO from the [Releases](#) page.
 2.  **Flash:** Write the ISO to a USB drive using `dd`, [balenaEtcher](https://etcher.balena.io/) or [ventoy](https://www.ventoy.net/en/index.html) to just drag'n'drop.
-3.  **Boot:**  Restart your PC, access the BIOS and choose your USB drive, remember to turn off Secure Boot in BIOS setting (if this is the first time you install more than 1 OS)
+3.  **Boot:**  Restart your PC, access the BIOS and choose your USB drive, remember to turn off Secure Boot in BIOS setting (if this is the first time you install more than 1 OS).
 4.  **Install:** Follow the graphical installation process. Upon the first login, the **Welcome Screen** will launch automatically to finish the setup.
 
 ---
@@ -89,15 +99,3 @@ You can build the Blue Archive Linux ISO manually using the provided `Makefile`.
 If you prefer to build in a clean environment, use Docker:
 ```bash
 make docker-build
-```
-*Note: This requires Docker to be running and the container is executed in privileged mode to allow `mkarchiso` to perform mount operations.*
-
----
-
-## Acknowledgments
-
-*   **The [Arch Linux](https://archlinux.org/) & [KDE Teams](https://kde.org/):** For providing the incredible foundation this project is built upon.
-*   **Nexon Games :** For the visual inspiration and the world of Blue Archive.
----
-
-*Disclaimer: Blue Archive Linux is a fan-made project and is not officially affiliated with Nexon Games or Yostar. All artistic assets belong to their respective owners.*
